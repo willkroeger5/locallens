@@ -1,0 +1,45 @@
+{
+ "hash": "565a515854c9fac8",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Happy Hour",
+   "summary": "$7 bites, $7 cocktails, $1 off draft beer, $6 wine by the glass, $6 wells",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu"
+   ],
+   "start": "16:00",
+   "end": "19:00",
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": true,
+   "where": null,
+   "evidence": "Happy Hour\nMonday - Thursday:\n4 PM- 7 PM\nFriday:\n11 AM - 7 PM\nBites\nEach $7",
+   "source_url": "https://harwoodarmsdallas.com/menus/"
+  },
+  {
+   "kind": "happy_hour",
+   "title": "Friday Happy Hour",
+   "summary": "$7 bites, $7 cocktails, $1 off draft beer, $6 wine by the glass, $6 wells",
+   "days": [
+    "Fri"
+   ],
+   "start": "11:00",
+   "end": "19:00",
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": true,
+   "where": null,
+   "evidence": "Happy Hour\nMonday - Thursday:\n4 PM- 7 PM\nFriday:\n11 AM - 7 PM\nBites\nEach $7",
+   "source_url": "https://harwoodarmsdallas.com/menus/"
+  }
+ ],
+ "dropped": [],
+ "notes": "Happy hour split into Mon-Thu 4-7pm and Fri 11am-7pm."
+}

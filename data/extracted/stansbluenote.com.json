@@ -1,0 +1,182 @@
+{
+ "hash": "2ee80f7e6ad4b455",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Happy Hour",
+   "summary": "$1.99 16oz Busch Light drafts, $4 wells, $1.99 tacos",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri"
+   ],
+   "start": "16:00",
+   "end": "19:00",
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": true,
+   "where": null,
+   "evidence": "Monday\u2013Friday, 4-7PM\n$1.99 16oz Busch Light Drafts\n$4 Wells\n$1.99 Tacos",
+   "source_url": "https://stansbluenote.com/menu/"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Spaghetti & Meatballs Monday",
+   "summary": "$8.99 spaghetti & meatballs",
+   "days": [
+    "Mon"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": true,
+   "drink": false,
+   "where": null,
+   "evidence": "Spaghetti and Meatballs, $8.99\nGet saucy with Aunt Sue\u2019s spaghetti & meatballs\u2014$8.99 every Monday, open to close.",
+   "source_url": "https://stansbluenote.com/menu/"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Burger + Fries Tuesday",
+   "summary": "$9.99 burger and fries",
+   "days": [
+    "Tue"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": true,
+   "drink": false,
+   "where": null,
+   "evidence": "Burger + Fries, $9.99\nYour favorite good ole\u2019 fashioned burger and fries, just $9.99 every Tuesday from open to close.",
+   "source_url": "https://stansbluenote.com/menu/"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Monday After 7",
+   "summary": "$7 select Texas draft & liquor specials",
+   "days": [
+    "Mon"
+   ],
+   "start": "19:00",
+   "end": null,
+   "until_close": true,
+   "all_day": false,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "Mondays after 7PM\n$7 Select Texas Draft & Liquor Specials",
+   "source_url": "https://stansbluenote.com/menu/"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Tuesday Night Specials",
+   "summary": "$7 Crown & Down, $12 Busch Light pitchers",
+   "days": [
+    "Tue"
+   ],
+   "start": "19:00",
+   "end": "23:00",
+   "until_close": false,
+   "all_day": false,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "Tuesdays 7-11PM\n$7 Crown & Down\n$12 Busch Light Pitchers",
+   "source_url": "https://stansbluenote.com/menu/"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Wednesday After 7",
+   "summary": "$5 Fireball shots, $15 domestic pitchers",
+   "days": [
+    "Wed"
+   ],
+   "start": "19:00",
+   "end": null,
+   "until_close": true,
+   "all_day": false,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "Wednesdays after 7PM\n$5 Fireball Shots\n$15 Domestic Pitchers",
+   "source_url": "https://stansbluenote.com/menu/"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Thursday After 7",
+   "summary": "$4.75 domestic drafts",
+   "days": [
+    "Thu"
+   ],
+   "start": "19:00",
+   "end": null,
+   "until_close": true,
+   "all_day": false,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "Thursdays after 7PM\n$4.75 Domestic Drafts",
+   "source_url": "https://stansbluenote.com/menu/"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Friday After 7",
+   "summary": "$7 Jim Beam",
+   "days": [
+    "Fri"
+   ],
+   "start": "19:00",
+   "end": null,
+   "until_close": true,
+   "all_day": false,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "Fridays after 7PM\n$7 Jim Beam",
+   "source_url": "https://stansbluenote.com/menu/"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Saturday Drink Specials",
+   "summary": "$4.75 domestic drafts",
+   "days": [
+    "Sat"
+   ],
+   "start": "11:00",
+   "end": "22:00",
+   "until_close": false,
+   "all_day": false,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "Saturdays\n11AM-10PM\n$4.75 Domestic Drafts",
+   "source_url": "https://stansbluenote.com/menu/"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Sunday Drink Specials",
+   "summary": "$4.75 domestic drafts, $5 Fireball shots",
+   "days": [
+    "Sun"
+   ],
+   "start": "11:00",
+   "end": null,
+   "until_close": true,
+   "all_day": false,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "Sundays\n11AM-Close\n$4.75 Domestic Drafts\n$5 Fireball Shots",
+   "source_url": "https://stansbluenote.com/menu/"
+  }
+ ],
+ "dropped": [],
+ "notes": "'After 7PM' specials treated as running until close."
+}

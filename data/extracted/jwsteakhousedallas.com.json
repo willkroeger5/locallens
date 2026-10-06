@@ -1,0 +1,50 @@
+{
+ "hash": "ea818ac56ad6cea6",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Happy Hour",
+   "summary": "$12 meatballs, $8 truffle fries, $16 burger, $12 wings, $12 house margarita/old fashioned/martini, $10 house wine, $5 domestic beer",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri"
+   ],
+   "start": "15:30",
+   "end": "18:30",
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": true,
+   "where": null,
+   "evidence": "Happy Hour Menu\nmenu available monday - friday | 3.30pm - 6.30pm\nARTISAN CRAFTED MEATBALLS\n12\nTRUFFLE FRIES\n8",
+   "source_url": "https://www.jwsteakhousedallas.com/our-menus"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Power Lunch",
+   "summary": "Power Lunch menu with dishes under $30, served in 30 minutes or less",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri"
+   ],
+   "start": "11:00",
+   "end": "14:00",
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": false,
+   "where": null,
+   "evidence": "Our Power Lunch menu features a selection of dishes under $30, crafted to be ordered and enjoyed in 30 minutes or less, Monday through Friday from 11:00 AM\u20132:00 PM.",
+   "source_url": "https://www.jwsteakhousedallas.com/specials"
+  }
+ ],
+ "dropped": [],
+ "notes": "Skipped one-off events (Garrison Brothers workshop, Texas Cattle & Cab Dinner)."
+}

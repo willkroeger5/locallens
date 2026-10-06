@@ -1,0 +1,46 @@
+{
+ "hash": "d711530208c09d17",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Happy Hour",
+   "summary": "$2 oysters, $6-7 bites, $3 Kronenbourg/Peroni, $6 martinis, $6 red/white/sparkling wine",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri"
+   ],
+   "start": "14:30",
+   "end": "17:00",
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": true,
+   "where": null,
+   "evidence": "Happy Hour\nMonday - Friday\n2:30 PM - 5:00 PM\nmenu items & pricing are subject to change\nBites\nOysters\nEach $2",
+   "source_url": "https://www.mercatbistro.com/menus/"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Champagne Tuesday",
+   "summary": "Half-price bottles of bubbles",
+   "days": [
+    "Tue"
+   ],
+   "start": "16:00",
+   "end": "18:00",
+   "until_close": false,
+   "all_day": false,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "Champagne Tuesday\nEvery week from 4 p.m. - 6 p.m. with 1/2-priced bottles of bubbles",
+   "source_url": "https://www.mercatbistro.com/menus/"
+  }
+ ],
+ "dropped": [],
+ "notes": null
+}

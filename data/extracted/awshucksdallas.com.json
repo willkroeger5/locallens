@@ -1,0 +1,67 @@
+{
+ "hash": "6827fe4565794084",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Happy Hour",
+   "summary": "$6 off dozen raw oysters, $6 boiled shrimp, fried shrimp, fried oysters, fried pickles & wings; $3 draft beer, $15 pitchers, $5 house margaritas",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri"
+   ],
+   "start": "15:00",
+   "end": "18:00",
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": true,
+   "where": null,
+   "evidence": "HAPPY HOURHappy hour menu below available exclusively Monday through Friday 3pm-6pm.\nDOZEN RAW OYSTERS (12)$6 OFF",
+   "source_url": "https://awshucksdallas.com/menu/"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Monday $2.50 House Margarita",
+   "summary": "$2.50 house margaritas",
+   "days": [
+    "Mon"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "HOUSE MARG - $2.50 MONDAY ONLY",
+   "source_url": "https://awshucksdallas.com/menu/"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Weekday Lunch Specials",
+   "summary": "$8.99 lunch specials: Mon catfish, Tue tilapia tacos, Wed blackened shrimp salad, Thu fried shrimp, Fri catfish & shrimp",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri"
+   ],
+   "start": "11:00",
+   "end": "15:00",
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": false,
+   "where": null,
+   "evidence": "MONDAY 11AM-3PM8.99\n1 Catfish filet. Served w/ fries & coleslaw.\nTUESDAY 11AM-3PM8.99",
+   "source_url": "https://awshucksdallas.com/menu/"
+  }
+ ],
+ "dropped": [],
+ "notes": "Menu is shared across all locations; deals assumed to apply to both Dallas locations. Monday margarita time not specified, treated as all day."
+}

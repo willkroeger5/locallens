@@ -1,0 +1,69 @@
+{
+ "hash": "708f8199d0b4040b",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Happiest Hours (Drinks)",
+   "summary": "$2 off wine, mimosas & coffee cocktails; $5 beers, $8 cocktails",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri",
+    "Sat",
+    "Sun"
+   ],
+   "start": "15:00",
+   "end": "19:00",
+   "until_close": false,
+   "all_day": false,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "Happiest Hours\nHH Drinks Everyday 3pm-7pm\nHH Bites M-F 3pm-7pm\n$2 OFF Wine \u2022 Mimosas \u2022 Coffee Cocktails\n$5 Beers | $8 Cocktails",
+   "source_url": "http://halcyoncoffeebar.com/dallas"
+  },
+  {
+   "kind": "happy_hour",
+   "title": "Happiest Hours (Bites)",
+   "summary": "Happy hour bites",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri"
+   ],
+   "start": "15:00",
+   "end": "19:00",
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": false,
+   "where": null,
+   "evidence": "Happiest Hours\nHH Drinks Everyday 3pm-7pm\nHH Bites M-F 3pm-7pm",
+   "source_url": "http://halcyoncoffeebar.com/dallas"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Friday Movie Night",
+   "summary": "Half-price wine bottles + free s'mores for 2",
+   "days": [
+    "Fri"
+   ],
+   "start": "20:30",
+   "end": null,
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": true,
+   "where": null,
+   "evidence": "FRI: Movie Night 8:30pmHalf-Price Wine Bottles + Free S'mores for 2",
+   "source_url": "http://halcyoncoffeebar.com/dallas"
+  }
+ ],
+ "dropped": [],
+ "notes": "Happy hour bite prices not listed. Trivia and Girl Dinner listed without deal details, skipped."
+}

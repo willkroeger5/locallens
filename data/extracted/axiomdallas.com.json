@@ -1,0 +1,47 @@
+{
+ "hash": "bfe5feff77648b10",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Weekday Happy Hour",
+   "summary": "$4 edamame & salads, $5 gyoza & crab puffs, $6 nigiri, $7 classic rolls, $10 specialty rolls & ramen; $4 drafts/mimosas/sake bombs, $5 wells, $6 wine & sake, $9 martinis",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri"
+   ],
+   "start": "15:00",
+   "end": "19:00",
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": true,
+   "where": null,
+   "evidence": "HAPPY HOUR\n\u200bMon - Fri- 3 PM - 7 PM",
+   "source_url": "https://www.axiomdallas.com/"
+  },
+  {
+   "kind": "happy_hour",
+   "title": "All Day Weekend Happy Hour",
+   "summary": "All-day happy hour: $4 edamame & salads, $5 gyoza & crab puffs, $6 nigiri, $7 classic rolls, $10 specialty rolls & ramen; $4 drafts/mimosas/sake bombs, $5 wells, $6 wine & sake, $9 martinis",
+   "days": [
+    "Sat",
+    "Sun"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": true,
+   "drink": true,
+   "where": null,
+   "evidence": "ALL DAY HAPPY HOUR\nSATURDAY & SUNDAY\nHAPPY HOUR MENU",
+   "source_url": "https://www.axiomdallas.com/"
+  }
+ ],
+ "dropped": [],
+ "notes": "Prices from the happy hour menu page; weekday and weekend times from homepage."
+}

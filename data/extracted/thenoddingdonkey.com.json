@@ -1,0 +1,169 @@
+{
+ "hash": "c21b188f9f273a34",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Happy Hour",
+   "summary": "$5 domestic drafts, $6 import drafts, $7 local drafts, $6 wells, $6 house wines, $7.50 select appetizers",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri"
+   ],
+   "start": "16:00",
+   "end": "19:00",
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": true,
+   "where": null,
+   "evidence": "Happy Hour\nmon - fri 4-7 p.m.\nDomestic Drafts\n$5\nImport Drafts\n$6\nLocal Drafts\n$7\nWells\n$6\nHouse Wines\n$6\nSelect Appetizers",
+   "source_url": "http://www.thenoddingdonkey.com/menus/"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Monday Crown Royal",
+   "summary": "$6.50 Crown Royal (all flavors)",
+   "days": [
+    "Mon"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "Daily Drink Specials\nMonday\ncrown royal (all flavors)\n$6.50",
+   "source_url": "http://www.thenoddingdonkey.com/menus/"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Fireball Tuesday",
+   "summary": "$5.50 Fireball",
+   "days": [
+    "Tue"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "crown royal (all flavors)\n$6.50\nTuesday\nfireball\n$5.50",
+   "source_url": "http://www.thenoddingdonkey.com/menus/"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Wednesday Donkey Punch & Purple Nurples",
+   "summary": "$5.50 Donkey Punch & Purple Nurples",
+   "days": [
+    "Wed"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "Wednesday\ndonkey punch & purple nurples\n$5.50",
+   "source_url": "http://www.thenoddingdonkey.com/menus/"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Thursday Jameson",
+   "summary": "$6.50 Jameson",
+   "days": [
+    "Thu"
+   ],
+   "start": "18:00",
+   "end": null,
+   "until_close": true,
+   "all_day": false,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "Thursday\njameson (6pm-close)\n$6.50",
+   "source_url": "http://www.thenoddingdonkey.com/menus/"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Friday Ketel One",
+   "summary": "$7.50 Ketel One vodka & Ketel One Botanicals",
+   "days": [
+    "Fri"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "Friday\nketel one vodka & ketel one botanicals\n$7.50",
+   "source_url": "http://www.thenoddingdonkey.com/menus/"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Saturday Bloody Marys & Mimosas",
+   "summary": "$4.50 Bloody Marys & mimosas, open until 1pm",
+   "days": [
+    "Sat"
+   ],
+   "start": null,
+   "end": "13:00",
+   "until_close": false,
+   "all_day": false,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "Saturday\nbloody marys & mimosas (open - 1 pm)\n$4.50",
+   "source_url": "http://www.thenoddingdonkey.com/menus/"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Sunday Skrewball",
+   "summary": "$6.50 Skrewball",
+   "days": [
+    "Sun"
+   ],
+   "start": "13:00",
+   "end": null,
+   "until_close": true,
+   "all_day": false,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "Sunday\nskrewball (1pm-close)\n$6.50",
+   "source_url": "http://www.thenoddingdonkey.com/menus/"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Daily Lunch Specials",
+   "summary": "$9.95 lunch: Mon burgers, Tue salads, Wed buffalo chicken sandwich, Thu fajitas, Fri chicken strips",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri"
+   ],
+   "start": "11:00",
+   "end": "16:00",
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": false,
+   "where": null,
+   "evidence": "Daily Lunch Specials\n11 AM - 4 PM\nMonday\nburgers\n$9.95\nTuesday\nsalads\n$9.95\nWednesday\nbuffalo chicken sandwich\n$9.95\nThursday\nfajitas\n$9.95\nFriday\nchicken strips\n$9.95",
+   "source_url": "http://www.thenoddingdonkey.com/menus/"
+  }
+ ],
+ "dropped": [],
+ "notes": "Daily drink specials appear twice with slightly different prices (e.g. $6.50 vs $6); the first listing's prices were used."
+}

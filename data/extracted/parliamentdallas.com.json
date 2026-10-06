@@ -1,0 +1,46 @@
+{
+ "hash": "313fd2cc0024dfc9",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Happy Hour (All Day Monday)",
+   "summary": "$6-7 cocktails, $5 beers, $6-7 wine",
+   "days": [
+    "Mon"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "Parliament offers a ridiculously good happy hour all day on Monday, 5-8pm Tuesday-Saturday, and anytime it rains.",
+   "source_url": "http://www.parliamentdallas.com/"
+  },
+  {
+   "kind": "happy_hour",
+   "title": "Happy Hour",
+   "summary": "$6-7 cocktails, $5 beers, $6-7 wine",
+   "days": [
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri",
+    "Sat"
+   ],
+   "start": "17:00",
+   "end": "20:00",
+   "until_close": false,
+   "all_day": false,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "Parliament offers a ridiculously good happy hour all day on Monday, 5-8pm Tuesday-Saturday, and anytime it rains.",
+   "source_url": "http://www.parliamentdallas.com/"
+  }
+ ],
+ "dropped": [],
+ "notes": "Happy hour also applies anytime it rains (not schedulable). Bar opens at 5pm, so Monday all-day means 5pm-2am. 20% gratuity added to all checks. Prices from the Happy Hour Menu on /drinks."
+}

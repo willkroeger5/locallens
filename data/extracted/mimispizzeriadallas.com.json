@@ -1,0 +1,29 @@
+{
+ "hash": "ba722994e39aecee",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "daily_special",
+   "title": "Lunch Specials",
+   "summary": "Lunch combos: pasta with salad, 2 slices with salad and drink, penne arrabiata with drink, stromboli with salad and drink",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri"
+   ],
+   "start": "11:00",
+   "end": "15:00",
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": true,
+   "where": null,
+   "evidence": "Available Mon - Fri 11 am - 3 pm\nLunch Specials\nPasta with Salad",
+   "source_url": "http://www.mimispizzeriadallas.com/dallas-mimi-s-pizzeria-food-menu"
+  }
+ ],
+ "dropped": [],
+ "notes": "Lunch specials list no prices and don't say which location; assumed to apply to both. No happy hour is mentioned."
+}

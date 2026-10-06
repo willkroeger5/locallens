@@ -1,0 +1,45 @@
+{
+ "hash": "62f0698d220ff7e9",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Happy Hour",
+   "summary": "Half off select glasses of wine",
+   "days": [
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri"
+   ],
+   "start": "15:00",
+   "end": "18:00",
+   "until_close": false,
+   "all_day": false,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "Happy Hour: Tuesday - Friday, 3 - 6pm Half off select glasses.*",
+   "source_url": "https://burgundyswine.com"
+  },
+  {
+   "kind": "happy_hour",
+   "title": "All-Night Tuesday Happy Hour (Victory Park residents)",
+   "summary": "Half off select glasses all night for Victory Park residents",
+   "days": [
+    "Tue"
+   ],
+   "start": "15:00",
+   "end": "22:00",
+   "until_close": true,
+   "all_day": false,
+   "food": false,
+   "drink": true,
+   "where": "Victory Park residents with proof of address only",
+   "evidence": "*All night Happy Hour on Tuesdays for Victory Park residents with proof of address.",
+   "source_url": "https://burgundyswine.com"
+  }
+ ],
+ "dropped": [],
+ "notes": "Tuesday all-night happy hour is restricted to Victory Park residents; assumed same half-off select glasses deal, running through close (10pm)."
+}

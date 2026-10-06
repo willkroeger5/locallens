@@ -1,0 +1,31 @@
+{
+ "hash": "2ae876ee8791ff37",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Happy Hour",
+   "summary": "$6 small eats (hummus, bruschetta, chicken salad wraps, chicken dippers); $2 iced tea, fountain drinks & coffee",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri",
+    "Sat",
+    "Sun"
+   ],
+   "start": "15:00",
+   "end": "18:00",
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": true,
+   "where": null,
+   "evidence": "Happy Hour Menu\nDaily 3pm-6pm\n$2 Iced Tea, Fountain Drinks & Coffee\nChoose from one beverage.\nEnjoy same day refills! Limited time offer.\n$6 Small Eats",
+   "source_url": "http://www.cafe-express.com/happyhour"
+  }
+ ],
+ "dropped": [],
+ "notes": "The $2 drinks are labeled a limited time offer."
+}

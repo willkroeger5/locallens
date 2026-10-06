@@ -1,0 +1,29 @@
+{
+ "hash": "2901129e92ea7c5a",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Festive Hour",
+   "summary": "Happy hour pricing on select wines (Whitehaven Sauvignon Blanc, Joel Gott Chardonnay, Campo Viejo Tempranillo, Alta Vista Malbec)",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri"
+   ],
+   "start": "11:00",
+   "end": "18:00",
+   "until_close": false,
+   "all_day": false,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "Festive hours\nMON-FRI: 11AM-6PM",
+   "source_url": "https://www.miriamcocina.com/downtown-dallas/"
+  }
+ ],
+ "dropped": [],
+ "notes": "Festive Hour (happy hour) Mon-Fri 11am-6pm at the Dallas location; wines marked * are Happy Hour Wine but happy hour prices aren't listed, and a separate Festive Hour menu page wasn't provided. Coppell location skipped. Brunch and Father's Day special skipped."
+}

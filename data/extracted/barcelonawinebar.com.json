@@ -1,0 +1,46 @@
+{
+ "hash": "17f76af118413322",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Happy Hour",
+   "summary": "Happy hour menu",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri"
+   ],
+   "start": "16:00",
+   "end": "18:00",
+   "until_close": false,
+   "all_day": false,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "Happy Hour\nMonday - Friday 4pm - 6pm",
+   "source_url": "https://barcelonawinebar.com/location/knox-henderson/"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Half-Off Bottles Sunday",
+   "summary": "Half-off wine bottles",
+   "days": [
+    "Sun"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "Sunday - HALF-OFF BOTTLES\n11am - 11pm",
+   "source_url": "https://barcelonawinebar.com/location/knox-henderson/"
+  }
+ ],
+ "dropped": [],
+ "notes": "Happy hour details are in a linked menu not included; food/drink coverage unknown. Sunday half-off bottles assumed to apply all day (11am-11pm are Sunday opening hours)."
+}

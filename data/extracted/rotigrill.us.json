@@ -1,0 +1,29 @@
+{
+ "hash": "4f0fcb1840168f5f",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "daily_special",
+   "title": "Weekday Lunch Specials",
+   "summary": "Lunch plates $14-$14.50 (masala, vegetable, rice, naan); $2.50 fountain drink or iced tea; $4 veggie samosa; $13 regular masalas; $15 chicken biryani",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri"
+   ],
+   "start": "11:00",
+   "end": "15:00",
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": true,
+   "where": null,
+   "evidence": "Lunch Plate 3\n$14.50\nLamb Masala\nVegetable (Saag Chana or Aloo Gobi), Rice, Naan\nFountain Drink\n$2.50\nIced Tea\n$2.50\nVegetable Samosa\n$4.00\nChili Chicken (Appetizer)\n$10.00\nReg Chicken Masala\n$13.00\nChicken Biryani\n$15.00\nReg Veg Masala\n$13.00\nReg Paneer Saag\n$13.00\n* Prices valid Monday through Friday, 11 AM \u2013 3 PM.",
+   "source_url": "https://rotigrill.us/lunch-special/"
+  }
+ ],
+ "dropped": [],
+ "notes": "The lunch special page is site-wide and does not specify which locations honor it; assumed to apply to Victory Park. Not valid on holidays; no substitutions on lunch plates."
+}

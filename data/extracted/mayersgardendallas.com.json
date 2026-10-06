@@ -1,0 +1,63 @@
+{
+ "hash": "274887b660f75992",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Monday All-Day Happy Hour",
+   "summary": "Half-price select shareables, $10 off wine bottles, $8 garden cocktails, $6 ritas, $6 wells, $5 drafts, $4 Coors OG",
+   "days": [
+    "Mon"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": true,
+   "drink": true,
+   "where": null,
+   "evidence": "Happy Hour\nALL DAY Monday\nTues - Fri: 3pm - 7pm\n1/2 priced select shareables\nSame Hours as Bar\nWine - $10 off wine by the bottle\nGarden Cocktails -$8\nRita - $6\nWells - $6\nDraft Beers - $5\nCoors OG -$4",
+   "source_url": "https://www.mayersgardendallas.com/"
+  },
+  {
+   "kind": "happy_hour",
+   "title": "Happy Hour",
+   "summary": "Half-price select shareables, $10 off wine bottles, $8 garden cocktails, $6 ritas, $6 wells, $5 drafts, $4 Coors OG",
+   "days": [
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri"
+   ],
+   "start": "15:00",
+   "end": "19:00",
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": true,
+   "where": null,
+   "evidence": "Happy Hour\nALL DAY Monday\nTues - Fri: 3pm - 7pm\n1/2 priced select shareables\nSame Hours as Bar\nWine - $10 off wine by the bottle\nGarden Cocktails -$8\nRita - $6\nWells - $6\nDraft Beers - $5\nCoors OG -$4",
+   "source_url": "https://www.mayersgardendallas.com/"
+  },
+  {
+   "kind": "reverse_happy_hour",
+   "title": "Late Night",
+   "summary": "Late-night nugs & fries",
+   "days": [
+    "Fri",
+    "Sat"
+   ],
+   "start": "22:00",
+   "end": "02:00",
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": false,
+   "where": null,
+   "evidence": "late night\nFri - Sat: 10pm - 2am\nNugs & Fries",
+   "source_url": "https://www.mayersgardendallas.com/"
+  }
+ ],
+ "dropped": [],
+ "notes": "Late night lists 'Nugs & Fries' without a price; unclear whether discounted."
+}

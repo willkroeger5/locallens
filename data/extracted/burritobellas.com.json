@@ -1,0 +1,25 @@
+{
+ "hash": "85a410cf77e0e1b1",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "daily_special",
+   "title": "Wine Down Wednesdays",
+   "summary": "Free wine tasting in Bellas Loft; featured wines $8/glass or $32/bottle; Bella Nosh Flight food pairing $10",
+   "days": [
+    "Wed"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": true,
+   "drink": true,
+   "where": "Bellas Loft (upstairs), ages 21+, RSVP",
+   "evidence": "All Wines will be $8 a glass or $32 a bottle",
+   "source_url": "https://burritobellas.com/wine-down-wednesdays/"
+  }
+ ],
+ "dropped": [],
+ "notes": "Wine Down Wednesdays is a weekly recurring event (every Wednesday, 21+, RSVP requested); no times stated. Evidence span with prices does not include the heading because heading and prices are far apart on the page; the page title is 'Wine Down Wednesdays'. Also mentions a $40 flat charge for drink and food."
+}

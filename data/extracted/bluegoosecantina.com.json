@@ -1,0 +1,115 @@
+{
+ "hash": "3c98c0861e58025c",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Happy Hour",
+   "summary": "Happy hour menu",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri"
+   ],
+   "start": "14:30",
+   "end": "18:30",
+   "until_close": false,
+   "all_day": false,
+   "food": false,
+   "drink": true,
+   "where": "dine-in only",
+   "evidence": "Monday thru Friday 2:30pm to 6:30pm\nAvailable For Dine-in Only\nSPECIALS & HAPPY HOUR",
+   "source_url": "https://www.bluegoosecantina.com/menu/"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Monday All-Day Happy Hour",
+   "summary": "Happy hour pricing all day",
+   "days": [
+    "Mon"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": false,
+   "drink": true,
+   "where": "dine-in only",
+   "evidence": "SPECIALS & HAPPY HOUR\nMONDAYAll Day\nHappy Hour.",
+   "source_url": "https://www.bluegoosecantina.com/menu/"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Margarita Tuesday",
+   "summary": "$5 Frozen or Rock margaritas ($2 from 2:30-6:30pm)",
+   "days": [
+    "Tue"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "TUESDAY\nFrozen | Rock $5\n($2 from 2:30 PM - 6:30 PM)",
+   "source_url": "https://www.bluegoosecantina.com/menu/"
+  },
+  {
+   "kind": "daily_special",
+   "title": "La Flaca Wednesday",
+   "summary": "$5 La Flaca",
+   "days": [
+    "Wed"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "WEDNESDAY\nLa Flaca $5\nTHURSDAY",
+   "source_url": "https://www.bluegoosecantina.com/menu/"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Thursday Specials",
+   "summary": "$5 Frozen or Rock margaritas, $5 wells, $5 queso",
+   "days": [
+    "Thu"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": true,
+   "drink": true,
+   "where": null,
+   "evidence": "THURSDAY\nFrozen | Rock$5\nWells | Queso$5",
+   "source_url": "https://www.bluegoosecantina.com/menu/"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Weekend Brunch Drinks",
+   "summary": "$5 Bloody Marys, $5 mimosas",
+   "days": [
+    "Sat",
+    "Sun"
+   ],
+   "start": "10:00",
+   "end": "15:00",
+   "until_close": false,
+   "all_day": false,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "SAT & SUN 10am - 3pm\nBloody Mary$5\nMimosas$5",
+   "source_url": "https://www.bluegoosecantina.com/menu/"
+  }
+ ],
+ "dropped": [],
+ "notes": "Specials listed chain-wide on menu page, not location-specific; assumed to apply to Dallas Greenville Ave. Happy hour item prices not detailed."
+}

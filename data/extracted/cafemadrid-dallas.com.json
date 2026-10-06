@@ -1,0 +1,29 @@
+{
+ "hash": "1d1aaa4d424fba94",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Happy Hour",
+   "summary": "$6 sangria & house wine glasses ($28 pitcher/bottle), $6 wine cocktails, $4 Estrella; tapitas $3-$8 (calamares $7, gambas al ajillo $7, croquetas $8)",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri"
+   ],
+   "start": "17:00",
+   "end": "18:00",
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": true,
+   "where": "dine-in only",
+   "evidence": "Our Happy Hour Menu is available Monday through Friday from 5:00-6:00 pm (dine-in only).",
+   "source_url": "https://cafemadrid-dallas.com/happy-hour-menu/"
+  }
+ ],
+ "dropped": [],
+ "notes": "First Friday Flamenco is a monthly event, not a discount, so skipped."
+}

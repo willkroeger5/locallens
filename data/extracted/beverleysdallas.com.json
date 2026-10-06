@@ -1,0 +1,29 @@
+{
+ "hash": "bdc59c052a1c93b2",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Beverley's Happy Hour",
+   "summary": "Oysters $12/$24 (half/dozen), $8 deviled eggs, $12 Bev's Burger",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri"
+   ],
+   "start": "16:30",
+   "end": "18:00",
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": false,
+   "where": null,
+   "evidence": "BEVERLEY'S HAPPY HOUR\nMonday through Friday from 4:30 p.m. to 6:00 p.m.\nOysters On The Half Shell | 12 / 24",
+   "source_url": "https://beverleysdallas.com/menus/"
+  }
+ ],
+ "dropped": [],
+ "notes": "Happy hour lists only food items; no drink specials are stated."
+}

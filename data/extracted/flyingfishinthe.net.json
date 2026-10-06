@@ -1,0 +1,131 @@
+{
+ "hash": "b61c475b2a187c52",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Happy Hour",
+   "summary": "$3 drafts, $9 margaritas",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri"
+   ],
+   "start": "14:00",
+   "end": "19:00",
+   "until_close": false,
+   "all_day": false,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "Happy hours\nMon- Fri: 2PM - 7PM\n$3 Drafts \u2022 $9 Margaritas",
+   "source_url": "https://www.flyingfishinthe.net/preston-center/"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Monday Fried Tilapia Basket",
+   "summary": "Fried tilapia basket $11.99",
+   "days": [
+    "Mon"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": true,
+   "drink": false,
+   "where": null,
+   "evidence": "DAILY SPECIALS\n\u00d7\nMonday\nFried Tilapia Basket $11.99",
+   "source_url": "https://www.flyingfishinthe.net/preston-center/"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Tuesday Rainbow Trout",
+   "summary": "Rainbow trout $11.49",
+   "days": [
+    "Tue"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": true,
+   "drink": false,
+   "where": null,
+   "evidence": "Tuesday\nRainbow Trout $11.49",
+   "source_url": "https://www.flyingfishinthe.net/preston-center/"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Wednesday All You Can Eat Catfish",
+   "summary": "All-you-can-eat catfish $22.95",
+   "days": [
+    "Wed"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": true,
+   "drink": false,
+   "where": null,
+   "evidence": "Wednesday\nAll you can eat catfish $22.95",
+   "source_url": "https://www.flyingfishinthe.net/preston-center/"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Thursday Hot Boiled Shrimp",
+   "summary": "1 lb hot boiled shrimp $17.99",
+   "days": [
+    "Thu"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": true,
+   "drink": false,
+   "where": null,
+   "evidence": "Thursday\n1 Pound Hot Boiled Shrimp $17.99",
+   "source_url": "https://www.flyingfishinthe.net/preston-center/"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Friday Caddo",
+   "summary": "Caddo $18.95",
+   "days": [
+    "Fri"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": true,
+   "drink": false,
+   "where": null,
+   "evidence": "Friday\nCaddo $18.95\nSunday",
+   "source_url": "https://www.flyingfishinthe.net/preston-center/"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Sunday Oysters",
+   "summary": "$1.50 oysters on the half shell",
+   "days": [
+    "Sun"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": true,
+   "drink": false,
+   "where": null,
+   "evidence": "Sunday\n$1.50 Oysters on the \u00bd Shell",
+   "source_url": "https://www.flyingfishinthe.net/preston-center/"
+  }
+ ],
+ "dropped": [],
+ "notes": "Crawfish $8.95/lb is seasonal and was skipped."
+}

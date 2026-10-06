@@ -1,0 +1,42 @@
+{
+ "hash": "83ae9715eddcb394",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "daily_special",
+   "title": "Taco Tuesday",
+   "summary": "Discounted street tacos, margaritas and beer all day (loyalty program)",
+   "days": [
+    "Tue"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": true,
+   "drink": true,
+   "where": "Loyalty program members",
+   "evidence": "Be sure to ask about our loyalty program where on Taco Tuesday you can enjoy discounted street tacos, margaritas and beer all day",
+   "source_url": "http://tacosymasdallas.com"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Enchilada Thursday",
+   "summary": "Discounted enchilada platter all day (loyalty program)",
+   "days": [
+    "Thu"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": true,
+   "drink": false,
+   "where": "Loyalty program members",
+   "evidence": "and on Enchilada Thursday, get a discounted enchilada platter all day.",
+   "source_url": "http://tacosymasdallas.com"
+  }
+ ],
+ "dropped": [],
+ "notes": "Specials are tied to the loyalty program; no prices given. Not stated which locations participate."
+}

@@ -1,0 +1,25 @@
+{
+ "hash": "15b3f07dbf20c244",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Wine Wednesday Happy Hour",
+   "summary": "Happy hour wine pours and special pricing on select bottles",
+   "days": [
+    "Wed"
+   ],
+   "start": "17:00",
+   "end": "20:00",
+   "until_close": false,
+   "all_day": false,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "Wine Wednesday: Happy Hour Pours from 5pm\nOctober 7 @ 5:00 pm - 8:00 pm",
+   "source_url": "https://iwantthatonedallas.com/event/wine-wednesday-happy-hour-pours-from-5pm-3/"
+  }
+ ],
+ "dropped": [],
+ "notes": "Listed as an event on a specific date (Oct 7), but the event URL suffix '-3' and the 'Wine Wednesdays' framing suggest it recurs weekly; recurrence isn't explicitly confirmed."
+}

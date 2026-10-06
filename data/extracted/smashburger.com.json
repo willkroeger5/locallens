@@ -1,0 +1,48 @@
+{
+ "hash": "1efa88cb38e12e51",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "daily_special",
+   "title": "Kids Eat Free Wednesday",
+   "summary": "Free kids meal (12 & under) with purchase of an adult meal (entr\u00e9e, side & drink)",
+   "days": [
+    "Wed"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": true,
+   "drink": false,
+   "where": "In-restaurant only",
+   "evidence": "KIDS EAT FREE EVERY WEDNESDAY!\nGrab a Free Kids Meal with the purchase of an adult meal (entr\u00e9e, side, & drink). Kids 12 & under. *Redeemable in-restaurant only",
+   "source_url": "https://smashburger.com/deals"
+  },
+  {
+   "kind": "daily_special",
+   "title": "$4.99 Smash Everyday Value Menu",
+   "summary": "$4.99 burgers, Chicken Smash, and Big Dogs from the value menu, every day",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri",
+    "Sat",
+    "Sun"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": true,
+   "drink": false,
+   "where": null,
+   "evidence": "Our $4.99 SMASH\u00ae EVERYDAY VALUE Menu serves up everyday Smashburger favorites \u2014 including hand-smashed burgers made with Certified Angus Beef\u00ae, our signature Chicken Smash\u00ae, and a quarter-pound Angus beef Big Dog \u2014 all just $4.99 each, available every day.",
+   "source_url": "https://smashburger.com/deals"
+  }
+ ],
+ "dropped": [],
+ "notes": "The Uptown (2222 McKinney Ave.) location explicitly states it has no happy hour. Skipped sweepstakes, rewards sign-up offer, first-responder discount (participating locations), ASU (Arizona only), and truncated student discount text."
+}

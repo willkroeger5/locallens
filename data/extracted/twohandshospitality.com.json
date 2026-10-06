@@ -1,0 +1,89 @@
+{
+ "hash": "faa6734a504f6a9b",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Snacky Hour",
+   "summary": "$10 Snacky Smash Burger, $10 signature cocktails, $3 off glasses of wine, $5 draft beer",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri",
+    "Sat",
+    "Sun"
+   ],
+   "start": "16:00",
+   "end": "18:00",
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": true,
+   "where": null,
+   "evidence": "Snacky Hour Dallas\n4 - 6 pm, every day\nSnacky Smash Burger $10\n$10 signature cocktails\n$3 off glasses of wine\n$5 draft beer",
+   "source_url": "https://www.twohandshospitality.com/location/two-hands-dallas/"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Wine Down Wednesday",
+   "summary": "50% off bottles of wine",
+   "days": [
+    "Wed"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "Wine Down Wednesday\n50% off bottles of wine, all day & all night\nSaturday + Sunday\nBottomless bloody mary $25pp",
+   "source_url": "https://www.twohandshospitality.com/location/two-hands-dallas/"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Bottomless Bloody Mary",
+   "summary": "Bottomless bloody mary $25 per person",
+   "days": [
+    "Sat",
+    "Sun"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "Saturday + Sunday\nBottomless bloody mary $25pp\nSnacky Hour Dallas\n4 - 6 pm, every day",
+   "source_url": "https://www.twohandshospitality.com/location/two-hands-dallas/"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Mimosa Carafe",
+   "summary": "1L mimosa carafe $39",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri",
+    "Sat",
+    "Sun"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "Happy Days\nAll Day, Every Day\nMimosa carafe\n1L $39",
+   "source_url": "https://www.twohandshospitality.com/location/two-hands-dallas/"
+  }
+ ],
+ "dropped": [],
+ "notes": "Page lists two versions of the Snacky Hour menu; used the Dallas-labeled one ($3 off wine, $5 draft beer). Bloody mary hours not stated; marked all day."
+}

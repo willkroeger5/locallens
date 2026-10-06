@@ -1,0 +1,28 @@
+{
+ "hash": "e9dd71dfae71ddff",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Happy Hour",
+   "summary": "$2 off select 16oz draft beers, $3 off 16oz draft cocktails & 10oz frozens, $4 off 32oz souvenir cups",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu"
+   ],
+   "start": "16:00",
+   "end": "18:00",
+   "until_close": false,
+   "all_day": false,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "HOUR\nMON-THURS FROM 4PM-6PM\n2\n$\nDRAFT\nBEERS\n3\n$\nCOCKTAILS\n&  FROZENS\n4\n$\nSOUVENIR\nCUPS",
+   "source_url": "https://truckyard.com/wp-content/uploads/2026/09/Menu_Website_Dallas-2.pdf"
+  }
+ ],
+ "dropped": [],
+ "notes": "Used the Dallas drink menu PDF. The /dallas/happy-hour/ page actually shows The Colony location's happy hour ($4 beers/$5 cocktails/$6 frozens), so it was skipped. The Dallas homepage also lists Happy hour Mon\u2013Thurs 4pm\u20136pm, which matches the PDF."
+}

@@ -1,0 +1,130 @@
+{
+ "hash": "b234d20aa4062fed",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Happy Hour (All Day Monday)",
+   "summary": "$1 off draughts & domestics, $6 wells, $8 Jameson",
+   "days": [
+    "Mon"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "HAPPY HOUR\nALL DAY MONDAY\nTUESDAY - FRIDAY 4-7PM\n$1 OFF DRAUGHTS & DOMESTICS / $6 WELLS / $8 JAMESON IRISH WHISKEY",
+   "source_url": "https://dublineririshpubdallas.com/happy-hour"
+  },
+  {
+   "kind": "happy_hour",
+   "title": "Happy Hour",
+   "summary": "$1 off draughts & domestics, $6 wells, $8 Jameson",
+   "days": [
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri"
+   ],
+   "start": "16:00",
+   "end": "19:00",
+   "until_close": false,
+   "all_day": false,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "HAPPY HOUR\nALL DAY MONDAY\nTUESDAY - FRIDAY 4-7PM\n$1 OFF DRAUGHTS & DOMESTICS / $6 WELLS / $8 JAMESON IRISH WHISKEY",
+   "source_url": "https://dublineririshpubdallas.com/happy-hour"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Tuesday Deep Eddy Special",
+   "summary": "$7 Deep Eddy Vodka, all flavors",
+   "days": [
+    "Tue"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "TUESDAY SPECIALS~ALL DAY!\n$7 DEEP EDDY VODKA - ALL FLAVORS",
+   "source_url": "https://dublineririshpubdallas.com/happy-hour"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Wednesday Jameson Special",
+   "summary": "$8 Jameson Irish Whiskey",
+   "days": [
+    "Wed"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "WEDNESDAY SPECIALS~ALL DAY!\n$8 JAMESON IRISH WHISKEY",
+   "source_url": "https://dublineririshpubdallas.com/happy-hour"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Thursday Espolon Special",
+   "summary": "$7 Espolon Tequila",
+   "days": [
+    "Thu"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "THURSDAY SPECIALS~ALL DAY\n$7 ESPOLON TEQUILA",
+   "source_url": "https://dublineririshpubdallas.com/happy-hour"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Sunday Brunch Drinks",
+   "summary": "$5 Bloody Marys & mimosas",
+   "days": [
+    "Sun"
+   ],
+   "start": null,
+   "end": "18:00",
+   "until_close": false,
+   "all_day": false,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "SUNDAY SPECIALS~\n$5 BLOODY MARY & MIMOSAS UNTIL 6PM",
+   "source_url": "https://dublineririshpubdallas.com/happy-hour"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Sunday Domestics",
+   "summary": "$3.50 domestics",
+   "days": [
+    "Sun"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "SUNDAY SPECIALS~\n$5 BLOODY MARY & MIMOSAS UNTIL 6PM\n$3.50 DOMESTICS ALL DAY!",
+   "source_url": "https://dublineririshpubdallas.com/happy-hour"
+  }
+ ],
+ "dropped": [],
+ "notes": "Specials exclude holidays. Sunday mimosa special has no stated start time."
+}

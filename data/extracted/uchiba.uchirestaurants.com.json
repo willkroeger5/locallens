@@ -1,0 +1,31 @@
+{
+ "hash": "7d7ad22655d18de4",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Happy Hour",
+   "summary": "Happy hour menu: $10 cocktails, $8 wine, nigiri from $8, skewers from $8, mini burger $13, 9-course omakase for two $90",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri",
+    "Sat",
+    "Sun"
+   ],
+   "start": "17:00",
+   "end": "18:30",
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": true,
+   "where": null,
+   "evidence": "happy hour\nevery day\n5pm - 6:30pm",
+   "source_url": "https://uchiba.uchirestaurants.com/location/sushi-dallas/"
+  }
+ ],
+ "dropped": [],
+ "notes": "Happy hour prices taken from the Dallas menu's happy hour section; Austin menu skipped."
+}

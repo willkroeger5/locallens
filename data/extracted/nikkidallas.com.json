@@ -1,0 +1,28 @@
+{
+ "hash": "1228d4dbaf400b1d",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Happy Hour",
+   "summary": "Happy hour menu",
+   "days": [
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri"
+   ],
+   "start": "14:00",
+   "end": "18:00",
+   "until_close": false,
+   "all_day": false,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "Happy Hour:\nTuesday - Friday : 2 PM - 6 PM",
+   "source_url": "https://www.nikkidallas.com/"
+  }
+ ],
+ "dropped": [],
+ "notes": "Happy hour times listed in site footer; no prices or menu details given. Drink assumed given lounge context; food inclusion unknown."
+}

@@ -1,0 +1,63 @@
+{
+ "hash": "67740f12312b6885",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Happy Hour",
+   "summary": "$2 off well spirits, wine & signature cocktails; $1 wings, $5 select appetizers",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri"
+   ],
+   "start": "15:00",
+   "end": "19:00",
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": true,
+   "where": null,
+   "evidence": "Stop by for Happy Hour Monday through Friday from 4\u20137 PM and enjoy $2 off well spirits, wine, and signature cocktails, plus game-day bites like $1 wings and $5 select appetizers.",
+   "source_url": "https://www.thevillagedallas.com/over-under"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Money Line Monday",
+   "summary": "Handheld, French fries & a domestic draft beer from $20",
+   "days": [
+    "Mon"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": true,
+   "drink": true,
+   "where": null,
+   "evidence": "money line\nmonday\nChoice of handheld, French fries, and a domestic draft beer starting at $20",
+   "source_url": "https://www.thevillagedallas.com/over-under"
+  },
+  {
+   "kind": "daily_special",
+   "title": "All-You-Can-Eat Pizza Thursdays",
+   "summary": "$15 all-you-can-eat brick-oven pizza",
+   "days": [
+    "Thu"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": false,
+   "where": null,
+   "evidence": "ALL-YOU-CAN-EAT PIZZA THURSDAYS\nJoin us every Thursday night for $15 all-you-can-eat brick-oven pizza.",
+   "source_url": "https://www.thevillagedallas.com/over-under"
+  }
+ ],
+ "dropped": [],
+ "notes": "Over Under happy hour times conflict on the page: one section says Mon\u2013Fri 3\u20137pm, another says 4\u20137 PM; start set to 15:00 (earliest stated) \u2014 verify. Thursday pizza is 'Thursday night' with no specific times. Wing trio parlay ($25 for 18 wings + bucket of domestic beers) has no stated days and appears tied to football season, so it was omitted."
+}

@@ -1,0 +1,29 @@
+{
+ "hash": "a1ba05ff30eb05ef",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Fishing Hours Happy Hour",
+   "summary": "Wines from $4.95, $4.95 mimosas & bellinis, 25% off bottled beer, $13.95 domestic pitchers, sliders (choice of 3) $6.95, 6 wings $9.95, 6 char-grilled oysters $12.95",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri"
+   ],
+   "start": "15:00",
+   "end": "18:00",
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": true,
+   "where": null,
+   "evidence": "FISHING\nHOURS:\nAll New Happy Hour!\n(Mon-Fri from 3PM to 6PM)",
+   "source_url": "https://hookline-sinker.com/wp-content/uploads/2024/10/HLS-Fishing-Hours.pdf"
+  }
+ ],
+ "dropped": [],
+ "notes": "Happy hour PDF is not location-specific; site appears to serve the Lemmon Ave location."
+}

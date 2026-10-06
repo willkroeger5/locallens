@@ -1,0 +1,30 @@
+{
+ "hash": "b689323671d83522",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Happy Hour",
+   "summary": "$12 classic cocktails (margarita, French 75, mule, Aperol spritz, old fashioned), $14 espresso or dirty martinis, $20 kid's meal (mini smashburger, fries & cocktail), bites from $8",
+   "days": [
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri",
+    "Sat",
+    "Sun"
+   ],
+   "start": "16:30",
+   "end": "18:30",
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": true,
+   "where": null,
+   "evidence": "HAPPY HOUR TUESDAY- SUNDAY 4:30-6:30\nView Menu\nCLASSICS\nMARGARITA\n12",
+   "source_url": "https://cliftonclubdallas.com/menus/"
+  }
+ ],
+ "dropped": [],
+ "notes": "Happy hour bites list blends into the main menu in the text, so only clearly happy-hour items are detailed. A weekly 'steak and tini night' is mentioned without a day or prices, so it was not included."
+}

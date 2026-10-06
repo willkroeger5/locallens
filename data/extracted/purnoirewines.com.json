@@ -1,0 +1,42 @@
+{
+ "hash": "ff9907758e74fb21",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Game Night Wednesday Happy Hour",
+   "summary": "$20 flight of 3 wines, $10 off wine bottles, 15% off wine by the glass",
+   "days": [
+    "Wed"
+   ],
+   "start": "16:00",
+   "end": "19:00",
+   "until_close": false,
+   "all_day": false,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "Happy Hour is from 4-7, with deals: -$20 Happy Hour Flight of 3 Wines -$10 off wine by the Bottle -15% off wine by the Glass",
+   "source_url": "https://www.purnoirewines.com/events/"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Sax & Sangria Saturdays",
+   "summary": "Wine and sangria specials with live sax (with a booked wine tasting)",
+   "days": [
+    "Sat"
+   ],
+   "start": "16:00",
+   "end": "19:00",
+   "until_close": false,
+   "all_day": false,
+   "food": false,
+   "drink": true,
+   "where": "With a booked wine tasting",
+   "evidence": "Enjoy live saxophone from 4\u20136 PM, wine, sangria specials from 4\u20137 PM, and our signature table side sangria experience",
+   "source_url": "https://www.purnoirewines.com/events/"
+  }
+ ],
+ "dropped": [],
+ "notes": "Wednesday happy hour is listed under the weekly Game Night event. Sangria special prices not stated. Sunday brunch flights and Friday pairings are paid tastings, not discounts, so skipped."
+}

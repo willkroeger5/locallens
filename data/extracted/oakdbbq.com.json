@@ -1,0 +1,31 @@
+{
+ "hash": "70ab0247dc903872",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Happy Hour",
+   "summary": "Happy hour appetizers like smoked wings, burgers, quesadillas, fry towers, plus a Food + Draft special",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri",
+    "Sat",
+    "Sun"
+   ],
+   "start": "16:00",
+   "end": "19:00",
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": true,
+   "where": null,
+   "evidence": "Our happy hour menu will delight you with delectable appetizers such as smoked wings, burgers, quesadillas, fry towers and more. The Food + Draft special is sure to be your new go-to. Happy Hour is daily from 4 to 7 p.m.",
+   "source_url": "https://oakdbbq.com"
+  }
+ ],
+ "dropped": [],
+ "notes": "Happy hour applies daily at both locations, including Dallas (Greenville Ave). No prices given; happy hour menu details appear to be in a linked menu not included. Daily specials are only posted on social media."
+}

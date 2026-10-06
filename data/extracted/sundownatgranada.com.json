@@ -1,0 +1,103 @@
+{
+ "hash": "145a01b5e291a53d",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Happy Hour (Weekdays)",
+   "summary": "$5 drafts, $7 craft cocktails, $2 mimosas",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri"
+   ],
+   "start": "11:00",
+   "end": "18:00",
+   "until_close": false,
+   "all_day": false,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "HAPPY HOUR - 7 DAYS A WEEK\nMonday \u2014 Friday\n11 am \u2014 6 pm\nSaturday \u2014 Sunday\n10 am \u2014 3 pm\n$5 Drafts \u2022 $7 Craft Cocktails \u2022 $2 Mimosas",
+   "source_url": "http://sundownatgranada.com/"
+  },
+  {
+   "kind": "happy_hour",
+   "title": "Happy Hour (Weekends)",
+   "summary": "$5 drafts, $7 craft cocktails, $2 mimosas",
+   "days": [
+    "Sat",
+    "Sun"
+   ],
+   "start": "10:00",
+   "end": "15:00",
+   "until_close": false,
+   "all_day": false,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "HAPPY HOUR - 7 DAYS A WEEK\nMonday \u2014 Friday\n11 am \u2014 6 pm\nSaturday \u2014 Sunday\n10 am \u2014 3 pm\n$5 Drafts \u2022 $7 Craft Cocktails \u2022 $2 Mimosas",
+   "source_url": "http://sundownatgranada.com/"
+  },
+  {
+   "kind": "daily_special",
+   "title": "$2 Mimosas (Weekdays)",
+   "summary": "$2 mimosas at brunch",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri"
+   ],
+   "start": "11:00",
+   "end": "15:00",
+   "until_close": false,
+   "all_day": false,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "$2 MIMOSAS\n7 DAYS A WEEK\nWeekdays\n11 am \u2014 3 pm\nWeekends\n10 am \u2014 3 pm",
+   "source_url": "http://sundownatgranada.com/"
+  },
+  {
+   "kind": "daily_special",
+   "title": "$2 Mimosas (Weekends)",
+   "summary": "$2 mimosas at brunch",
+   "days": [
+    "Sat",
+    "Sun"
+   ],
+   "start": "10:00",
+   "end": "15:00",
+   "until_close": false,
+   "all_day": false,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "$2 MIMOSAS\n7 DAYS A WEEK\nWeekdays\n11 am \u2014 3 pm\nWeekends\n10 am \u2014 3 pm",
+   "source_url": "http://sundownatgranada.com/"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Thursday Date Night",
+   "summary": "Half-price bottles of wine",
+   "days": [
+    "Thu"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "Thursday\n1/2 Price Bottles of Wine - Date Night",
+   "source_url": "http://sundownatgranada.com/"
+  }
+ ],
+ "dropped": [],
+ "notes": "Happy hour drink menu details beyond listed prices not available in text. Movie nights and trivia are events, not deals."
+}

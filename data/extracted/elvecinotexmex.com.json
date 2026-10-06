@@ -1,0 +1,59 @@
+{
+ "hash": "dbd3fe8d2b3eb93a",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "daily_special",
+   "title": "Tiny Two-Bite Taco Tuesday",
+   "summary": "Crispy tiny tacos special, as an appetizer or entree",
+   "days": [
+    "Tue"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": true,
+   "drink": false,
+   "where": null,
+   "evidence": "TINY TWO-BITE TACO TUESDAY\nEnjoy our Crispy Tiny Tacos as an appetizer or entree.",
+   "source_url": "http://www.elvecinotexmex.com/menu"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Wednesday Enchiladas Special",
+   "summary": "$7.99 two enchiladas (cheese, beef or chicken) with rice and beans",
+   "days": [
+    "Wed"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": true,
+   "drink": false,
+   "where": "Dine-in only",
+   "evidence": "WEDNESDAY ENCHILADAS SPECIAL (Dine-in only)\nTwo Enchiladas (cheese, beef or chicken) with Rice and Beans. $7.99",
+   "source_url": "http://www.elvecinotexmex.com/menu"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Thursday Chile Relleno Night",
+   "summary": "$13.95 beef or cheese chile relleno with rice and beans",
+   "days": [
+    "Thu"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": true,
+   "drink": false,
+   "where": null,
+   "evidence": "THURSDAY CHILE RELLENO NIGHT\nChoice of Beef or Cheese served with Rice and Beans. $13.95",
+   "source_url": "http://www.elvecinotexmex.com/menu"
+  }
+ ],
+ "dropped": [],
+ "notes": "The site's footer lists 718 N. Buckner Blvd, not 4514 Travis St; specials are not tied to a specific location, so verify they apply to Travis St. Chef's Special (Fri-Mon after 4PM) skipped as no discount is stated."
+}

@@ -1,0 +1,131 @@
+{
+ "hash": "4624dbf7ee9ccf3b",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Happy Hour",
+   "summary": "Half-price calamari, triple dip & four cheese pizza; $5.50 well whiskey/vodka/tequila, $6 house wine, $6 Sun Cruiser",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri"
+   ],
+   "start": "15:00",
+   "end": "18:00",
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": true,
+   "where": "dine-in only",
+   "evidence": "Happy Hour\nSelect items half-priced Monday - Friday\nCalamari | Triple Dip | Four Cheese Pizza\n3:00 PM - 6:00 PM\n(dine-in only)\nSelect Liquor\nwell whiskey, well vodka, & well tequila\n$5.50",
+   "source_url": "https://www.stateandallen.com/menus/"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Half Price Pizza Monday",
+   "summary": "Half-price pizza",
+   "days": [
+    "Mon"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": true,
+   "drink": false,
+   "where": "dine-in only",
+   "evidence": "All specials are available for dine-in only. Ask your server for details.\nMonday\nhalf price pizza",
+   "source_url": "https://www.stateandallen.com/menus/"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Tacos & Tequila Tuesday",
+   "summary": "$21 chef's choice tacos, beans, rice & house tequila drink; $5.50 well tequila & ranch water",
+   "days": [
+    "Tue"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": true,
+   "drink": true,
+   "where": "dine-in only",
+   "evidence": "Tuesday\ntacos & tequila (chef's choice tacos, beans, rice & house tequila drink) $21.00",
+   "source_url": "https://www.stateandallen.com/menus/"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Half Price Wine Wednesday",
+   "summary": "Half-price wine by the glass or bottle (excludes sparkling & house wines); $15 shrimp fettuccine at lunch",
+   "days": [
+    "Wed"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": true,
+   "drink": true,
+   "where": "dine-in only",
+   "evidence": "Wednesday\nfresno chili shrimp fettuccine (lunch only) $15.00\n1/2 price wine by the glass or bottle (excludes sparkling & house wines)",
+   "source_url": "https://www.stateandallen.com/menus/"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Thursday Well Mule",
+   "summary": "$5.50 well mule",
+   "days": [
+    "Thu"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": false,
+   "drink": true,
+   "where": "dine-in only",
+   "evidence": "Thursday\nwell mule\n$5.50",
+   "source_url": "https://www.stateandallen.com/menus/"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Friday Well Drinks",
+   "summary": "$5.50 well whiskey, vodka & tequila",
+   "days": [
+    "Fri"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": false,
+   "drink": true,
+   "where": "dine-in only",
+   "evidence": "Friday\nwell whiskey, well vodka & well tequila\n$5.50\nSunday",
+   "source_url": "https://www.stateandallen.com/menus/"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Sunday Well Drinks",
+   "summary": "$5.50 well drinks after brunch",
+   "days": [
+    "Sun"
+   ],
+   "start": "15:00",
+   "end": null,
+   "until_close": true,
+   "all_day": false,
+   "food": false,
+   "drink": true,
+   "where": "dine-in only",
+   "evidence": "Sunday\nwell drinks\n(only available after brunch)\n$5.50",
+   "source_url": "https://www.stateandallen.com/menus/"
+  }
+ ],
+ "dropped": [],
+ "notes": "Daily specials list shows conflicting well drink prices ($5.00 vs $5.50); used $5.50 from the drink specials section. Sunday well drinks start after brunch (brunch ends 3 pm)."
+}

@@ -1,0 +1,25 @@
+{
+ "hash": "bdf977dc50dede4f",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "daily_special",
+   "title": "Half-Price Burgers Tuesday",
+   "summary": "Half-price burgers",
+   "days": [
+    "Tue"
+   ],
+   "start": "17:00",
+   "end": null,
+   "until_close": true,
+   "all_day": false,
+   "food": true,
+   "drink": false,
+   "where": null,
+   "evidence": "Half-Price Burgers has been a Goff\u2019s tradition for many years, and we are happy that this special is bringing more groups and families than ever to enjoy dinner with us every Tuesday after 5pm.",
+   "source_url": "http://www.goffshamburgers.com/"
+  }
+ ],
+ "dropped": [],
+ "notes": "Tuesday half-price burgers run from 5pm until close (stated as 'after 5pm')."
+}

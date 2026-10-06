@@ -1,0 +1,150 @@
+{
+ "hash": "428714ae64f312cc",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "daily_special",
+   "title": "Monday Burger Lunch Special",
+   "summary": "$10 burger with fries or rings",
+   "days": [
+    "Mon"
+   ],
+   "start": "11:00",
+   "end": "17:00",
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": false,
+   "where": null,
+   "evidence": "Monday\nBurger w/ Fries or Rings\n$10",
+   "source_url": "https://www.avenuesportsgrill.com/custom/page/weekly-specials"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Taco Tuesday",
+   "summary": "$3 beef & chicken tacos, $4 shrimp, catfish & brisket tacos",
+   "days": [
+    "Tue"
+   ],
+   "start": "11:00",
+   "end": "17:00",
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": false,
+   "where": null,
+   "evidence": "Tuesday\nTaco Tuesday\n$3 / $4\nBeef & Chicken: $3.00 ea. | Shrimp, Catfish & Brisket: $4.00",
+   "source_url": "https://www.avenuesportsgrill.com/custom/page/weekly-specials"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Wednesday Enchiladas Lunch Special",
+   "summary": "$12 beef or chicken Tex-Mex enchiladas with rice & beans",
+   "days": [
+    "Wed"
+   ],
+   "start": "11:00",
+   "end": "17:00",
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": false,
+   "where": null,
+   "evidence": "Wednesday\nTex-Mex Enchiladas\n$12\nYour choice of Beef or Chicken, served with Rice & Beans.",
+   "source_url": "https://www.avenuesportsgrill.com/custom/page/weekly-specials"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Thursday Chicken Fried Steak Lunch Special",
+   "summary": "$12 chicken fried steak or chicken",
+   "days": [
+    "Thu"
+   ],
+   "start": "11:00",
+   "end": "17:00",
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": false,
+   "where": null,
+   "evidence": "Thursday\nChicken Fried Steak or Chicken\n$12",
+   "source_url": "https://www.avenuesportsgrill.com/custom/page/weekly-specials"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Friday Lunch Specials",
+   "summary": "$10 BBQ sliders (3), $8 flat nachos",
+   "days": [
+    "Fri"
+   ],
+   "start": "11:00",
+   "end": "17:00",
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": false,
+   "where": null,
+   "evidence": "Friday\nBBQ Sliders (3)\n$10\nFlat Nachos\n$8",
+   "source_url": "https://www.avenuesportsgrill.com/custom/page/weekly-specials"
+  },
+  {
+   "kind": "happy_hour",
+   "title": "Daily Happy Hour",
+   "summary": "$1 off well liquors & beers",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri",
+    "Sat",
+    "Sun"
+   ],
+   "start": "16:00",
+   "end": "19:00",
+   "until_close": false,
+   "all_day": false,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "Daily Happy Hour | 4-7 PM\n$1 OFF Well Liquors & Beers",
+   "source_url": "https://www.avenuesportsgrill.com/custom/page/weekly-specials"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Tuesday Margaritas",
+   "summary": "$5 margaritas all day",
+   "days": [
+    "Tue"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "Tuesday | All Day\n$5 Margaritas",
+   "source_url": "https://www.avenuesportsgrill.com/custom/page/weekly-specials"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Wine Wednesday",
+   "summary": "Half-price wine bottles all day",
+   "days": [
+    "Wed"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "Wednesday | All Day\nWine Wednesday: 1/2 Price Bottles",
+   "source_url": "https://www.avenuesportsgrill.com/custom/page/weekly-specials"
+  }
+ ],
+ "dropped": [],
+ "notes": "Weekday lunch specials run 11 AM-5 PM per the page header. Anna TX location ignored."
+}

@@ -1,0 +1,28 @@
+{
+ "hash": "aa4bb31a0d5082ae",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Happy Hour",
+   "summary": "Happy hour menu",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu"
+   ],
+   "start": "15:00",
+   "end": "17:00",
+   "until_close": false,
+   "all_day": false,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "Sun\n9:30AM-9PM\nHappy Hour\nMON-THU\n3PM-5PM\nBrunch\nSat & Sun",
+   "source_url": "https://knoxbistro.com/happy-hour/"
+  }
+ ],
+ "dropped": [],
+ "notes": "Happy hour days/times are listed, but the happy hour menu itself (prices and items) is not in the text, likely an image or PDF. The food/drink flags are assumptions."
+}

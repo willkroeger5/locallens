@@ -1,0 +1,84 @@
+{
+ "hash": "b55188dabb4cc6f0",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Weekday Happy Hour",
+   "summary": "Weekday happy hour specials",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri"
+   ],
+   "start": "14:00",
+   "end": "18:00",
+   "until_close": false,
+   "all_day": false,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "We have great weekday-happy hour specials from 2-6 PM.",
+   "source_url": "http://www.wingdaddys.com/"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Thirsty Thursday",
+   "summary": "$4 margaritas",
+   "days": [
+    "Thu"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": false,
+   "drink": true,
+   "where": "Dine-in only",
+   "evidence": "From our Boneless Bites on Wednesday to our $4 margaritas on Thirsty Thursday we have something for everyone! DINE IN ONLY.",
+   "source_url": "https://wingdaddys.com/specials-3/"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Boneless Bites Wednesday",
+   "summary": "Boneless Bites special",
+   "days": [
+    "Wed"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": true,
+   "drink": false,
+   "where": "Dine-in only",
+   "evidence": "From our Boneless Bites on Wednesday to our $4 margaritas on Thirsty Thursday we have something for everyone! DINE IN ONLY.",
+   "source_url": "https://wingdaddys.com/specials-3/"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Weekday Lunch Specials",
+   "summary": "Lunch specials at a special price",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri"
+   ],
+   "start": "11:00",
+   "end": "14:00",
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": false,
+   "where": "Dine-in only",
+   "evidence": "You can never go wrong with a Wing Daddy\u2019s weekday lunch. We have a variety of options to satisfy your lunch cravings and all at a special price. Join us on weekdays from 11am \u2013 2pm. DINE IN ONLY.",
+   "source_url": "https://wingdaddys.com/specials-3/"
+  }
+ ],
+ "dropped": [],
+ "notes": "Happy hour details (items/prices) not stated; drink flag assumed uncertain. Boneless Bites Wednesday price not given. Specials are chain-wide, not location-specific."
+}

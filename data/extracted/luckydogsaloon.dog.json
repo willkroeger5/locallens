@@ -1,0 +1,29 @@
+{
+ "hash": "526e36e9c6681416",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Happy Hour",
+   "summary": "Half-price vintage martinis, bourbon martinis & whiskey standards; $2 off draft beer; $2 garlic pesto pizza sticks; $4 pizza slice",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri"
+   ],
+   "start": "16:00",
+   "end": "18:00",
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": true,
+   "where": null,
+   "evidence": "Happy Hour\n4 - 6 PM WEEKDAYS\n1/2 PRICE\nVintage Martinis\nBourbon Martinis\nWhiskey Standards\nNo Substitutions\n$2\n$2 OFF\n$4\nGarlic Pesto  \nPizza Sticks\nDraft\nBeer\nPizza Slice",
+   "source_url": "https://www.luckydogsaloon.dog/_files/ugd/c65ef2_e7d76c3549f24ef798d3663027e7b37d.pdf"
+  }
+ ],
+ "dropped": [],
+ "notes": "Price-to-item mapping ($2 pizza sticks, $2 off drafts, $4 pizza slice) inferred from menu layout order; may be imprecise."
+}

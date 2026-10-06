@@ -1,0 +1,47 @@
+{
+ "hash": "83df3a191569ca28",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Happy Hour",
+   "summary": "Happy hour menu",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri",
+    "Sat"
+   ],
+   "start": "15:00",
+   "end": "18:00",
+   "until_close": false,
+   "all_day": false,
+   "food": false,
+   "drink": false,
+   "where": null,
+   "evidence": "Happy Hour\nMonday - Saturday\n3\u20136 PM\nSunday\n12\u201310 PM",
+   "source_url": "https://www.kathairestaurant.com/uptown"
+  },
+  {
+   "kind": "happy_hour",
+   "title": "Sunday All-Day Happy Hour",
+   "summary": "Happy hour menu",
+   "days": [
+    "Sun"
+   ],
+   "start": "12:00",
+   "end": "22:00",
+   "until_close": false,
+   "all_day": false,
+   "food": false,
+   "drink": false,
+   "where": null,
+   "evidence": "Happy Hour\nMonday - Saturday\n3\u20136 PM\nSunday\n12\u201310 PM",
+   "source_url": "https://www.kathairestaurant.com/uptown"
+  }
+ ],
+ "dropped": [],
+ "notes": "Only the Uptown (3220 McKinney Ave) page matches the listed locations; no 4640 McKinney Ave page was provided. Midtown and North Dallas are not among the listed locations, so they were skipped. No happy hour prices or items are listed, so food/drink are unknown. Sunday happy hour runs 12\u201310 PM, which matches the full Sunday opening hours."
+}

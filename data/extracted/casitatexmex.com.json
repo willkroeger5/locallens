@@ -1,0 +1,29 @@
+{
+ "hash": "600a5f7e9cf13e48",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "daily_special",
+   "title": "Weekday Lunch Specials",
+   "summary": "Lunch plates from $10.95, like the $14.95 Fajita Lunch and $10.95 Nooner Special (two enchiladas with rice and beans)",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri"
+   ],
+   "start": "11:00",
+   "end": "15:00",
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": false,
+   "where": "Dine-in only",
+   "evidence": "Served daily Monday to Friday 11:00 - 3:00 | Dine in only \u2022 *Available for dinner\nMenu\nFajita Lunch\n$14.95",
+   "source_url": "http://www.casitatexmex.com/dallas-casita-tex-mex-bar-and-grill-food-menu"
+  }
+ ],
+ "dropped": [],
+ "notes": "No happy hour is listed. The only recurring deal found is the weekday lunch specials menu (Mon-Fri 11:00-15:00, dine-in only)."
+}

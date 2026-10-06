@@ -1,0 +1,29 @@
+{
+ "hash": "f07de1d4ca664c9f",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Happy Hour",
+   "summary": "$5 beers & glasses of proprietary wine, $3 off all cocktails & pizzas, $2 off edamame dumplings & hummus",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri"
+   ],
+   "start": "15:00",
+   "end": "18:00",
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": true,
+   "where": null,
+   "evidence": "$5 BEERS & GLASSES OF PROPRIETARY WINE $2 OFF EDAMAME DUMPLINGS & HUMMUS$3 OFF ALL COCKTAILS & PIZZASHAPPY HOUR    MONDAY-FRIDAY    3PM-6PM",
+   "source_url": "https://www.truefoodkitchen.com/wp-content/uploads/2026/07/Combo-1-Summer.pdf"
+  }
+ ],
+ "dropped": [],
+ "notes": "Happy hour comes from a chain menu PDF (marked 'VA - 6.26'), which may be a regional version; it may not apply exactly to the Dallas Preston Center location."
+}

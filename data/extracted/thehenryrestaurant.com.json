@@ -1,0 +1,29 @@
+{
+ "hash": "10170226b403142a",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Happy Hour",
+   "summary": "Happy hour menu",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri"
+   ],
+   "start": "16:00",
+   "end": "18:00",
+   "until_close": false,
+   "all_day": false,
+   "food": false,
+   "drink": true,
+   "where": "Rooftop only",
+   "evidence": "Happy Hour:\nMon - Fri\n4pm - 6pm\nAvailable only on the rooftop",
+   "source_url": "https://www.thehenryrestaurant.com/locations/the-henry-dallas/"
+  }
+ ],
+ "dropped": [],
+ "notes": "Happy hour details (items/prices) not listed; food/drink inclusion not specified."
+}

@@ -1,0 +1,29 @@
+{
+ "hash": "3c3fcb4a4a64d952",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "daily_special",
+   "title": "Lunch Special",
+   "summary": "12\" one-topping pizza, two small salads and two drinks for $22.95",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri"
+   ],
+   "start": "11:00",
+   "end": "16:00",
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": true,
+   "where": null,
+   "evidence": "Lunch Special (Monday-Friday 11 am- 4pm)\nOne 12\" one topping pizza, two small salads and two drinks for $22.95 only!",
+   "source_url": "https://piggiepiespizza.com/"
+  }
+ ],
+ "dropped": [],
+ "notes": "The online menu lists the lunch special as Mon-Fri 11 AM - 3 PM at $23.18+ (tax included). The homepage says 11am-4pm for $22.95. These conflict, and the homepage version was used."
+}

@@ -1,0 +1,65 @@
+{
+ "hash": "978eb49e82845011",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Happy Hour",
+   "summary": "Half-off menu cocktails, $6 Sea Sun Chardonnay & Pinot Noir, $3 beers",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri",
+    "Sat",
+    "Sun"
+   ],
+   "start": "15:00",
+   "end": "18:00",
+   "until_close": false,
+   "all_day": false,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "HAPPY HOUR EVERY DAY 3PM - 6PM\nAll Menu Cocktails Half Off\nSea Sun Chardonnay - 6 \nSea Sun Pinot Noir - 6\nAll Beers - 3",
+   "source_url": "https://miononno.com/wp-content/uploads/2026/04/WINE-LIST-MASTER-3.pdf"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Wine Down Wednesdays",
+   "summary": "Half off all bottles of wine",
+   "days": [
+    "Wed"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "WINE DOWN WEDNESDAYS\nHalf Off All Bottles of Wine All Day",
+   "source_url": "https://miononno.com/wp-content/uploads/2026/04/WINE-LIST-MASTER-3.pdf"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Martini Thursdays",
+   "summary": "$5 select martinis",
+   "days": [
+    "Thu"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "MARTINI THURSDAYS\n$5 SELECT Martinis All Day",
+   "source_url": "https://miononno.com/wp-content/uploads/2026/04/WINE-LIST-MASTER-3.pdf"
+  }
+ ],
+ "dropped": [],
+ "notes": "Wine list does not specify which location(s) these deals apply to."
+}

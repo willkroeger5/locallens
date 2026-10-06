@@ -1,0 +1,29 @@
+{
+ "hash": "60a3253fb62b76a7",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Happiest Hours",
+   "summary": "Half-price Happytizers, $7 select signature cocktails, beer & wine",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri"
+   ],
+   "start": "16:00",
+   "end": "18:00",
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": true,
+   "where": null,
+   "evidence": "HAPPIEST HOURS\n1/2 Priced Happytizers & $7 Select Signature Cocktails, Beer & Wine\nMonday - Friday\n4PM - 6PM",
+   "source_url": "https://www.happiesthourdallas.com"
+  }
+ ],
+ "dropped": [],
+ "notes": "Deal stated for the 2616 Olive St location; no separate info for 2501 N Harwood St."
+}

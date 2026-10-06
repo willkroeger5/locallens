@@ -1,0 +1,29 @@
+{
+ "hash": "366cfbc2ac677b0f",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Happy Hour",
+   "summary": "$3 oysters, $10 smash burger, pig ears & wings, $10 classic cocktails, half-price select wines",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri"
+   ],
+   "start": "15:00",
+   "end": "18:00",
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": true,
+   "where": "Bar only",
+   "evidence": "BAR\nONLY\nMON - FRI\n3PM - 6PM\nHAPPY  HOUR\nFOOD\nOysters  3/ea\nFrenchie Smash Burger  10",
+   "source_url": "https://frenchiedallas.com/wp-content/uploads/2026/04/Happy-Hour-Menu-5x7-PRINT.pdf"
+  }
+ ],
+ "dropped": [],
+ "notes": null
+}

@@ -1,0 +1,46 @@
+{
+ "hash": "8f2b105a29fdbf0b",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Happy Hour",
+   "summary": "Happy hour menu",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri"
+   ],
+   "start": "15:00",
+   "end": "18:00",
+   "until_close": false,
+   "all_day": false,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "Happy Hour\nMonday \u2014 Friday, 3 PM \u2014 6 PM",
+   "source_url": "https://moxies.com/restaurants/dallas-uptown/menus"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Half-Price Wine Wednesday",
+   "summary": "1/2 price bottles of wine",
+   "days": [
+    "Wed"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "1/2 Price Bottles of Wine*\nEvery Wednesday",
+   "source_url": "https://moxies.com/restaurants/dallas-uptown/menus"
+  }
+ ],
+ "dropped": [],
+ "notes": "Happy hour item details/prices not listed in text; wine special has an unexplained asterisk (restrictions may apply). Brunch champagne happy hour pricing shown but no separate schedule, so not listed separately."
+}

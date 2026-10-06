@@ -1,0 +1,29 @@
+{
+ "hash": "f0c610042e0e16b2",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Happy Hour",
+   "summary": "$6 draft cocktails & frozens, $7 house wine, $6 draft beers, discounted small bites",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri"
+   ],
+   "start": "15:00",
+   "end": "19:00",
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": true,
+   "where": null,
+   "evidence": "Join us Monday through Friday from 3 PM to 7 PM for handcrafted cocktails, locally sourced brews, and crave-worthy small bites, all at celebratory prices.\n$6 DRAFT COCKTAILS & FROZENS \u2022 $7 HOUSE WINE \u2022 $6 DRAFT BEERS",
+   "source_url": "https://www.victorysocialeatery.com/restaurant-drink-menu/"
+  }
+ ],
+ "dropped": [],
+ "notes": "Small bites mentioned as discounted but no food prices given."
+}

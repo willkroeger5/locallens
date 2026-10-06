@@ -1,0 +1,65 @@
+{
+ "hash": "4ea7f25f743f0c83",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Happy Hour",
+   "summary": "$3 off house cocktails, $2 off wine by the glass, $5 draft beer, $3 off select food items",
+   "days": [
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri"
+   ],
+   "start": "12:00",
+   "end": "19:00",
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": true,
+   "where": null,
+   "evidence": "HAPPY HOUR : Tues.- Fri.  12-7p   $3 OFF House Cocktails, $2 OFF Wine by the Glass,\n $5 Draft Beer, $3 OFF select food items",
+   "source_url": "http://www.alamoclubdallas.com/s/AC-MENU-9126.pdf"
+  },
+  {
+   "kind": "happy_hour",
+   "title": "All-Day Wednesday Happy Hour",
+   "summary": "Happy hour all day Wednesday: $3 off house cocktails, $2 off wine, $5 drafts, $3 off select food",
+   "days": [
+    "Wed"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": true,
+   "drink": true,
+   "where": null,
+   "evidence": "HAPPY HOUR\nTue-Fri 12PM - 7 PM\nWed ALL DAY",
+   "source_url": "http://www.alamoclubdallas.com/"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Game Days",
+   "summary": "$5 draft beer, buckets come with a free shot",
+   "days": [
+    "Sun",
+    "Mon",
+    "Thu",
+    "Sat"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "Game Days = Sun, Mon, Thurs, & Sat\n$5 Draft Beer, Buckets come w/ free shot!!!",
+   "source_url": "http://www.alamoclubdallas.com/s/AC-MENU-9126.pdf"
+  }
+ ],
+ "dropped": [],
+ "notes": "Wednesday all-day happy hour assumed to use the same happy hour menu. Game Day food packages are regular-priced bundles, not included."
+}

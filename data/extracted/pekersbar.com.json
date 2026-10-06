@@ -1,0 +1,31 @@
+{
+ "hash": "fde3f3cdc4d249b7",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Happy Hour",
+   "summary": "Happy hour drink prices",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri",
+    "Sat",
+    "Sun"
+   ],
+   "start": "12:00",
+   "end": "20:00",
+   "until_close": false,
+   "all_day": false,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "HAPPY HOUR PRICES 7 DAYS A WEEK, 12PM - 8PM!",
+   "source_url": "http://www.pekersbar.com/"
+  }
+ ],
+ "dropped": [],
+ "notes": "Specific happy hour prices are not listed on the homepage; the deal is assumed to be drink-only since Pekers is a bar."
+}

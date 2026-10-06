@@ -1,0 +1,28 @@
+{
+ "hash": "218819436bd9fb3e",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "All Day Happy Hour",
+   "summary": "$6 beers, $8 South American wines, $10 Brazilian-inspired cocktails; half-price South American wine bottles under $150",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": false,
+   "drink": true,
+   "where": "Bar Fogo; bottle discount in dining room and bar",
+   "evidence": "All Day Happy Hour\nJoin us for All Day Happy Hour Mon-Thurs at Bar Fogo, featuring $6 Beers, $8 South American Wines and $10 Brazilian-Inspired Cocktails.",
+   "source_url": "http://fogodechao.com/location/uptown-dallas"
+  }
+ ],
+ "dropped": [],
+ "notes": "The half-price South American wine bottles (under $150) are also offered all day Mon-Thu in the dining room and bar."
+}

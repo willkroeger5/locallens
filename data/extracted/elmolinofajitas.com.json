@@ -1,0 +1,31 @@
+{
+ "hash": "2c8e98d4feb4dfdb",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Happy Hour",
+   "summary": "Happy hour menu",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri",
+    "Sat",
+    "Sun"
+   ],
+   "start": "15:00",
+   "end": "18:00",
+   "until_close": false,
+   "all_day": false,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "Friday - Saturday 11am to 10pm\nHappy Hour\n3 - 6pm daily",
+   "source_url": "https://www.elmolinofajitas.com/location/snider-plaza/"
+  }
+ ],
+ "dropped": [],
+ "notes": "Happy hour listed as 3-6pm daily at Snider Plaza; no details on which items or prices are discounted. Food/drink flags are assumed."
+}

@@ -1,0 +1,45 @@
+{
+ "hash": "30ea32838b530cb2",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Happy Hour",
+   "summary": "$1 wings, $4 cheesecake egg rolls, $5 margaritas, $2.50 beers",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu"
+   ],
+   "start": "15:00",
+   "end": "19:00",
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": true,
+   "where": null,
+   "evidence": "HAPPY HOUR\n3pm - 7pm Monday - Thursday\n$1 wings\n$4 cheesecake egg rolls\n$5 margaritas\n$2.50 beers",
+   "source_url": "http://badchicken.com/"
+  },
+  {
+   "kind": "daily_special",
+   "title": "All You Can Eat Wings",
+   "summary": "All-you-can-eat wings for $20 per person, last Tuesday of every month",
+   "days": [
+    "Tue"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": true,
+   "drink": false,
+   "where": null,
+   "evidence": "AYCE WINGS\nAll you can eat wings for $20 per person on the last Tuesday of every month.",
+   "source_url": "http://badchicken.com/"
+  }
+ ],
+ "dropped": [],
+ "notes": "AYCE wings is only on the last Tuesday of each month, not every Tuesday."
+}

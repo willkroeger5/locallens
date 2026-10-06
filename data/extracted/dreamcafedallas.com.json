@@ -1,0 +1,46 @@
+{
+ "hash": "21e1cdfbe56467bf",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "daily_special",
+   "title": "Early Bird Carafe Special",
+   "summary": "Half off carafes",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri"
+   ],
+   "start": "07:00",
+   "end": "09:00",
+   "until_close": false,
+   "all_day": false,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "Carafe Special\nHalf Off Carafes Mon-Fri 7-9AM\n& Sat 8-9AM",
+   "source_url": "http://www.dreamcafedallas.com/"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Early Bird Carafe Special",
+   "summary": "Half off carafes",
+   "days": [
+    "Sat"
+   ],
+   "start": "08:00",
+   "end": "09:00",
+   "until_close": false,
+   "all_day": false,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "Carafe Special\nHalf Off Carafes Mon-Fri 7-9AM\n& Sat 8-9AM",
+   "source_url": "http://www.dreamcafedallas.com/"
+  }
+ ],
+ "dropped": [],
+ "notes": "Carafe contents not specified on the site."
+}

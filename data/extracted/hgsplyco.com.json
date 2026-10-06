@@ -1,0 +1,29 @@
+{
+ "hash": "9a8436879f7b89bc",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Happy Hour",
+   "summary": "Happy hour menu",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri"
+   ],
+   "start": "15:00",
+   "end": "18:00",
+   "until_close": false,
+   "all_day": false,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "HAPPY HOUR \u2022 MONDAY-FRIDAY 3PM-6PM",
+   "source_url": "http://www.hgsplyco.com/dallas"
+  }
+ ],
+ "dropped": [],
+ "notes": "Happy hour details (prices/items) not listed; food/drink inclusion assumed drink only and not confirmed."
+}

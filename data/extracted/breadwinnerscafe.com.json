@@ -1,0 +1,114 @@
+{
+ "hash": "51e318bec338cfc0",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "reverse_happy_hour",
+   "title": "Morning Hour Glow",
+   "summary": "$6 mimosas & bloody marys, $7 espresso martinis",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri"
+   ],
+   "start": "07:00",
+   "end": "09:00",
+   "until_close": false,
+   "all_day": false,
+   "food": false,
+   "drink": true,
+   "where": "Uptown (McKinney Ave) only",
+   "evidence": "MORNING HOUR GLOW\nreverse happy hour at uptown only monday-friday 7am-9am\n$6\nmimosas & bloody mary's\n$6\n$7\nespresso martinis",
+   "source_url": "http://www.breadwinnerscafe.com/restaurant-menus"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Make It Sparkle Monday",
+   "summary": "Half-price champagne bottles & mimosas",
+   "days": [
+    "Mon"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "MAKE IT SPARKLE MONDAY\nhalf-priced bottles of champagne & mimosas all day",
+   "source_url": "http://www.breadwinnerscafe.com/restaurant-menus"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Plates on Repeat",
+   "summary": "Buy one appetizer, get one half off",
+   "days": [
+    "Tue"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": true,
+   "drink": false,
+   "where": null,
+   "evidence": "PLATES ON REPEAT\nbuy one appetizer, get one half off every tuesday",
+   "source_url": "http://www.breadwinnerscafe.com/restaurant-menus"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Midweek Crush",
+   "summary": "$7 espresso martinis & carajillos",
+   "days": [
+    "Wed"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "MIDWEEK CRUSH\nevery wednesday espresso martinis & carajillo's $7",
+   "source_url": "http://www.breadwinnerscafe.com/restaurant-menus"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Waffle Worthy Thursday",
+   "summary": "Half-price chicken & waffles and strawberries & cream waffle",
+   "days": [
+    "Thu"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": true,
+   "drink": false,
+   "where": null,
+   "evidence": "WAFFLE WORTHY THURSDAY\nhalf-priced chicken & waffles & strawberries and cream waffle",
+   "source_url": "http://www.breadwinnerscafe.com/restaurant-menus"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Friday Favorites",
+   "summary": "20% off signature cocktails with $13 featured entr\u00e9e",
+   "days": [
+    "Fri"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "FRIDAY FAVORITES\n20% off signature cocktails all day with $13 featured entr\u00e9e",
+   "source_url": "http://www.breadwinnerscafe.com/restaurant-menus"
+  }
+ ],
+ "dropped": [],
+ "notes": "Morning Hour Glow is Uptown only. Thursday special lists no explicit time; treated as all day."
+}

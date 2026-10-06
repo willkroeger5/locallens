@@ -1,0 +1,71 @@
+{
+ "hash": "869ba0094ab6c784",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Happy Hour",
+   "summary": "$4 Lone Star, Lone Star Light & PBR; $4.50 wells; $5 Fireball shots; $6 Tito's, Jim Beam & Hornitos",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri",
+    "Sat",
+    "Sun"
+   ],
+   "start": "17:00",
+   "end": "22:00",
+   "until_close": false,
+   "all_day": false,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "Happy Hour Specials (OPEN-TEN P.M. DAILY)\n$4.00 Lone Star, Lone Star Light & PBR\n$4.50 Well Drinks\n$5.00 Fireball Shots\n$6.00 Tito\u2019s, Jim Beam & Hornitos",
+   "source_url": "http://www.thepeakinndallas.com/"
+  },
+  {
+   "kind": "daily_special",
+   "title": "$4.75 Coors Original Pints",
+   "summary": "$4.75 pints of Coors Original",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri",
+    "Sat",
+    "Sun"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "$4.75 PINTS OF COORS ORIGINAL\u2014ALL DAY, EVERY DAY",
+   "source_url": "http://www.thepeakinndallas.com/"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Monday Burger Special",
+   "summary": "Cheeseburger & fries $9.99",
+   "days": [
+    "Mon"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": true,
+   "drink": false,
+   "where": null,
+   "evidence": "MONDAY BURGER SPECIAL\nCHEESEBURGER & FRIES $9.99",
+   "source_url": "http://www.thepeakinndallas.com/"
+  }
+ ],
+ "dropped": [],
+ "notes": "Happy hour runs 'open-ten p.m.'; bar opens at 5 PM, so start set to 17:00. Monday burger special has no stated times; treated as all day."
+}

@@ -1,0 +1,46 @@
+{
+ "hash": "ab1d61690f61fd9b",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Happy Hour",
+   "summary": "$5.99 select beer, $6.99 select wine, $8.99 select cocktails, half-price half apps",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri"
+   ],
+   "start": "15:00",
+   "end": "18:00",
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": true,
+   "where": null,
+   "evidence": "Happy Hour\n$5.99 Select Beer, $6.99 Select Wine, $8.99 Select Cocktails and Half Priced Half Apps\nMonday - Friday 3-6*",
+   "source_url": "http://www.pfchangs.com/menu/happy-hour"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Wine Wednesday",
+   "summary": "Half-price bottles of wine, champagne & sake all day",
+   "days": [
+    "Wed"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": false,
+   "drink": true,
+   "where": "Dine-in only",
+   "evidence": "Stop by on Wednesdays* and enjoy half price bottles of Wine, Champagne & Sake all day long.",
+   "source_url": "http://www.pfchangs.com/menu/happy-hour"
+  }
+ ],
+ "dropped": [],
+ "notes": "Chain-wide deals; offered only at participating locations and hours/offerings may vary, so availability at the N Central Expy location is not confirmed. Wine Wednesday not available on select holidays."
+}

@@ -1,0 +1,31 @@
+{
+ "hash": "bf4d999c8331f6f7",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Happy Hour",
+   "summary": "Half off hot lattes & hot chocolate",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri",
+    "Sat",
+    "Sun"
+   ],
+   "start": "16:00",
+   "end": "17:00",
+   "until_close": false,
+   "all_day": false,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "Join us for Happy Hour daily from 4 - 5 PM\nfor half off hot lattes & hot chocolate!",
+   "source_url": "https://www.magnoliasdallas.com/happyhour"
+  }
+ ],
+ "dropped": [],
+ "notes": null
+}

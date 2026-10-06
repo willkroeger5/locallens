@@ -1,0 +1,68 @@
+{
+ "hash": "249a6cff5fe72149",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Happy Hour (Social Hour) \u2013 All Day",
+   "summary": "$3, $6, $9 specials: $3 edamame, satay, shrimp tacos, Coors Light, sake shots; $6 Kona margaritas, house wine, sushi rolls; $9 cocktails, sliders, flatbread",
+   "days": [
+    "Mon",
+    "Tue"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": true,
+   "drink": true,
+   "where": null,
+   "evidence": "HAPPY HOUR\nMonday & Tuesday: ALL DAY\nWednesday - Friday: 2pm - 6pm\nEVERY NIGHT: 9pm - Close",
+   "source_url": "https://konagrill.com/locations?locations=Dallas,75225"
+  },
+  {
+   "kind": "happy_hour",
+   "title": "Happy Hour (Social Hour)",
+   "summary": "$3, $6, $9 specials: $3 edamame, satay, shrimp tacos, Coors Light, sake shots; $6 Kona margaritas, house wine, sushi rolls; $9 cocktails, sliders, flatbread",
+   "days": [
+    "Wed",
+    "Thu",
+    "Fri"
+   ],
+   "start": "14:00",
+   "end": "18:00",
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": true,
+   "where": null,
+   "evidence": "HAPPY HOUR\nMonday & Tuesday: ALL DAY\nWednesday - Friday: 2pm - 6pm\nEVERY NIGHT: 9pm - Close",
+   "source_url": "https://konagrill.com/locations?locations=Dallas,75225"
+  },
+  {
+   "kind": "reverse_happy_hour",
+   "title": "Late Night Happy Hour (Social Hour)",
+   "summary": "$3, $6, $9 specials on cocktails, sushi, and bar bites",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri",
+    "Sat",
+    "Sun"
+   ],
+   "start": "21:00",
+   "end": null,
+   "until_close": true,
+   "all_day": false,
+   "food": true,
+   "drink": true,
+   "where": null,
+   "evidence": "HAPPY HOUR\nMonday & Tuesday: ALL DAY\nWednesday - Friday: 2pm - 6pm\nEVERY NIGHT: 9pm - Close",
+   "source_url": "https://konagrill.com/locations?locations=Dallas,75225"
+  }
+ ],
+ "dropped": [],
+ "notes": "Page is inconsistent about Tuesday: the hours block says Monday & Tuesday all day, while the Social Hour text/FAQ say only Mondays all day and Tuesday 2-6pm. Used the structured HAPPY HOUR block; verify Tuesday."
+}

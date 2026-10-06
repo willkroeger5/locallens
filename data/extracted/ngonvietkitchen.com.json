@@ -1,0 +1,29 @@
+{
+ "hash": "697ebc82cdfa09ba",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Happy Hour",
+   "summary": "$8 starters (wings, spring rolls), $6 Woodbridge Chardonnay, $4 bottled beer, $10 martinis",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri"
+   ],
+   "start": "15:00",
+   "end": "18:00",
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": true,
+   "where": null,
+   "evidence": "Happy Hour menu is available Monday through Friday from 3 PM to 6 PM\nSTARTERS | 8\nN\u01b0\u1edbc M\u1eafm Wings\nRegular Spring Rolls\nShrimp Spring Rolls\nWINES BY THE GLASS | 6\nWoodbridge Chardonnay\nBOTTLED BEER | 4",
+   "source_url": "http://www.ngonvietkitchen.com/dallas-menu"
+  }
+ ],
+ "dropped": [],
+ "notes": "Happy hour listed on the Dallas menu (1907 Greenville Ave)."
+}

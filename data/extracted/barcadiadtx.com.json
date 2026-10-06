@@ -1,0 +1,25 @@
+{
+ "hash": "d0e29b8b16ac380a",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "daily_special",
+   "title": "Ladies Night",
+   "summary": "$5 seltzers (High Noons & White Claws)",
+   "days": [
+    "Thu"
+   ],
+   "start": "22:00",
+   "end": "02:00",
+   "until_close": false,
+   "all_day": false,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "LADIES NIGHT\n10PM-2AM 5$ Seltzers High Noons & White Claws",
+   "source_url": "https://barcadiadtx.com/dallas-henderson-barcadia-dallas-happy-hours-specials"
+  }
+ ],
+ "dropped": [],
+ "notes": "Specials page lists dated entries (Tuesday Oct 6, Thursday Oct 8); Ladies Night treated as a recurring Thursday special. Free Play Tuesday is free arcade games, not a food/drink deal, so skipped. No happy hour details found."
+}

@@ -1,0 +1,82 @@
+{
+ "hash": "e74e5906db351c56",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Social Hour 79",
+   "summary": "$9 each: 7 select bar bites, 7 mixology cocktails, 7 standard pours of wine",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri",
+    "Sat",
+    "Sun"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": true,
+   "where": "Bar 79",
+   "evidence": "Bar 79\u00ae Social Hour 79: 7 Select Bar Bites, 7 Mixology Cocktails and 7 Standard Pours Of Wine for $9 Each",
+   "source_url": "https://perryssteakhouse.com/locations/tx/dallas/park-district/"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Caramelized Prime Rib Thursday",
+   "summary": "16 oz. caramelized prime rib for $59",
+   "days": [
+    "Thu"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": true,
+   "drink": false,
+   "where": null,
+   "evidence": "16 oz. Caramelized Prime Rib Thursday | $59",
+   "source_url": "https://perryssteakhouse.com/locations/tx/dallas/park-district/"
+  },
+  {
+   "kind": "daily_special",
+   "title": "3-Course Pork Chop Sunday Supper",
+   "summary": "$49 for pork chop, soup or salad, and dessert trio",
+   "days": [
+    "Sun"
+   ],
+   "start": "16:00",
+   "end": null,
+   "until_close": true,
+   "all_day": false,
+   "food": true,
+   "drink": false,
+   "where": null,
+   "evidence": "3-Course Pork Chop Sunday Supper for $49",
+   "source_url": "https://perryssteakhouse.com/locations/tx/dallas/park-district/"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Friday Lunch Steakhouse Steak Apps",
+   "summary": "$9 lunch-sized filet mignon appetizers with entr\u00e9e purchase",
+   "days": [
+    "Fri"
+   ],
+   "start": "10:30",
+   "end": "17:00",
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": false,
+   "where": "with purchase of one entr\u00e9e per person",
+   "evidence": "Lunch-sized portions of Perry\u2019s Filet Mignon appetizers\u2014each only $9 during lunch with the purchase of one entr\u00e9e per person at the table. AVAILABLE FRIDAYS ONLY | 10:30 AM \u2013 5 PM",
+   "source_url": "https://perryssteakhouse.com/locations/tx/dallas/park-district/"
+  }
+ ],
+ "dropped": [],
+ "notes": "Social Hour 79 days/times not stated on page (menu is a download); all seven days assumed. Senior/military/first responder menus skipped as restricted-eligibility."
+}

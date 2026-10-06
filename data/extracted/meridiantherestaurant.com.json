@@ -1,0 +1,27 @@
+{
+ "hash": "b490be3318766f63",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Happy Hour",
+   "summary": "Craft cocktails, fine wines, and seasonal bites",
+   "days": [
+    "Wed",
+    "Thu",
+    "Fri"
+   ],
+   "start": "16:30",
+   "end": "19:00",
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": true,
+   "where": "Bar and lounge",
+   "evidence": "Happy Hour\nJoin us for Happy Hour Wednesday through Friday, 4:30\u20137:00 PM. Enjoy craft cocktails, fine wines, and seasonal bites",
+   "source_url": "https://meridiantherestaurant.com/the-bar/"
+  }
+ ],
+ "dropped": [],
+ "notes": "No specific prices listed for happy hour items."
+}

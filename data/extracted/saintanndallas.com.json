@@ -1,0 +1,27 @@
+{
+ "hash": "2e2d2dd49659b876",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Happy Hour",
+   "summary": "$7 specialty cocktails, $5 beers, $5 house wine, $7 bites (meatballs, calamari, spinach dip, deviled eggs, hummus)",
+   "days": [
+    "Wed",
+    "Thu",
+    "Fri"
+   ],
+   "start": "15:00",
+   "end": "19:00",
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": true,
+   "where": "Bar & patio",
+   "evidence": "Happy Hour | Wednesday - Friday: 3 - 7 PM (Available on Bar & Patio)",
+   "source_url": "https://www.saintanndallas.com/menus/"
+  }
+ ],
+ "dropped": [],
+ "notes": "Header says available on bar & patio; footnote says bar only. Same page appears at two URLs."
+}

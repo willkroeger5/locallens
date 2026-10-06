@@ -1,0 +1,26 @@
+{
+ "hash": "c9962571dc9a2242",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "daily_special",
+   "title": "Cruising the Crossroads",
+   "summary": "$2.75 wells and $4 domestics during the weekend bar crawl",
+   "days": [
+    "Fri",
+    "Sat"
+   ],
+   "start": "22:00",
+   "end": "22:30",
+   "until_close": false,
+   "all_day": false,
+   "food": false,
+   "drink": true,
+   "where": "Station 4 (S4) stop of the Crossroads crawl, no cover",
+   "evidence": "Cruising the Crossroads\nWe're back baby! $2.75 wells and $4.00 domestics every Friday and Saturday. Cheat Code Lounge 8:00-8:30pm, Sue Ellen's (no cover) 8:30-9:00pm, JR's Bar & Grill 9:00-9:30pm, TMC 9:30-10:00pm, Station 4 (no cover) 10:00-10:30pm.",
+   "source_url": "http://www.partyattheblock.com"
+  }
+ ],
+ "dropped": [],
+ "notes": "The site does not mention 'The Big Top' by name. 3911 Cedar Springs Rd is listed as Station 4 (S4), so the Cruising the Crossroads crawl stop there (10:00-10:30pm, Fri/Sat) was used. The crawl is suspended during special events, and prices are subject to change. Monday Industry Night and Trashy Tuesday drink specials were skipped: they are at TMC (3903 Cedar Springs Rd), and Trashy Tuesday has no listed prices."
+}

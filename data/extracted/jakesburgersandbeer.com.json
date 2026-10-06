@@ -1,0 +1,29 @@
+{
+ "hash": "fb61554025bb6ca1",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Happy Hour",
+   "summary": "Deals on bottled & draft beers, frozen cocktails, free spirited drinks & more",
+   "days": [
+    "Sun",
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu"
+   ],
+   "start": "16:00",
+   "end": "18:00",
+   "until_close": false,
+   "all_day": false,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "Happy Hour\nSunday - Thursday\n4PM - 6PM\nMeet up, wind down or just treat yourself - Happy Hour at Jakes is the place to be.",
+   "source_url": "https://www.jakesburgersandbeer.com/"
+  }
+ ],
+ "dropped": [],
+ "notes": "Happy hour is chain-wide except Waco and Skillman; McKinney Ave and Henderson Ave locations are not excluded. No specific prices listed."
+}

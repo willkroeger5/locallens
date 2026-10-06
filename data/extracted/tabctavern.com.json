@@ -1,0 +1,45 @@
+{
+ "hash": "61353b22e898391f",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Happy Hour",
+   "summary": "Happy hour menu",
+   "days": [
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri"
+   ],
+   "start": "16:00",
+   "end": "19:00",
+   "until_close": false,
+   "all_day": false,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "HAPPY HOURS\nWeekdays 4-7pm\nAll Day on Mondays",
+   "source_url": "http://tabctavern.com/"
+  },
+  {
+   "kind": "happy_hour",
+   "title": "All-Day Monday Happy Hour",
+   "summary": "Happy hour menu all day",
+   "days": [
+    "Mon"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "HAPPY HOURS\nWeekdays 4-7pm\nAll Day on Mondays",
+   "source_url": "http://tabctavern.com/"
+  }
+ ],
+ "dropped": [],
+ "notes": "Happy hour prices and items are on a separate menu not included in the text; food/drink coverage is unknown and drink assumed."
+}

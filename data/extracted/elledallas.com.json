@@ -1,0 +1,47 @@
+{
+ "hash": "81332b7e19027338",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Weekday Happy Hour",
+   "summary": "$14 meal deal (sliders or wings + side + beer), $10 ELLE cocktails, $8 dips & bites, $4 domestics & imports, $6 wells",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri"
+   ],
+   "start": "18:00",
+   "end": "21:00",
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": true,
+   "where": null,
+   "evidence": "Happy hour: Monday\u2013Friday 6\u20139 PM; Saturday & Sunday 2\u20136 PM. Happy hour drink pricing while it\u2019s raining.",
+   "source_url": "http://elledallas.com/menus/happy-hour/"
+  },
+  {
+   "kind": "happy_hour",
+   "title": "Weekend Happy Hour",
+   "summary": "$14 meal deal (sliders or wings + side + beer), $10 ELLE cocktails, $8 dips & bites, $4 domestics & imports, $6 wells",
+   "days": [
+    "Sat",
+    "Sun"
+   ],
+   "start": "14:00",
+   "end": "18:00",
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": true,
+   "where": null,
+   "evidence": "Happy hour: Monday\u2013Friday 6\u20139 PM; Saturday & Sunday 2\u20136 PM. Happy hour drink pricing while it\u2019s raining.",
+   "source_url": "http://elledallas.com/menus/happy-hour/"
+  }
+ ],
+ "dropped": [],
+ "notes": "Happy hour drink pricing also applies anytime it's raining (not a fixed schedule, so not listed separately)."
+}

@@ -1,0 +1,29 @@
+{
+ "hash": "b517070d36b95694",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "daily_special",
+   "title": "Lunch Specials",
+   "summary": "$10.95 lunch combo plates (enchiladas, tacos, chalupas, burritos with rice & beans)",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri"
+   ],
+   "start": "11:00",
+   "end": "16:00",
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": false,
+   "where": null,
+   "evidence": "Lunch Specials\n11AM to 4PM \u2014 Monday thru Friday | NO SUBSTITUTIONS\n#1 - 2 Cheese Enchiladas with Chili, Rice and Beans\n$10.95",
+   "source_url": "https://miastexmex.com/dallas-mia-s-tex-mex-food-menu"
+  }
+ ],
+ "dropped": [],
+ "notes": "Only lunch specials found; no happy hour stated. No substitutions allowed on lunch specials."
+}

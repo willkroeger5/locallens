@@ -1,0 +1,46 @@
+{
+ "hash": "d5503e884039741d",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Happy Hour (Weekdays)",
+   "summary": "$4 off signature cocktails, $6 house-brewed beer, $8 wine, $8 bites or any 2 for $15",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri"
+   ],
+   "start": "15:00",
+   "end": "18:00",
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": true,
+   "where": null,
+   "evidence": "Happy Hour\n3-6pm Monday-Friday & All Day Sunday (excluding holidays)\nSignature Cocktails - $4 off\nHouse Brewed Beer - $6\nWine - $8",
+   "source_url": "https://www.malaikitchen.com/happy-hour"
+  },
+  {
+   "kind": "happy_hour",
+   "title": "All-Day Sunday Happy Hour",
+   "summary": "$4 off signature cocktails, $6 house-brewed beer, $8 wine, $8 bites or any 2 for $15",
+   "days": [
+    "Sun"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": true,
+   "drink": true,
+   "where": null,
+   "evidence": "Happy Hour\n3-6pm Monday-Friday & All Day Sunday (excluding holidays)\nSignature Cocktails - $4 off\nHouse Brewed Beer - $6\nWine - $8",
+   "source_url": "https://www.malaikitchen.com/happy-hour"
+  }
+ ],
+ "dropped": [],
+ "notes": "Happy hour excludes holidays; menu appears to apply to all locations including both Dallas locations."
+}

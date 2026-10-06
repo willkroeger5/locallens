@@ -1,0 +1,45 @@
+{
+ "hash": "e2be58a1eeb83e44",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Happy Hour",
+   "summary": "$3-$7 bites (queso $6, pretzel $4, chips $3, chicken bites $5, hog wings $7), half-price house wine bottles, $5 frozen margarita, $6 cocktails",
+   "days": [
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri"
+   ],
+   "start": "16:00",
+   "end": "19:00",
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": true,
+   "where": null,
+   "evidence": "HAPPY HOUR 4-7\nTuesday-Friday\nHappy Hour Bites (Tues-Fri)\n$6\nLoaded Skillet Queso",
+   "source_url": "https://www.libertinebar.com/"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Tuesday Steak or Burger + Cocktail",
+   "summary": "$20 steak or burger with an Absolut Martini, TX Old Fashioned or Altos Paloma",
+   "days": [
+    "Tue"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": true,
+   "drink": true,
+   "where": null,
+   "evidence": "Every Tuesday pair a steak or burger with a cocktail\nAbsolut Martini, TX Old Fashioned or Altos Paloma\n$20",
+   "source_url": "https://www.libertinebar.com/"
+  }
+ ],
+ "dropped": [],
+ "notes": "Happy hour 4-7 assumed PM. Trivia nights skipped (minimum spend, not a deal)."
+}

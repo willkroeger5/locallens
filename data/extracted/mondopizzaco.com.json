@@ -1,0 +1,31 @@
+{
+ "hash": "dc4242ba8bbfd510",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "daily_special",
+   "title": "Mondo Lunch Special",
+   "summary": "10\" pizza with soda from $8.99",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri",
+    "Sat",
+    "Sun"
+   ],
+   "start": "11:00",
+   "end": "16:00",
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": true,
+   "where": null,
+   "evidence": "Mondo Lunch Special\n11 AM - 4 PM\n10\" Pizza w/Soda\n$8.99+",
+   "source_url": "https://mondopizzaco.com/menu"
+  }
+ ],
+ "dropped": [],
+ "notes": "Lunch special lists no days; assumed daily. Weekend Trio Deal (20% off bundle) lists no specific days/times beyond 'weekend', so it was not included as a time-bound deal."
+}

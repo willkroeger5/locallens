@@ -1,0 +1,28 @@
+{
+ "hash": "0dc4a4770f159be1",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Happy Hour",
+   "summary": "$7 cocktails, $7/$25 rotating wine, $7 tapas, half-price hookah, free karaoke",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu"
+   ],
+   "start": "18:00",
+   "end": "20:00",
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": true,
+   "where": null,
+   "evidence": "Happy Hour\nMon - Thurs\n\u200d\n6:00 pM - 8:00 pM",
+   "source_url": "https://www.saayadallas.com/"
+  }
+ ],
+ "dropped": [],
+ "notes": "Prices ($7 cocktails, $7/$25 wine, $7 tapas, half-priced hookah, free karaoke) appear on the menu page near a 'happy hour' category label; association with happy hour is likely but not explicit."
+}

@@ -1,0 +1,27 @@
+{
+ "hash": "79ca44406bdc482d",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Happy Hour",
+   "summary": "$6 mixed cocktails, $8 select craft cocktails, $1 off draft beer, $5 house wine; half-order bites $7-$9 (truffle fries, guac, quesadilla, tuna nachos, tots poutine)",
+   "days": [
+    "Wed",
+    "Thu",
+    "Fri"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": true,
+   "where": null,
+   "evidence": "Happy Hour Drinks\n$6 mixed cocktails, $8 select craft cocktails, $1 off Draft beer, and $5 house white or red wine",
+   "source_url": "https://www.smithydallas.com/dallas-knox-henderson-smithy-food-menu"
+  }
+ ],
+ "dropped": [],
+ "notes": "Food menu says happy hour is Wednesday - Friday but gives no times; homepage slide says 'Happiness last until 6:30 pm every Weekday' and posted hours show Mon-Thu closed, so details conflict. Specials page says specials are being updated. Start/end left null."
+}

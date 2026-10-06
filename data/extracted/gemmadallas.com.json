@@ -1,0 +1,48 @@
+{
+ "hash": "2b7eb520aab40980",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Half-Off Oysters (Early)",
+   "summary": "Half-off oysters at the bar",
+   "days": [
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri"
+   ],
+   "start": "17:00",
+   "end": "18:30",
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": false,
+   "where": "bar only",
+   "evidence": "Enjoy half-off oysters at our bar\nTuesday - Friday 5 to 6:30 and 9 pm and later",
+   "source_url": "http://www.gemmadallas.com/"
+  },
+  {
+   "kind": "reverse_happy_hour",
+   "title": "Half-Off Oysters (Late)",
+   "summary": "Half-off oysters at the bar",
+   "days": [
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri"
+   ],
+   "start": "21:00",
+   "end": null,
+   "until_close": true,
+   "all_day": false,
+   "food": true,
+   "drink": false,
+   "where": "bar only",
+   "evidence": "Enjoy half-off oysters at our bar\nTuesday - Friday 5 to 6:30 and 9 pm and later",
+   "source_url": "http://www.gemmadallas.com/"
+  }
+ ],
+ "dropped": [],
+ "notes": null
+}

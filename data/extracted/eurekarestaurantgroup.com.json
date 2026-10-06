@@ -1,0 +1,71 @@
+{
+ "hash": "e73b50b8c7debb95",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Happy Hour",
+   "summary": "Happy hour menu",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri",
+    "Sat",
+    "Sun"
+   ],
+   "start": "15:00",
+   "end": "18:00",
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": true,
+   "where": null,
+   "evidence": "NEW Happy Hour is Here!\nJoin us every day for Happy Hour, 3pm - 6pm & 9pm - close.",
+   "source_url": "http://eurekarestaurantgroup.com"
+  },
+  {
+   "kind": "reverse_happy_hour",
+   "title": "Late Night Happy Hour",
+   "summary": "Happy hour menu",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri",
+    "Sat",
+    "Sun"
+   ],
+   "start": "21:00",
+   "end": null,
+   "until_close": true,
+   "all_day": false,
+   "food": true,
+   "drink": true,
+   "where": null,
+   "evidence": "NEW Happy Hour is Here!\nJoin us every day for Happy Hour, 3pm - 6pm & 9pm - close.",
+   "source_url": "http://eurekarestaurantgroup.com"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Smash Burger Wednesdays",
+   "summary": "$9 Double Smash Burger & Signature Fries",
+   "days": [
+    "Wed"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": true,
+   "drink": false,
+   "where": null,
+   "evidence": "Smash Burger Wednesdays\nEnjoy our $9 Double Smash Burger & Signature Fries; Every Wednesday, All Day",
+   "source_url": "http://eurekarestaurantgroup.com"
+  }
+ ],
+ "dropped": [],
+ "notes": "Happy hour prices/items are on a separate menu not included. Food/drink coverage assumed from 'Hoppy Hour Menu' context is uncertain. Committed Tier loyalty members get weekend happy hour 3pm-close (members only, not listed). Deals are chain-wide, not specific to the McKinney Ave location."
+}

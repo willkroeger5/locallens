@@ -1,0 +1,68 @@
+{
+ "hash": "0ca99837bf0c37e4",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "$3 | $6 | $9 Happy Hour",
+   "summary": "$3, $6 and $9 happy hour menu",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri"
+   ],
+   "start": "14:30",
+   "end": "18:30",
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": true,
+   "where": null,
+   "evidence": "Happy Hour / Social Hour:\nMonday \u2013 Friday: 2:30pm \u2013 6:30pm\nSaturday & Sunday: 2:30pm \u2013 5:30pm\nSunday \u2013 Thursday: 9pm \u2013 close",
+   "source_url": "https://stksteakhouse.com/venues/dallas/"
+  },
+  {
+   "kind": "happy_hour",
+   "title": "$3 | $6 | $9 Happy Hour (Weekend)",
+   "summary": "$3, $6 and $9 happy hour menu",
+   "days": [
+    "Sat",
+    "Sun"
+   ],
+   "start": "14:30",
+   "end": "17:30",
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": true,
+   "where": null,
+   "evidence": "Happy Hour / Social Hour:\nMonday \u2013 Friday: 2:30pm \u2013 6:30pm\nSaturday & Sunday: 2:30pm \u2013 5:30pm\nSunday \u2013 Thursday: 9pm \u2013 close",
+   "source_url": "https://stksteakhouse.com/venues/dallas/"
+  },
+  {
+   "kind": "reverse_happy_hour",
+   "title": "Late-Night Happy Hour",
+   "summary": "$3, $6 and $9 happy hour menu",
+   "days": [
+    "Sun",
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu"
+   ],
+   "start": "21:00",
+   "end": null,
+   "until_close": true,
+   "all_day": false,
+   "food": true,
+   "drink": true,
+   "where": null,
+   "evidence": "Happy Hour / Social Hour:\nMonday \u2013 Friday: 2:30pm \u2013 6:30pm\nSaturday & Sunday: 2:30pm \u2013 5:30pm\nSunday \u2013 Thursday: 9pm \u2013 close",
+   "source_url": "https://stksteakhouse.com/venues/dallas/"
+  }
+ ],
+ "dropped": [],
+ "notes": "Late-night happy hour days conflict: menu section says Mon-Fri & Sun 9pm-11pm; FAQ says Sun-Thu 9pm-close. Used FAQ. Happy hour menu item details not in text; food/drink inclusion assumed from '$3 | $6 | $9 Happy Hour' branding. Steak Night $49 and Power Lunch $45 days not stated clearly for Steak Night; Power Lunch is a prix fixe, not included."
+}

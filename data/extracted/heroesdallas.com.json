@@ -1,0 +1,25 @@
+{
+ "hash": "0fa28d891b37fb13",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "daily_special",
+   "title": "Ladies' 1st Drink Free Fridays",
+   "summary": "Ladies get their first drink free",
+   "days": [
+    "Fri"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "1ST DRINK FREE! (Ladies) | EVERY FRIDAY",
+   "source_url": "https://www.heroesdallas.com"
+  }
+ ],
+ "dropped": [],
+ "notes": "Site mentions a Happy Hour ('After TASTE Happy Hour', 'Now Open @5p Happy Hour, Dinner & Good Vibes!') but gives no days, times, or prices, so it was not included. Site lists address as 3094 N Stemmons Fwy (vs. 3904 given); assumed same location. 16 Year Anniversary Bash is a one-off event and was skipped."
+}

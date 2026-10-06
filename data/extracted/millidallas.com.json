@@ -1,0 +1,27 @@
+{
+ "hash": "5ecba5739238ea9e",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Happy Hour",
+   "summary": "Happy hour menu",
+   "days": [
+    "Thu",
+    "Fri",
+    "Sat"
+   ],
+   "start": "21:00",
+   "end": "22:00",
+   "until_close": false,
+   "all_day": false,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "happy hour\n9PM - 10PM",
+   "source_url": "https://www.millidallas.com/menus"
+  }
+ ],
+ "dropped": [],
+ "notes": "No days stated for happy hour; venue is open only Thursday-Saturday (closed Sun-Wed), so days set to Thu-Sat. No prices or items given; assumed drinks since it's listed under the drink menu."
+}

@@ -1,0 +1,28 @@
+{
+ "hash": "e3c7b8aaa0e459e9",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Happy Hour",
+   "summary": "Happy hour menu",
+   "days": [
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri"
+   ],
+   "start": "15:00",
+   "end": "18:00",
+   "until_close": false,
+   "all_day": false,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "Happy Hour\nTuesday \u2013 Friday\n3 pm \u2013 6 pm",
+   "source_url": "http://coupesdallas.com/"
+  }
+ ],
+ "dropped": [],
+ "notes": "Happy hour menu details (prices/items) are not in the text; likely in a separate menu tab or image. Food inclusion unknown."
+}

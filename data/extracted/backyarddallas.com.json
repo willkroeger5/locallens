@@ -1,0 +1,43 @@
+{
+ "hash": "d9ec2e3e0206cdd6",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Happy Hour (Mon & Thu, open to close)",
+   "summary": "Discounted drinks and apps all night",
+   "days": [
+    "Mon",
+    "Thu"
+   ],
+   "start": "17:00",
+   "end": null,
+   "until_close": true,
+   "all_day": false,
+   "food": true,
+   "drink": true,
+   "where": null,
+   "evidence": "Enjoy Happy Hour open to close every Monday and Thursday, plus 5 PM to 7 PM every Friday, with irresistible drink specials and delicious bites",
+   "source_url": "https://backyarddallas.com/happy-hour/"
+  },
+  {
+   "kind": "happy_hour",
+   "title": "Friday Happy Hour",
+   "summary": "Discounted drinks and apps",
+   "days": [
+    "Fri"
+   ],
+   "start": "17:00",
+   "end": "19:00",
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": true,
+   "where": null,
+   "evidence": "Enjoy Happy Hour open to close every Monday and Thursday, plus 5 PM to 7 PM every Friday, with irresistible drink specials and delicious bites",
+   "source_url": "https://backyarddallas.com/happy-hour/"
+  }
+ ],
+ "dropped": [],
+ "notes": "Mon/Thu happy hour runs open (5PM) to close (12AM per event pages). A 'Daily Drink Specials' menu is linked but its details are not in the text."
+}

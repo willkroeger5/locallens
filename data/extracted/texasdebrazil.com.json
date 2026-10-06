@@ -1,0 +1,29 @@
+{
+ "hash": "ccd900b04d93f0a2",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Happy Hour",
+   "summary": "$5 domestic beers, $7 caipirinhas & house cocktail, $8 TdB private label wine, $9 house martinis",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri"
+   ],
+   "start": "16:30",
+   "end": "18:00",
+   "until_close": false,
+   "all_day": false,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "HAPPY HOUR\nMonday through Friday from 4:30pm to 6:00pm!\nDomestic Beers: $5\nCaipirinhas & House Cocktail: $7\nGlasses of TdB Private Label Wine: $8\nHouse Martinis: $9",
+   "source_url": "https://texasdebrazil.com/locations/dallas/"
+  }
+ ],
+ "dropped": [],
+ "notes": "28th Anniversary offers and heroes' discount skipped (one-off/promotional, not happy-hour style recurring deals)."
+}

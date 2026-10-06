@@ -1,0 +1,46 @@
+{
+ "hash": "70ad79a2c9f38b2d",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Happy Hour",
+   "summary": "$7 select cocktails, $7 select wines",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri"
+   ],
+   "start": "16:00",
+   "end": "18:00",
+   "until_close": false,
+   "all_day": false,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "Happy Hour\nMonday - Friday \u2022 4:00pm - 6:00pm\n$7 Select Cocktails\n$7 Select Wines",
+   "source_url": "https://www.leelas.com/lowergreenville"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Ros\u00e9 Wednesday",
+   "summary": "Half-price bottles of still or sparkling ros\u00e9; free cheese pizza with purchase of a bottle of wine",
+   "days": [
+    "Wed"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": true,
+   "drink": true,
+   "where": null,
+   "evidence": "half-priced bottles of still or\nsparkling ros\u00e9 every Wednesday",
+   "source_url": "https://www.leelas.com/_files/ugd/e1f50c_078b87952a0f429c89f5b72626960def.pdf"
+  }
+ ],
+ "dropped": [],
+ "notes": "Deals are from the Lower Greenville (1914 Greenville Ave) page. No Uptown-specific page was provided. The free cheese pizza with a bottle purchase is not available with other specials, and its link to Ros\u00e9 Wednesday is inferred from the menu layout."
+}

@@ -1,0 +1,29 @@
+{
+ "hash": "0a64df2e436cc624",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Happy Hour",
+   "summary": "$10 cocktails & frozen margaritas, $5 bottled beer, $5 house wine, $10 bites (queso, guac, elote, flautas, pork tacos, arepas)",
+   "days": [
+    "Wed",
+    "Thu",
+    "Fri",
+    "Sat",
+    "Sun"
+   ],
+   "start": "17:00",
+   "end": "19:00",
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": true,
+   "where": "Social Bar and La Terraza rooftop only",
+   "evidence": "Happy Hour\nServed Wednesday - Sunday from 5 PM - 7 PM, exclusively at the Social Bar and La Terraza rooftop.",
+   "source_url": "https://www.tedeseo.com/menus/"
+  }
+ ],
+ "dropped": [],
+ "notes": "Sunday $49 prix fixe and Thursday $99-for-two Parrillada are dinner packages, not discount deals; omitted. Menu de La Familia ($49 unlimited small plates) has no stated days; omitted."
+}

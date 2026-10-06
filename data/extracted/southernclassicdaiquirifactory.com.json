@@ -1,0 +1,29 @@
+{
+ "hash": "7e63169864411b5e",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Happy Hour",
+   "summary": "Food and drink specials starting at $5",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri"
+   ],
+   "start": "17:00",
+   "end": "19:00",
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": true,
+   "where": null,
+   "evidence": "Happy Hour is Monday- Friday 5-7 PM with food and drinks specials starting at only $5.00.",
+   "source_url": "http://Www.southernclassicdaiquirifactory.com/"
+  }
+ ],
+ "dropped": [],
+ "notes": "Happy hour is stated site-wide, not tied to a specific location; assumed to apply at 3030 Ross Ave."
+}

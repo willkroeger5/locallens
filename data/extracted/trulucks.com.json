@@ -1,0 +1,86 @@
+{
+ "hash": "bc2f808363501626",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Happy Hour",
+   "summary": "50% off handcrafted cocktails, spirits, wines by the glass, and oysters; dips and bites",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri"
+   ],
+   "start": "15:00",
+   "end": "18:00",
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": true,
+   "where": "Bar only",
+   "evidence": "Happy Hour:\n3:00-6:00 PM Monday-Friday\n4:00-6:00 PM Saturday\n2:00-6:00 PM Sunday",
+   "source_url": "https://trulucks.com/locations/dallas-texas/"
+  },
+  {
+   "kind": "happy_hour",
+   "title": "Happy Hour",
+   "summary": "50% off handcrafted cocktails, spirits, wines by the glass, and oysters; dips and bites",
+   "days": [
+    "Sat"
+   ],
+   "start": "16:00",
+   "end": "18:00",
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": true,
+   "where": "Bar only",
+   "evidence": "Happy Hour:\n3:00-6:00 PM Monday-Friday\n4:00-6:00 PM Saturday\n2:00-6:00 PM Sunday",
+   "source_url": "https://trulucks.com/locations/dallas-texas/"
+  },
+  {
+   "kind": "happy_hour",
+   "title": "Happy Hour",
+   "summary": "50% off handcrafted cocktails, spirits, wines by the glass, and oysters; dips and bites",
+   "days": [
+    "Sun"
+   ],
+   "start": "14:00",
+   "end": "18:00",
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": true,
+   "where": "Bar only",
+   "evidence": "Happy Hour:\n3:00-6:00 PM Monday-Friday\n4:00-6:00 PM Saturday\n2:00-6:00 PM Sunday",
+   "source_url": "https://trulucks.com/locations/dallas-texas/"
+  },
+  {
+   "kind": "daily_special",
+   "title": "TRU Ninety-Two Prix Fixe",
+   "summary": "$59 three-course prix fixe menu (Prime Rib on Sundays)",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri",
+    "Sat",
+    "Sun"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": true,
+   "drink": false,
+   "where": null,
+   "evidence": "We feature TRU Ninety-Two, our popular three-course prix fixe menu for $59, available all evening. On Sundays, enjoy Prime Rib Sunday as part of this menu.",
+   "source_url": "https://trulucks.com/locations/dallas-texas/"
+  }
+ ],
+ "dropped": [],
+ "notes": "Happy hour split by day due to differing times. Prix fixe stated as available daily/all evening; no specific times given."
+}

@@ -1,0 +1,31 @@
+{
+ "hash": "7b19c0869df5532b",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "daily_special",
+   "title": "Daily Drink Specials",
+   "summary": "$5 cocktails, $1 off all draft beer, half-price wine bottles, $5 frozen cocktails, $3.95 VillageRitas, $5 glass/$15 bottle, $5 mimosas & Bloody Marys, $4 wells",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri",
+    "Sat",
+    "Sun"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "Daily Drink Specials\n$5\nCocktails\n$1 Off All\nDraft Beer\n1/2 Price\nWine Bottles\n$5\nFrozen\nCocktails\n$3.95\nVillageRitas\n$5 Glass\n$15 Bottle\n$5\nMimosas &\nBloody Marys\nAll Day Everyday\n$4\nWells",
+   "source_url": "http://www.villageburgerbar.com/"
+  }
+ ],
+ "dropped": [],
+ "notes": "Drink specials listed as daily, all day every day; the '$5 Glass / $15 Bottle' item is unlabeled on the page."
+}

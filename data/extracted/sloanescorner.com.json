@@ -1,0 +1,29 @@
+{
+ "hash": "ddc9af25a9a2a39d",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Happy Hour",
+   "summary": "Happy hour menu",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri"
+   ],
+   "start": "14:00",
+   "end": "19:00",
+   "until_close": false,
+   "all_day": false,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "Happy HourHappyHour\nMonday through FridayMondaythroughFriday\n2:00 PM - 7:00 PM2PM to 7PM",
+   "source_url": "https://www.sloanescorner.com/"
+  }
+ ],
+ "dropped": [],
+ "notes": "Happy hour details (prices/items) are not listed; the menus page references a 'Happy Hour & Weekly Specials' menu whose contents aren't in the text, so weekly specials couldn't be extracted. Food/drink flags are uncertain."
+}

@@ -1,0 +1,6 @@
+data/cache/
+data/pages/
+data/*_raw.json
+data/*.log
+__pycache__/
+.DS_Store

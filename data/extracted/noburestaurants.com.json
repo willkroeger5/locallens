@@ -1,0 +1,29 @@
+{
+ "hash": "22cd2d00bc0c06d1",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Tanoshi Hour",
+   "summary": "$12 house wine, $16 specialty cocktails, $7-9 beer, $10 sake, $8 edamame, $13 crispy rice with avocado, rolls from $8",
+   "days": [
+    "Sun",
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu"
+   ],
+   "start": "17:00",
+   "end": "20:00",
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": true,
+   "where": "Main bar & lounge only",
+   "evidence": "Tanoshi Hour\nHAPPY HOUR MENU\nSunday - Thursday 5:00pm - 8:00pm\nAVAILABLE IN MAIN BAR & LOUNGE ONLY",
+   "source_url": "https://www.noburestaurants.com/dallas/menus-2"
+  }
+ ],
+ "dropped": [],
+ "notes": "Happy hour pricing subject to change for special events and holidays."
+}

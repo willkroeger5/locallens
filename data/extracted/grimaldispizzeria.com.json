@@ -1,0 +1,69 @@
+{
+ "hash": "01b528829a2bd81a",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Stoking Social Hour",
+   "summary": "$10 signature cocktails, $3 off starters & salads, $2 off beer, spritzes, mocktails, wine & sangria, $10 off bottles of wine",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri",
+    "Sat",
+    "Sun"
+   ],
+   "start": "15:00",
+   "end": "17:00",
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": true,
+   "where": "dine-in only",
+   "evidence": "Stoking Social Hour* is Back!\n3pm-5pm Daily\nWhile we stoke our famous coal brick ovens, we invite you to come socialize and enjoy these exciting deals!\n$10 Signature Cocktails\n$3 Off Starters & Salads",
+   "source_url": "https://www.grimaldispizzeria.com/specials/"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Tuesday Tastings",
+   "summary": "Half off glasses and bottles of wine and glasses of sangria (21+, reserve wines excluded)",
+   "days": [
+    "Tue"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": false,
+   "drink": true,
+   "where": "dine-in only",
+   "evidence": "Tuesday Tastings\nEvery Tuesday, guests 21+ can enjoy half off glasses and bottles of wine, as well as glasses of sangria at participating locations.\nDine-in only.",
+   "source_url": "https://www.grimaldispizzeria.com/specials/"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Slices ASAP! Lunch",
+   "summary": "Giant slice $4; 1 slice & drink $7.49; 2 slices & drink or slice, salad & drink $10.99",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri"
+   ],
+   "start": "11:00",
+   "end": "15:00",
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": false,
+   "where": null,
+   "evidence": "Slices ASAP!\nJoin us Monday \u2013 Friday from 11am \u2013 3pm for a delicious lunch with Grimaldi\u2019s Slices ASAP!",
+   "source_url": "https://www.grimaldispizzeria.com/specials/"
+  }
+ ],
+ "dropped": [],
+ "notes": "Specials are chain-wide; Tuesday Tastings at participating locations only, not confirmed for West Village specifically."
+}

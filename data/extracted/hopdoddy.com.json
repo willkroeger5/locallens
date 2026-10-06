@@ -1,0 +1,28 @@
+{
+ "hash": "a3faa1338c3ee8b5",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Happy Hour",
+   "summary": "1/2 off cocktails, beer & wine; sliders and shareable fries",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu"
+   ],
+   "start": "15:00",
+   "end": "18:00",
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": true,
+   "where": null,
+   "evidence": "Happy Hour:M-Th, 3-6PM\nLooking for the best happy hour in Dallas? Hopdoddy hosts the happiest of them all with 1/2 off cocktails, beer & wine Monday through Thursday from 3-6PM.",
+   "source_url": "https://www.hopdoddy.com/locations/mckinneyavenue"
+  }
+ ],
+ "dropped": [],
+ "notes": "Applies to the McKinney Ave location. The chain-wide happy hour page says cocktails, beer, wine & sliders are 1/2 off Mon-Thu 3-6pm. An 'Austin' banner says M-F 3-6PM dine-in only, but it is Austin-specific, so it was not used. No location-specific text was found for the Luther Ln location."
+}

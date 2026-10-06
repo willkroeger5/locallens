@@ -1,0 +1,31 @@
+{
+ "hash": "09f7a69556746cea",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "daily_special",
+   "title": "$6 Value Menu",
+   "summary": "$6 meals: BLT, Breakfast Faves Combo, French Toast Faves Combo, Ham & Cheese Omelette, House Scramble",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri",
+    "Sat",
+    "Sun"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": true,
+   "drink": false,
+   "where": null,
+   "evidence": "IHOP $6 VALUE MENU\nStill every day. Still six bucks.^",
+   "source_url": "http://www.ihop.com/"
+  }
+ ],
+ "dropped": [],
+ "notes": "$6 Value Menu is a chain-wide, limited-time offer at participating U.S. restaurants; prices may vary by location. Seasonal items (Pumpkin Spice, Stuffed French Toast) and online/rewards promos skipped."
+}

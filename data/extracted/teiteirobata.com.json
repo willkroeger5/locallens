@@ -1,0 +1,30 @@
+{
+ "hash": "626b5e5ed1fd009a",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Sundown Special",
+   "summary": "$10 select wines, sake, beers & cocktails; $12 sake flight, $20 whisky flight; $3 edamame, $5/$10 snacks, $2 off select rolls",
+   "days": [
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri",
+    "Sat",
+    "Sun"
+   ],
+   "start": "17:30",
+   "end": "19:00",
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": true,
+   "where": "Bar lounge only (bar counter and lounge tables)",
+   "evidence": "Sundown Special at Tei Tei Bar Lounge\nDaily from 5:30pm to 7:00pm\n***Sundown Special is only available in our bar lounge at the bar counter top and at the bar lounge tables.",
+   "source_url": "http://www.teiteirobata.com/new-page-4"
+  }
+ ],
+ "dropped": [],
+ "notes": "Sundown Special is listed as 'Daily', but the restaurant is closed Mondays (open Tue-Sun), so Monday is excluded. Today's Special page is a rotating dated menu at regular prices, not a recurring deal."
+}

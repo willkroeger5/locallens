@@ -1,0 +1,46 @@
+{
+ "hash": "2e773302855f2565",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Happy Hour",
+   "summary": "$2 off all cocktails, beer, and wine; $2 a la carte half-shell oysters",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri"
+   ],
+   "start": "15:00",
+   "end": "18:00",
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": true,
+   "where": null,
+   "evidence": "HAPPY HOUR\nMONDAY - FRIDAY\n3:00- 6:00\n$2.00 off all cocktails, beer, wine\nMonday-Friday\n$2.00 a la carte half shell oysters",
+   "source_url": "http://www.sdoyster.com/dallas-sandd-oyster-company-food-menu"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Half-Price Wine Bottles Monday",
+   "summary": "Half-price bottles of wine",
+   "days": [
+    "Mon"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "HAPPY HOUR DRINKS\n$2.00 off all cocktails, beer, wine\nHalf priced bottles of wine\nALL DAY MONDAY",
+   "source_url": "http://www.sdoyster.com/dallas-sandd-oyster-company-drink-menu"
+  }
+ ],
+ "dropped": [],
+ "notes": "Happy hour times 3:00-6:00 interpreted as PM."
+}

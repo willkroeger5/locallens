@@ -1,0 +1,31 @@
+{
+ "hash": "5c0c2cb66e579ac5",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Cowboy Hour",
+   "summary": "Half-price cocktails and small bites",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri",
+    "Sat",
+    "Sun"
+   ],
+   "start": "16:00",
+   "end": "18:00",
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": true,
+   "where": "Bar and lounge only",
+   "evidence": "Cowboy Hour\nKick off your boots and savor half-priced cocktails and small bites at Stillwell\u2019s Cowboy Hour. Exclusively in our bar and lounge from 4\u20136pm daily",
+   "source_url": "https://stillwellsdallas.com/"
+  }
+ ],
+ "dropped": [],
+ "notes": null
+}

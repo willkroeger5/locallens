@@ -1,0 +1,64 @@
+{
+ "hash": "eb5f30de15dfd625",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Happy Hour",
+   "summary": "$7 select cocktails, $7 house red & white wines, $7 select appetizers, $4 draft beers",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri"
+   ],
+   "start": "16:00",
+   "end": "18:00",
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": true,
+   "where": "Bar area only",
+   "evidence": "HAPPY HOUR\nMONDAY - FRIDAY | 4PM - 6PM\n$7 Select Cocktails\n$7 House Red & White Wines\n$7 Select Appetizers\n$4 Draft Beers",
+   "source_url": "https://www.culpeppercattleco.com/dallas"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Fajita Fridays",
+   "summary": "$10 steak or chicken fajitas with rice, beans, and all the fixin's",
+   "days": [
+    "Fri"
+   ],
+   "start": "11:00",
+   "end": "15:00",
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": false,
+   "where": null,
+   "evidence": "FRIDAYS\nEVERY FRIDAY | 11AM - 3PM\n$10 Steak or Chicken Fajitas\nServed with Rice, Beans, and All The Fixin's",
+   "source_url": "https://www.culpeppercattleco.com/dallas"
+  },
+  {
+   "kind": "other",
+   "title": "Weekend Brunch Buffet",
+   "summary": "All-you-can-eat brunch: adults $32.82, kids 6-12 $14.82, under 5 free; $5 mimosas, $8 bloody marys",
+   "days": [
+    "Sat",
+    "Sun"
+   ],
+   "start": "10:00",
+   "end": "15:00",
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": true,
+   "where": null,
+   "evidence": "WEEKEND BRUNCH BUFFET\nEvery Saturday & Sunday from 10am - 3pm\nAdults: $32.82 | Kids (6-12): $14.82\nkids under 5 eat free\nMIMOSA BAr: $5 PER DRINK\nBLoody mary bar: $8 PER DRINK",
+   "source_url": "https://www.culpeppercattleco.com/dallas"
+  }
+ ],
+ "dropped": [],
+ "notes": "Happy hour 'bar area only' restriction comes from the drinks PDF, which also lists half-price apps, margs, wine by the glass, and draft beer."
+}

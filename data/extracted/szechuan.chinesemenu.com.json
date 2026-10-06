@@ -1,0 +1,29 @@
+{
+ "hash": "aa3eab20a5218169",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "daily_special",
+   "title": "Lunch Special",
+   "summary": "Lunch plates with egg roll & fried rice: chicken/pork $6.75, beef $6.95, shrimp $7.25",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri"
+   ],
+   "start": "11:00",
+   "end": "14:30",
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": false,
+   "where": null,
+   "evidence": "Lunch Served:11:00am~2:30pm(Monday-Friday)\nAny orders placed after 2:30 will be charged the light dinner price.\nLUNCH\nChicken\nChicken Chow Mein$6.75",
+   "source_url": "http://szechuan.chinesemenu.com/"
+  }
+ ],
+ "dropped": [],
+ "notes": "Weekday lunch pricing; light dinner prices after 2:30 not shown in text. No happy hour mentioned."
+}

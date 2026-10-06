@@ -1,0 +1,59 @@
+{
+ "hash": "595155321fdf2348",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "daily_special",
+   "title": "Taco Tuesday",
+   "summary": "$2 off tacos, any filling",
+   "days": [
+    "Tue"
+   ],
+   "start": "17:00",
+   "end": null,
+   "until_close": true,
+   "all_day": false,
+   "food": true,
+   "drink": false,
+   "where": null,
+   "evidence": "Taco Tuesday\n$2 off tacos every Tuesday after 5pm. House-made masa tortillas, any filling.",
+   "source_url": "http://Www.cuateskitchen.com/page/specials"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Wine Down Wednesday",
+   "summary": "Half off wine",
+   "days": [
+    "Wed"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "Wine Down Wednesday and Date Night Friday\nHalf off wine every Wednesday.",
+   "source_url": "http://Www.cuateskitchen.com/page/specials"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Date Night Friday",
+   "summary": "Six tacos and a bottle of wine date night deal",
+   "days": [
+    "Fri"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": true,
+   "drink": true,
+   "where": null,
+   "evidence": "Wine Down Wednesday and Date Night Friday\nHalf off wine every Wednesday. Fridays bring the date night deal: six tacos and a bottle of wine.",
+   "source_url": "http://Www.cuateskitchen.com/page/specials"
+  }
+ ],
+ "dropped": [],
+ "notes": "Weekend brunch listed on specials page is a regular meal service with no stated discount, so skipped. Date Night Friday price not stated."
+}

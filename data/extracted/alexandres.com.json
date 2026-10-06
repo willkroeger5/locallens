@@ -1,0 +1,46 @@
+{
+ "hash": "a70d8de1f69f5c57",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Weekday Happy Hour",
+   "summary": "$1 off any drink",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri"
+   ],
+   "start": "12:00",
+   "end": "17:00",
+   "until_close": false,
+   "all_day": false,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "Tuesday October 6th\nIt's Happy Hour! Enjoy $1 off any drink\n12:00 PM \u2013 05:00 PM",
+   "source_url": "https://www.alexandres.com/specials/"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Wednesday Steak Night",
+   "summary": "$20 8oz Angus flat iron steak with truffle Parmesan fries",
+   "days": [
+    "Wed"
+   ],
+   "start": "17:00",
+   "end": "21:00",
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": false,
+   "where": null,
+   "evidence": "Join us every Wednesday for Steak Night at Alexandre's. From 5-9pm enjoy an eight-ounce Angus flat iron with truffle Parmesan fries for only $20",
+   "source_url": "https://www.alexandres.com/specials/"
+  }
+ ],
+ "dropped": [],
+ "notes": "The $1-off drink special is listed separately for each weekday Mon-Fri (12-5pm) on dated entries; combined into one Mon-Fri happy hour."
+}

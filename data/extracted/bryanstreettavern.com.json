@@ -1,0 +1,114 @@
+{
+ "hash": "690e20e6c25dd4a5",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "daily_special",
+   "title": "Monday Half-Price Pizza & $6 Crown & Down",
+   "summary": "Half-price pizza (dine-in only) and $6 Crown & Down",
+   "days": [
+    "Mon"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": true,
+   "drink": true,
+   "where": "Half-price pizza dine-in only",
+   "evidence": "MONDAYS: HALF-PRICE PIZZA & $6 CROWN & DOWN!\nStart the week with half-price pizza and $6 Crown & Down specials all day at Bryan Street Tavern.",
+   "source_url": "https://bryanstreettavern.com/specials"
+  },
+  {
+   "kind": "happy_hour",
+   "title": "Weekday Happy Hour",
+   "summary": "Half-price well drinks, half-price wine, half-price Bud Light & Miller Lite drafts",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri"
+   ],
+   "start": "15:00",
+   "end": "19:00",
+   "until_close": false,
+   "all_day": false,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "Enjoy half-price well drinks, half-price wine, and half-price Bud Light and Miller Lite drafts.\nLeave work behind, grab a cold drink, and let Happy Hour handle the rest.\n**Monday\u2013Friday | 3 PM\u20137 PM**",
+   "source_url": "https://bryanstreettavern.com/specials"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Texas, Tacos & Tequila Tuesday",
+   "summary": "$2.75 beef or chicken tacos, $6 BST-selected tequila, half-price Texas drafts",
+   "days": [
+    "Tue"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": true,
+   "drink": true,
+   "where": null,
+   "evidence": "TEXAS, TACOS & TEQUILA TUESDAY!\nTuesdays are bigger in Texas.\nJoin us at Bryan Street Tavern for $2.75 beef or chicken tacos, $6 BST-selected tequila, and half-price Texas drafts.",
+   "source_url": "https://bryanstreettavern.com/specials"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Whiskey & Appetizer Wednesday",
+   "summary": "Half-price whiskey and half-price select appetizers (apps dine-in only)",
+   "days": [
+    "Wed"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": true,
+   "drink": true,
+   "where": "Half-price appetizers dine-in only",
+   "evidence": "WHISKEY & APPETIZER WEDNESDAY!\nMake it through the middle of the week with 1/2 price whiskey and 1/2 price select appetizers at Bryan Street Tavern.",
+   "source_url": "https://bryanstreettavern.com/specials"
+  },
+  {
+   "kind": "daily_special",
+   "title": "$4 Thursday Drink Specials",
+   "summary": "$4 well drinks, Fireball shots, Bud Light and Miller Lite drafts",
+   "days": [
+    "Thu"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "$4 THURSDAY DRINK SPECIALS!\nThursdays are easy at Bryan Street Tavern with $4 well drinks, Fireball shots, Bud Light drafts, and Miller Lite drafts.",
+   "source_url": "https://bryanstreettavern.com/specials"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Sunday Happy Hour \u2014 All Day",
+   "summary": "$4 Bloody Marys, $4 mimosas, $1 off PBR & Lone Star cans",
+   "days": [
+    "Sun"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "SUNDAY HAPPY HOUR \u2014 ALL DAY!\nKeep Sunday going with all-day drink specials at Bryan Street Tavern!\n**$4 Bloody Marys | $4 Mimosas | $1 Off PBR & Lone Star Cans**",
+   "source_url": "https://bryanstreettavern.com/specials"
+  }
+ ],
+ "dropped": [],
+ "notes": "Weekday happy hour text says Mon\u2013Fri 3\u20137 PM, though some day listings show 4\u20136 PM and Friday shows a separate entry ($1 off wells/drafts, 4\u20137 PM); used the stated 3\u20137 PM. Daily specials listed with 11 AM\u20132 AM slots, treated as all day. Homepage says hours being finalized."
+}

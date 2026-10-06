@@ -1,0 +1,25 @@
+{
+ "hash": "a25b47710333a0c8",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Friday Fun Day Drink Specials",
+   "summary": "Rooftop drink specials",
+   "days": [
+    "Fri"
+   ],
+   "start": "16:00",
+   "end": "18:00",
+   "until_close": false,
+   "all_day": false,
+   "food": false,
+   "drink": true,
+   "where": "Roof",
+   "evidence": "Its Friday Fun Day at Dodie's!!\nGet on that roof and enjoy the drink specials!!!\n04:00 PM - 06:00 PM",
+   "source_url": "https://www.dodiesreefdallas.com/dallas-dodie-s-reef-happy-hours-and-specials"
+  }
+ ],
+ "dropped": [],
+ "notes": "The specials page lists dated entries (e.g. Friday October 9th); the Friday drink special is treated as recurring, but this is uncertain. The food menu has a Happy Hour tab, but its details were not included, so no happy hour prices or times are listed. The Monday chicken fried chicken entry has no price or discount and was skipped. Sunday brunch is not a deal and was skipped."
+}

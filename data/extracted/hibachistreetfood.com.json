@@ -1,0 +1,54 @@
+{
+ "hash": "0a0f82a58f9a92b0",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "daily_special",
+   "title": "Lunch Special",
+   "summary": "15% off any fried rice, 11am-2pm",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri",
+    "Sat",
+    "Sun"
+   ],
+   "start": "11:00",
+   "end": "14:00",
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": false,
+   "where": null,
+   "evidence": "Indulge in our mouthwatering lunch special offering 15% off any fried rice from 11am to 2pm.",
+   "source_url": "https://www.hibachistreetfood.com"
+  },
+  {
+   "kind": "daily_special",
+   "title": "$40 Dinner for Two",
+   "summary": "$40 dinner for two with two combo entrees",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri",
+    "Sat",
+    "Sun"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": true,
+   "drink": false,
+   "where": null,
+   "evidence": "For a delightful dinner, savor our $40 dinner for two, including two combo entrees.",
+   "source_url": "https://www.hibachistreetfood.com"
+  }
+ ],
+ "dropped": [],
+ "notes": "Specials are listed under 'Limited Time Offers' and said to be available only at 'our Dallas location' (two Dallas locations exist; assumed to include Live Oak St). No days are stated, so all seven days are assumed. Dinner special has no stated times."
+}

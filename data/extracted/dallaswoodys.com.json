@@ -1,0 +1,31 @@
+{
+ "hash": "f915291eaf5e4b42",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Happy Hour",
+   "summary": "Daily happy hour until 8 PM",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri",
+    "Sat",
+    "Sun"
+   ],
+   "start": "12:00",
+   "end": "20:00",
+   "until_close": false,
+   "all_day": false,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "Open every day for Happy Hour until 8 PM and every night until 2 AM!",
+   "source_url": "http://www.dallaswoodys.com/"
+  }
+ ],
+ "dropped": [],
+ "notes": "Happy hour runs every day until 8 PM; the start time is assumed to be opening (12:00 pm), based on the listed hours. No specific prices or discounted items are given, and drink-only is assumed for a bar."
+}

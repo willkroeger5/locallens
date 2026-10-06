@@ -1,0 +1,46 @@
+{
+ "hash": "9f911702f4f438ce",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Happy Hour",
+   "summary": "$2 off all signature cocktails; $2 off large Queso Doce and/or Guacamole",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri"
+   ],
+   "start": "14:00",
+   "end": "17:00",
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": true,
+   "where": null,
+   "evidence": "Happy Hour\nMonday - Friday | 2-5 PM\n$2 off all signature cocktails\nMonday - Friday | 2-5 PM\n$2 off our large Queso Doce and/or Guacamole",
+   "source_url": "http://docemesasdallas.com/food-menu"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Wine Wednesday",
+   "summary": "Half-price wine by the glass all day",
+   "days": [
+    "Wed"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "Wednesday\nHalf-price wine by-the-glass all day",
+   "source_url": "http://docemesasdallas.com/food-menu"
+  }
+ ],
+ "dropped": [],
+ "notes": "Both sources are the same page; deals listed once. Deals are not location-specific, assumed to apply to all Dallas locations."
+}

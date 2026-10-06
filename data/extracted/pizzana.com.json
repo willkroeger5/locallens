@@ -1,0 +1,46 @@
+{
+ "hash": "f44f2bbd90135c29",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Weekday Happy Hour",
+   "summary": "Half off Margaritas and Margherita pizzas, half off beer and glasses of wine, 25% off antipasti",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri"
+   ],
+   "start": "15:00",
+   "end": "18:00",
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": true,
+   "where": null,
+   "evidence": "Weekday Happy Hours:\nBrentwood | 4 - 6 PM\nDallas | 3 - 6 PM",
+   "source_url": "http://www.pizzana.com/pages/events/happy-hour"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Wine Wednesday",
+   "summary": "Half off bottles of wine",
+   "days": [
+    "Wed"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "Wine Wednesdays:\nAll day Wednesdays, enjoy half off bottles of wine for a midweek wind down without the splurge!",
+   "source_url": "http://www.pizzana.com/pages/events/happy-hour"
+  }
+ ],
+ "dropped": [],
+ "notes": "Happy hour times listed for 'Dallas' (3-6 PM weekdays), applied to Knox Street. Weekdays interpreted as Mon-Fri."
+}

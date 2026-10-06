@@ -1,0 +1,28 @@
+{
+ "hash": "688899e434df21ce",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Happy Hour",
+   "summary": "$4 drafts, $5 wells, $6 wines",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu"
+   ],
+   "start": "15:00",
+   "end": "19:00",
+   "until_close": false,
+   "all_day": false,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "HH: M - Th / 3pm - 7pm",
+   "source_url": "https://www.blackfriarpub.com/"
+  }
+ ],
+ "dropped": [],
+ "notes": "Prices ($4 drafts, $5 wells, $6 wines) appear under 'Happy Hour Deals!' in a separate section from the 'HH: M - Th / 3pm - 7pm' line. The site doesn't specify whether happy hour applies to the Uptown location, the Lakewood location, or both. Brunch hours are listed, but no brunch deal is stated."
+}

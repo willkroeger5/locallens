@@ -1,0 +1,52 @@
+{
+ "hash": "f0af22343cca5e51",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Happy Hour",
+   "summary": "Food & drink specials",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri"
+   ],
+   "start": "14:30",
+   "end": "18:00",
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": true,
+   "where": null,
+   "evidence": "HAPPY HOUR!\nFOOD & DRINK SPECIALS \nWEEKDAYS 2:30\u20136PM",
+   "source_url": "https://flavorhookdallas.com/wp-content/uploads/2026/09/OAK-New-Lunch-8.13.26-Pelotonia-1.pdf"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Nightly Plates",
+   "summary": "Mon meatloaf $27, Tue chicken pot pie $26, Wed lasagna $27, Thu veal schnitzel $37, Fri pork shank $31, Sat shortrib pot roast $42, Sun fried chicken $26 (limited quantities)",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri",
+    "Sat",
+    "Sun"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": true,
+   "drink": false,
+   "where": null,
+   "evidence": "N I G H T LY  P L A T E S \nlimited quantities available\nMON\nMEATLOAF      27  \ncreamed potatoes\ncrispy tobacco onions\nTUES\nCHICKEN POT PIE      26",
+   "source_url": "https://flavorhookdallas.com/wp-content/uploads/2026/09/OAK-New-Lunch-8.13.26-Pelotonia-1.pdf"
+  }
+ ],
+ "dropped": [],
+ "notes": "Specific happy hour item prices are not listed in the text. Nightly plates are day-specific dishes, not necessarily discounted."
+}

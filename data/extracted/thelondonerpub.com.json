@@ -1,0 +1,106 @@
+{
+ "hash": "a3354c3cee41f9c4",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Happy Hour",
+   "summary": "$1.50 off drafts, $4 wells, $2 off liquor & cocktails, $6 house wine, half-price wine bottles",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri",
+    "Sat",
+    "Sun"
+   ],
+   "start": "15:00",
+   "end": "18:30",
+   "until_close": false,
+   "all_day": false,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "Dallas\nHAPPY HOUR\nDaily 3pm-6:30pm\n$1.50 off drafts\n$4 wells\n$2 off liquor and cocktails\n$6 house wine",
+   "source_url": "https://thelondonerpub.com/specials/"
+  },
+  {
+   "kind": "daily_special",
+   "title": "$7 Classic Cocktails",
+   "summary": "$7 classic cocktails",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri",
+    "Sat",
+    "Sun"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "$6 house wine\n$7 Classic cocktails, all day every day\nHalf Price bottles of wine\nTRIVIA MONDAYS",
+   "source_url": "https://thelondonerpub.com/specials/"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Texas Tuesdays",
+   "summary": "$4 select Texas drafts",
+   "days": [
+    "Tue"
+   ],
+   "start": "18:30",
+   "end": null,
+   "until_close": true,
+   "all_day": false,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "TEXAS & PUB POLL TUESDAYS\nTuesday: 6:30pm-Close\n$4 Select TX Drafts",
+   "source_url": "https://thelondonerpub.com/specials/"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Wine Wednesdays",
+   "summary": "Half-price bottles of wine",
+   "days": [
+    "Wed"
+   ],
+   "start": "19:00",
+   "end": null,
+   "until_close": true,
+   "all_day": false,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "Pub Poll with Challenge Entertainment\nWINE WEDNESDAYS\nWednesday: 7pm-Close\nHalf Price Bottles of Wine",
+   "source_url": "https://thelondonerpub.com/specials/"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Weekend Brunch Drinks",
+   "summary": "$5 mimosas, $7 Bloody Marys, $4 screwdrivers",
+   "days": [
+    "Sat",
+    "Sun"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "Half Price Bottles of Wine\nSATURDAY & SUNDAY\nEvery Saturday & Sunday\n$5 Mimosas\n$7 Bloody Mary\n$4 Screwdrivers\nCalendar\nAddison",
+   "source_url": "https://thelondonerpub.com/specials/"
+  }
+ ],
+ "dropped": [],
+ "notes": "Only Dallas location deals included. Weekend drink specials have no stated hours, marked all day."
+}

@@ -1,0 +1,29 @@
+{
+ "hash": "b4d0e5589f738e3e",
+ "checked": "2026-10-04",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Happy Hour",
+   "summary": "Specialty bites, sandwiches, snacks, plus discounts on beer, wine, cocktails and boozy slushees",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri"
+   ],
+   "start": "14:00",
+   "end": "18:00",
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": true,
+   "where": null,
+   "evidence": "Our East Dallas happy hour is from 2pm to 6pm Monday through Friday and features a unique menu of specialty bites, sandwiches, snacks, and discounts on beer, wine, cocktails and our signature boozy slushess.",
+   "source_url": "https://www.loroeats.com/locations/dallas/east"
+  }
+ ],
+ "dropped": [],
+ "notes": "Detailed happy hour prices appear only on Houston menus; not applied to the Dallas East location. 'Loro Step $15 (All Day, Every Day)' is a regular menu item, not included as a deal."
+}
