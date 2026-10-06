@@ -32,4 +32,17 @@ function startsIn(d, now) {
   return m.length ? Math.min(...m) : null;
 }
 
-if (typeof module !== "undefined") module.exports = { DAYS, toMin, windows, liveFor, startsIn };
+// Does the deal run at any point in [from, to) minutes on `day`? Counts a previous-night window
+// spilling past midnight. Deals with no listed times never match a time range.
+function overlaps(d, day, from = 0, to = 1440) {
+  for (const [wd, s, e] of windows(d)) {
+    if (wd === day && s < to && e > from) return true;
+    if ((wd + 1) % 7 === day && e > 1440 && s - 1440 < to && e - 1440 > from) return true;
+  }
+  return false;
+}
+
+// Is the deal on at all on `day` (times listed or not)?
+const onDay = (d, day) => overlaps(d, day) || d.days.includes(DAYS[day]);
+
+if (typeof module !== "undefined") module.exports = { DAYS, toMin, windows, liveFor, startsIn, overlaps, onDay };

@@ -222,7 +222,10 @@ def build():
                             | {"checked": x["checked"], "deals": deals})
     rows.sort(key=lambda r: r["name"].lower())
     Path("docs").mkdir(exist_ok=True)
-    Path("docs/deals.json").write_text(json.dumps({"updated": date.today().isoformat(), "venues": rows}))
+    from venues import NEIGHBORHOODS, OTHER_AREA
+    present = {r["neighborhood"] for r in rows}
+    areas = [a for a in [*NEIGHBORHOODS, OTHER_AREA] if a in present]  # display order lives in venues.py
+    Path("docs/deals.json").write_text(json.dumps({"updated": date.today().isoformat(), "areas": areas, "venues": rows}))
     print(f"docs/deals.json: {len(rows)} venues, {sum(len(r['deals']) for r in rows)} deals")
 
 

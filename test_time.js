@@ -1,6 +1,6 @@
 // node test_time.js — checks the open-now logic, including windows that cross midnight.
 const assert = require("assert");
-const { liveFor, startsIn } = require("./docs/time.js");
+const { liveFor, startsIn, overlaps, onDay } = require("./docs/time.js");
 const at = (day, hhmm) => ({ day: ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"].indexOf(day), min: +hhmm.slice(0, 2) * 60 + +hhmm.slice(3) });
 const deal = o => ({ days: ["Mon", "Tue", "Wed", "Thu", "Fri"], start: null, end: null, until_close: false, all_day: false, ...o });
 
@@ -26,4 +26,11 @@ assert.strictEqual(liveFor(allDay, at("Tue", "09:00")), null);
 const noTimes = deal({ days: ["Wed"] });                    // "Happy hour Wed" with no hours given
 assert.strictEqual(liveFor(noTimes, at("Wed", "17:00")), null);
 assert.strictEqual(startsIn(noTimes, at("Wed", "09:00")), null);
+const day = n => ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"].indexOf(n);
+assert.ok(overlaps(hh, day("Tue"), 17 * 60, 22 * 60));       // 3-6pm overlaps "evening" 5-10pm
+assert.ok(!overlaps(hh, day("Tue"), 11 * 60, 14 * 60));      // but not lunch
+assert.ok(overlaps(late, day("Sat"), 0, 3 * 60));            // Fri 10pm-2am reaches into Sat early hours
+assert.ok(!overlaps(late, day("Thu"), 0, 1440));
+assert.ok(!overlaps(noTimes, day("Wed"), 17 * 60, 22 * 60)); // unknown times never match a time range
+assert.ok(onDay(noTimes, day("Wed")) && !onDay(noTimes, day("Thu")));
 console.log("time.js ok");

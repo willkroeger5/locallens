@@ -25,16 +25,24 @@ OVERTURE_RELEASE = "2026-09-23.1"  # bump from https://docs.overturemaps.org/rel
 S, W, N, E = 32.785, -96.815, 32.870, -96.755
 CATEGORIES = {"restaurant", "bar", "casual_eatery", "coffee_shop", "cafe", "lounge",
               "brewery", "winery", "nightlife_venue"}
-NEIGHBORHOODS = {  # ponytail: nearest-centroid tagging; swap for polygons if borders get argued about
-    "Uptown": (32.800, -96.801),
-    "Oak Lawn": (32.811, -96.810),
-    "Knox-Henderson": (32.820, -96.786),
-    "Lower Greenville": (32.813, -96.770),
-    "Upper Greenville": (32.862, -96.769),
-    "Mockingbird Station": (32.837, -96.774),
-    "Snider Plaza / UP": (32.849, -96.785),
-    "Highland Park Village": (32.835, -96.806),
-}
+# Listed in display order: closest to SMU campus first. A venue goes to the nearest centre unless it is
+# farther than AREA_RADIUS_M from all of them, then it's "More nearby" rather than mislabeled.
+NEIGHBORHOODS = dict(sorted({
+    "Deep Ellum & East Dallas": (32.7870, -96.7800),
+    "Downtown & Arts District": (32.7885, -96.7990),
+    "Victory Park": (32.7870, -96.8100),
+    "Uptown": (32.8000, -96.8010),
+    "Oak Lawn": (32.8110, -96.8100),
+    "Knox-Henderson": (32.8200, -96.7860),
+    "Lower Greenville": (32.8150, -96.7700),
+    "Highland Park Village": (32.8350, -96.8060),
+    "Mockingbird Station": (32.8370, -96.7740),
+    "Snider Plaza & UP": (32.8470, -96.7850),
+    "Upper Greenville": (32.8560, -96.7690),
+    "Preston Center": (32.8640, -96.8040),
+    "NorthPark": (32.8680, -96.7730),
+}.items(), key=lambda kv: math.dist(kv[1], (32.8412, -96.7845))))  # SMU campus
+OTHER_AREA, AREA_RADIUS_M = "More nearby", 1400
 SKIP_SITES = re.compile(r"facebook\.com|instagram\.com|yelp\.com|tripadvisor|doordash|ubereats|grubhub|linktr\.ee")
 
 
@@ -51,7 +59,8 @@ def meters(a, b):
 
 
 def neighborhood(lat, lon):
-    return min(NEIGHBORHOODS, key=lambda k: meters((lat, lon), NEIGHBORHOODS[k]))
+    best = min(NEIGHBORHOODS, key=lambda k: meters((lat, lon), NEIGHBORHOODS[k]))
+    return best if meters((lat, lon), NEIGHBORHOODS[best]) <= AREA_RADIUS_M else OTHER_AREA
 
 
 def pull_overture():

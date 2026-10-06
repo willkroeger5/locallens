@@ -22,8 +22,16 @@ To refresh the data, run steps 2 and 3 with `--refresh` on fetch, then commit `d
 
 ## Page
 
-`docs/index.html` + `docs/time.js` + `docs/deals.json`. No build step. "Happening now" uses Dallas time
-regardless of the viewer's timezone. Share a view with `?when=today` or `?when=all`.
+`docs/index.html` + `docs/time.js` + `docs/deals.json`. No build step, no framework.
+
+- **Areas:** the rail along the top filters to one area. "All areas" groups the list by area, closest to SMU first, and highlights the area you're scrolling through. The areas and their centres are defined in `venues.py` (`NEIGHBORHOODS`). Anything more than 1.4 km from every centre is listed under "More nearby".
+- **When:** On now / Today / a specific day / Any day. Everything uses Dallas time, whatever the viewer's timezone.
+- **Filters sheet:** deal type, food or drinks, time of day, place type, prices listed, all-day deals. Sort by best right now, A–Z, or nearest (asks for location).
+- **Desktop** (1000px and up) shows the list and the map side by side. On phones, the Map button switches views.
+- **Shareable URLs** (all optional, and combinable):
+  `?area=knox-henderson` · `?when=today|all` · `?day=fri` · `?q=tacos` · `?type=hh,special,late` · `?inc=food,drink` ·
+  `?tod=lunch,aft,eve,late` · `?cat=bar,rest,cafe` · `?flags=price,allday` · `?sort=az`
+
 Set `REPORT_URL` in `index.html` (e.g. a Google Form) to show a "report a wrong deal" link.
 
 Data: © Overture Maps Foundation, © OpenStreetMap contributors (ODbL).

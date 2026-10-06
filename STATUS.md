@@ -9,8 +9,9 @@ A shareable link where SMU students (roommates, girlfriend's friends, and so on)
 
 ## Status
 - **Pipeline built (2026-10-04):** `venues.py`, then `fetch.py`, then `extract.py`, which writes `docs/deals.json`. Commands are in the README.
-- **Page built:** `docs/index.html` (one static file plus `time.js`). It has Now/Today/All week views, food/drink and area filters, search, a Leaflet map, dark mode, and Dallas-time logic. The time logic is checked by `test_time.js`.
-- **Hosting:** GitHub Pages on the personal account `willkroeger5`. **Not yet published.** Waiting on William's OK to create the public repo.
+- **Page v2 (2026-10-06):** area-first redesign. It has an area rail (filter to one area, or All, grouped with scroll highlighting), On now/Today/day picker/Any day, a filters sheet (type, food/drink, time of day, place, prices, sort including nearest), active-filter pills, the side-by-side map on desktop, and shareable URL params. See the README. Tested with Playwright on a frozen clock at 390px light/dark and 1280px, and in the New York timezone (counts match).
+- **Areas redone (2026-10-06):** 13 areas plus "More nearby" (cutoff 1.4 km), ordered by distance from SMU. Added Preston Center, NorthPark, Victory Park, Downtown & Arts District, and Deep Ellum & East Dallas, which fixes mislabels such as Preston Center venues tagged as Snider Plaza.
+- **Hosting:** LIVE since 2026-10-06 at https://willkroeger5.github.io/locallens/ (repo `willkroeger5/locallens`, public, Pages from `main` /docs). To update the data, run the pipeline, commit `docs/deals.json`, and push as willkroeger5.
 
 ## Coverage funnel (first full run, 2026-10-04)
 - Venues in the area: 1,868 (1,789 from Overture, 79 from OSM only). 1,583 have a website.

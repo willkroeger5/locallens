@@ -3,234 +3,695 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>LocalLens</title>
-<meta name="description" content="Happy hours and food & drink deals near SMU, checked against each restaurant's own site.">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><circle cx='16' cy='16' r='14' fill='%23c2410c'/><circle cx='16' cy='16' r='6' fill='%23faf7f2'/></svg>">
+<title>LocalLens · Deals near SMU</title>
+<meta name="description" content="Happy hours and food & drink specials near SMU, by neighborhood. Checked against each restaurant's own website.">
+<meta property="og:title" content="LocalLens · Deals near SMU">
+<meta property="og:description" content="What's on right now: happy hours and specials in Uptown, Knox-Henderson, Greenville, Snider Plaza and more.">
+<meta name="theme-color" content="#faf8f5" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#121110" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%23c2410c'/><circle cx='14.5' cy='14.5' r='6.5' fill='none' stroke='white' stroke-width='3'/><path d='M19.5 19.5l5 5' stroke='white' stroke-width='3' stroke-linecap='round'/></svg>">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
 <style>
   :root {
-    --bg: #faf7f2; --card: #ffffff; --ink: #1d1b18; --muted: #6b655c; --line: #e8e2d8;
-    --accent: #c2410c; --accent-soft: #fde7da; --live: #15803d; --live-soft: #dcfce7;
+    --bg: #faf8f5; --surface: #ffffff; --surface-2: #f3f0eb; --ink: #1c1a17; --ink-2: #4a4640; --muted: #7a746b;
+    --line: #e7e2da; --line-strong: #d6cfc4;
+    --accent: #c2410c; --accent-ink: #ffffff; --accent-soft: #fdeee4;
+    --live: #15803d; --live-soft: #e3f6e9; --soon: #b45309; --soon-soft: #fdf1dc;
+    --shadow: 0 1px 2px rgba(28, 26, 23, .05), 0 4px 16px rgba(28, 26, 23, .05);
+    --radius: 14px; --bar-h: 0px;
+    color-scheme: light;
   }
   @media (prefers-color-scheme: dark) {
     :root:not([data-theme="light"]) {
-      --bg: #151412; --card: #1f1d1a; --ink: #f2eee8; --muted: #a39d93; --line: #34312c;
-      --accent: #fb923c; --accent-soft: #3b2417; --live: #4ade80; --live-soft: #14301f;
+      --bg: #121110; --surface: #1c1a18; --surface-2: #262320; --ink: #f3efe9; --ink-2: #cfc8bd; --muted: #9a9389;
+      --line: #2e2b27; --line-strong: #3d3934;
+      --accent: #f07a3c; --accent-ink: #1a0d05; --accent-soft: #3a2014;
+      --live: #4ade80; --live-soft: #143022; --soon: #fbbf24; --soon-soft: #352a10;
+      --shadow: 0 1px 2px rgba(0, 0, 0, .3); color-scheme: dark;
     }
   }
   * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
   body { margin: 0; background: var(--bg); color: var(--ink);
-    font: 16px/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
-  header { padding: 20px 16px 8px; max-width: 760px; margin: 0 auto; }
-  h1 { margin: 0; font-size: 28px; letter-spacing: -0.02em; }
-  h1 span { color: var(--accent); }
-  .sub { color: var(--muted); font-size: 14px; margin-top: 2px; }
-  .controls { position: sticky; top: 0; z-index: 500; background: var(--bg); padding: 8px 16px 10px;
-    max-width: 760px; margin: 0 auto; border-bottom: 1px solid var(--line); }
-  .row { display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none; padding-bottom: 2px; }
-  .row + .row { margin-top: 8px; }
-  .chip { flex: none; border: 1px solid var(--line); background: var(--card); color: var(--ink);
-    border-radius: 999px; padding: 6px 12px; font: inherit; font-size: 14px; cursor: pointer; }
-  .chip[aria-pressed="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
-  select, input[type=search] { font: inherit; font-size: 14px; border: 1px solid var(--line); background: var(--card);
-    color: var(--ink); border-radius: 999px; padding: 6px 12px; min-width: 0; }
-  input[type=search] { flex: 1; }
-  main { max-width: 760px; margin: 0 auto; padding: 12px 16px 40px; }
-  .count { color: var(--muted); font-size: 13px; margin: 2px 0 10px; }
-  .card { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 14px; margin-bottom: 10px; }
-  .vhead { display: flex; justify-content: space-between; gap: 8px; align-items: baseline; }
-  .vname { font-weight: 650; font-size: 17px; }
-  .hood { color: var(--muted); font-size: 13px; white-space: nowrap; }
-  .deal { border-top: 1px dashed var(--line); margin-top: 10px; padding-top: 10px; }
-  .deal:first-of-type { border-top: 0; margin-top: 6px; padding-top: 0; }
-  .when { font-size: 14px; font-weight: 600; }
-  .badge { display: inline-block; font-size: 12px; font-weight: 600; border-radius: 6px; padding: 1px 7px; margin-left: 6px; }
-  .live { background: var(--live-soft); color: var(--live); }
-  .soon { background: var(--accent-soft); color: var(--accent); }
-  .what { margin-top: 2px; }
-  .meta { color: var(--muted); font-size: 12.5px; margin-top: 4px; }
-  .meta a, .links a { color: var(--muted); }
-  .links { margin-top: 10px; font-size: 13px; display: flex; gap: 14px; }
-  #map { height: 70vh; border-radius: 14px; border: 1px solid var(--line); display: none; }
-  .empty { text-align: center; color: var(--muted); padding: 40px 0; }
-  footer { max-width: 760px; margin: 0 auto; padding: 0 16px 32px; color: var(--muted); font-size: 12px; }
-  footer a { color: var(--muted); }
+    font: 15px/1.45 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  button, input, select { font: inherit; color: inherit; }
+  button { cursor: pointer; }
+  :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  svg.i { width: 18px; height: 18px; flex: none; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+  .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+  /* ---------- header ---------- */
+  .top { max-width: 1240px; margin: 0 auto; padding: 18px 16px 6px; display: flex; align-items: center; gap: 12px; }
+  .brand { display: flex; align-items: center; gap: 10px; text-decoration: none; color: inherit; }
+  .mark { width: 34px; height: 34px; border-radius: 10px; background: var(--accent); display: grid; place-items: center; color: #fff; }
+  .mark svg { width: 20px; height: 20px; stroke-width: 2.6; }
+  .brand h1 { margin: 0; font-size: 20px; letter-spacing: -.02em; line-height: 1.1; }
+  .brand small { display: block; color: var(--muted); font-size: 12.5px; font-weight: 500; letter-spacing: 0; }
+  .clock { margin-left: auto; text-align: right; font-size: 12.5px; color: var(--muted); line-height: 1.3; }
+  .clock b { display: block; color: var(--ink); font-size: 14px; font-weight: 600; }
+
+  /* ---------- sticky toolbar ---------- */
+  .bar { position: sticky; top: 0; z-index: 1000; background: color-mix(in srgb, var(--bg) 92%, transparent);
+    backdrop-filter: saturate(1.4) blur(10px); -webkit-backdrop-filter: saturate(1.4) blur(10px); border-bottom: 1px solid var(--line); }
+  .bar-in { max-width: 1240px; margin: 0 auto; padding: 8px 16px 0; }
+  .row { display: flex; gap: 8px; align-items: center; }
+  .search { flex: 1; min-width: 0; position: relative; }
+  .search svg { position: absolute; left: 12px; top: 50%; transform: translateY(-50%); color: var(--muted); }
+  .search input { width: 100%; height: 42px; border: 1px solid var(--line-strong); border-radius: 12px; background: var(--surface);
+    padding: 0 38px 0 38px; outline: none; -webkit-appearance: none; appearance: none; }
+  .search input:focus { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); }
+  .search input::-webkit-search-cancel-button { display: none; }
+  .clear-q { position: absolute; right: 6px; top: 50%; transform: translateY(-50%); border: 0; background: none; padding: 6px; color: var(--muted); display: none; }
+  .search.has-q .clear-q { display: block; }
+  .iconbtn { height: 42px; border: 1px solid var(--line-strong); background: var(--surface); border-radius: 12px; padding: 0 12px;
+    display: inline-flex; align-items: center; gap: 6px; font-weight: 600; font-size: 14px; position: relative; white-space: nowrap; }
+  .iconbtn .count { background: var(--accent); color: var(--accent-ink); border-radius: 999px; font-size: 11px; min-width: 18px; height: 18px;
+    display: inline-grid; place-items: center; padding: 0 5px; }
+  .iconbtn .count[hidden] { display: none; }
+  .view-toggle { display: inline-flex; }
+  @media (max-width: 560px) { .iconbtn .lbl { display: none; } .iconbtn { padding: 0 11px; } }
+  .when { display: flex; gap: 6px; margin-top: 8px; overflow-x: auto; scrollbar-width: none; }
+  .when::-webkit-scrollbar, .areas::-webkit-scrollbar { display: none; }
+  .seg { flex: none; border: 1px solid var(--line-strong); background: var(--surface); border-radius: 999px; padding: 6px 13px; font-size: 13.5px; font-weight: 600; color: var(--ink-2); }
+  .seg[aria-pressed="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+  .seg select { border: 0; background: transparent; font-weight: 600; padding: 0; outline: none; color: inherit; cursor: pointer;
+    field-sizing: content; max-width: 7.5em; }
+  .seg.select-seg { padding-right: 8px; }
+  .areas { display: flex; gap: 2px; overflow-x: auto; scrollbar-width: none; margin-top: 6px; scroll-behavior: smooth; }
+  .area { flex: none; border: 0; background: none; padding: 9px 10px 11px; font-size: 13.5px; font-weight: 600; color: var(--muted);
+    border-bottom: 2px solid transparent; white-space: nowrap; }
+  .area .n { font-weight: 500; color: var(--muted); margin-left: 4px; font-size: 12px; }
+  .area[aria-current="true"] { color: var(--ink); border-bottom-color: var(--accent); }
+  .area.spy { color: var(--ink); border-bottom-color: var(--line-strong); }
+  .area.all-on { color: var(--accent); }
+  .area.zero { opacity: .45; }
+
+  /* ---------- layout ---------- */
+  .layout { max-width: 1240px; margin: 0 auto; padding: 0 16px; }
+  .listcol { min-width: 0; padding-bottom: 32px; }
+  .mapcol { display: none; }
+  #map { width: 100%; height: 100%; border-radius: var(--radius); border: 1px solid var(--line); background: var(--surface-2); }
+  body.mapmode .listcol { display: none; }
+  body.mapmode .mapcol { display: block; height: calc(100dvh - var(--bar-h) - 24px); padding: 12px 0; }
+  @media (min-width: 1000px) {
+    .layout { display: grid; grid-template-columns: minmax(0, 1fr) minmax(380px, 46%); gap: 24px; }
+    .mapcol, body.mapmode .mapcol { display: block; position: sticky; top: calc(var(--bar-h) + 12px); height: calc(100vh - var(--bar-h) - 24px); padding: 0; margin-top: 12px; }
+    body.mapmode .listcol { display: block; }
+    .view-toggle { display: none; }
+  }
+
+  /* ---------- summary + active filters ---------- */
+  .summary { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 8px; padding: 14px 0 4px; }
+  .summary .count-text { font-size: 13.5px; color: var(--muted); margin-right: 4px; }
+  .summary .count-text b { color: var(--ink); }
+  .pill-x { display: inline-flex; align-items: center; gap: 4px; border: 1px solid var(--line-strong); background: var(--surface); border-radius: 999px;
+    padding: 3px 6px 3px 10px; font-size: 12.5px; font-weight: 600; color: var(--ink-2); }
+  .pill-x svg { width: 14px; height: 14px; }
+  .linkbtn { border: 0; background: none; color: var(--accent); font-weight: 600; font-size: 13px; padding: 4px 2px; }
+
+  /* ---------- sections + cards ---------- */
+  .section-h { position: sticky; top: var(--bar-h); z-index: 5; background: var(--bg); margin: 0 -16px; padding: 14px 16px 8px;
+    display: flex; align-items: baseline; gap: 8px; scroll-margin-top: var(--bar-h); }
+  .section-h h2 { margin: 0; font-size: 17px; letter-spacing: -.01em; }
+  .section-h span { color: var(--muted); font-size: 13px; }
+  .section-h .live-n { color: var(--live); font-weight: 600; }
+  .card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); margin-bottom: 10px; overflow: hidden; }
+  .card.hl { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); }
+  .c-head { padding: 14px 14px 10px; display: flex; gap: 10px; align-items: flex-start; }
+  .c-title { flex: 1; min-width: 0; }
+  .c-title h3 { margin: 0; font-size: 16px; letter-spacing: -.01em; line-height: 1.25; }
+  .c-meta { color: var(--muted); font-size: 12.5px; margin-top: 2px; }
+  .status { flex: none; font-size: 12px; font-weight: 700; border-radius: 999px; padding: 3px 9px; white-space: nowrap; }
+  .status.live { background: var(--live-soft); color: var(--live); }
+  .status.soon { background: var(--soon-soft); color: var(--soon); }
+  .status.later { background: var(--surface-2); color: var(--ink-2); }
+  .deal { padding: 10px 14px; border-top: 1px solid var(--line); display: grid; grid-template-columns: 1fr; gap: 3px; }
+  .d-top { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; }
+  .tag { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .04em; color: var(--accent); }
+  .tag.special { color: var(--ink-2); }
+  .d-when { font-size: 13px; font-weight: 600; color: var(--ink-2); }
+  .d-when.on { color: var(--live); }
+  .d-what { font-size: 14.5px; }
+  .d-what b { font-weight: 650; }
+  .d-foot { font-size: 12px; color: var(--muted); }
+  .d-foot a { color: var(--muted); }
+  details.more > summary { list-style: none; cursor: pointer; padding: 9px 14px; border-top: 1px solid var(--line); font-size: 13px; font-weight: 600; color: var(--accent); }
+  details.more > summary::-webkit-details-marker { display: none; }
+  details.more[open] > summary { display: none; }
+  .c-actions { display: flex; gap: 8px; padding: 10px 14px 12px; border-top: 1px solid var(--line); }
+  .act { display: inline-flex; align-items: center; gap: 6px; text-decoration: none; color: var(--ink); font-size: 13px; font-weight: 600;
+    border: 1px solid var(--line-strong); border-radius: 10px; padding: 7px 11px; background: var(--surface); }
+  .act svg { width: 15px; height: 15px; }
+  .act.map-link { margin-left: auto; }
+  .empty { text-align: center; padding: 48px 16px; color: var(--muted); }
+  .empty h3 { color: var(--ink); margin: 0 0 6px; font-size: 16px; }
+  .empty .row { justify-content: center; margin-top: 14px; flex-wrap: wrap; }
+  .btn { border: 1px solid var(--line-strong); background: var(--surface); border-radius: 10px; padding: 8px 14px; font-weight: 600; font-size: 13.5px; }
+  .btn.primary { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+
+  /* ---------- filters sheet ---------- */
+  dialog.sheet { border: 0; padding: 0; margin: auto auto 0; width: 100%; max-width: 560px; max-height: 88dvh; border-radius: 18px 18px 0 0;
+    background: var(--surface); color: var(--ink); box-shadow: 0 -10px 40px rgba(0, 0, 0, .2); }
+  dialog.sheet::backdrop { background: rgba(15, 12, 9, .45); }
+  @media (min-width: 640px) { dialog.sheet { margin: auto; border-radius: 18px; } }
+  .sheet form { display: flex; flex-direction: column; max-height: 88dvh; }
+  .sheet header { display: flex; align-items: center; padding: 16px 18px 10px; border-bottom: 1px solid var(--line); }
+  .sheet header h2 { margin: 0; font-size: 17px; flex: 1; }
+  .sheet .body { overflow-y: auto; padding: 4px 18px 8px; }
+  .sheet fieldset { border: 0; margin: 0; padding: 14px 0 6px; border-bottom: 1px solid var(--line); }
+  .sheet fieldset:last-child { border-bottom: 0; }
+  .sheet legend { float: left; width: 100%; font-weight: 700; font-size: 13px; padding: 0; margin-bottom: 10px; color: var(--ink-2); }
+  .sheet legend + * { clear: both; }
+  .opts { display: flex; flex-wrap: wrap; gap: 8px; }
+  .opt { position: relative; }
+  .opt input { position: absolute; opacity: 0; inset: 0; margin: 0; cursor: pointer; }
+  .opt span { display: inline-block; border: 1px solid var(--line-strong); border-radius: 999px; padding: 7px 13px; font-size: 13.5px; font-weight: 600; color: var(--ink-2); background: var(--surface); }
+  .opt input:checked + span { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+  .opt input:focus-visible + span { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .opt small { font-weight: 500; opacity: .75; }
+  .sheet footer { display: flex; gap: 10px; padding: 12px 18px calc(12px + env(safe-area-inset-bottom)); border-top: 1px solid var(--line); }
+  .sheet footer .btn { flex: 1; padding: 12px; }
+  .hint { font-size: 12px; color: var(--muted); margin: 6px 0 0; }
+
+  /* ---------- map popups / footer ---------- */
+  .leaflet-popup-content { margin: 12px 14px; font: 13px/1.4 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+  .leaflet-popup-content b { font-size: 14px; }
+  .leaflet-popup-content a { color: var(--accent); font-weight: 600; }
+  .legend { background: var(--surface); color: var(--ink); border: 1px solid var(--line); border-radius: 10px; padding: 6px 10px;
+    font-size: 12px; font-weight: 600; display: flex; gap: 12px; box-shadow: var(--shadow); }
+  .legend i { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 5px; vertical-align: -1px; border: 1.5px solid #fff; }
+  .site-foot { max-width: 1240px; margin: 0 auto; padding: 8px 16px 40px; color: var(--muted); font-size: 12px; line-height: 1.6; }
+  .site-foot a { color: var(--muted); }
 </style>
 </head>
 <body>
-<header>
-  <h1>Local<span>Lens</span></h1>
-  <div class="sub" id="sub">Deals near SMU</div>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></symbol>
+  <symbol id="i-x" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></symbol>
+  <symbol id="i-sliders" viewBox="0 0 24 24"><path d="M4 6h10M18 6h2M4 12h4M12 12h8M4 18h12M20 18h0"/><circle cx="16" cy="6" r="2"/><circle cx="10" cy="12" r="2"/><circle cx="18" cy="18" r="2"/></symbol>
+  <symbol id="i-map" viewBox="0 0 24 24"><path d="m9 4-6 2v14l6-2 6 2 6-2V4l-6 2-6-2z"/><path d="M9 4v14M15 6v14"/></symbol>
+  <symbol id="i-list" viewBox="0 0 24 24"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></symbol>
+  <symbol id="i-nav" viewBox="0 0 24 24"><path d="M3 11 21 3l-8 18-2-8-8-2z"/></symbol>
+  <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+</svg>
+
+<header class="top">
+  <a class="brand" href="./" aria-label="LocalLens home">
+    <span class="mark"><svg class="i"><use href="#i-search"/></svg></span>
+    <h1>LocalLens<small>Happy hours & specials near SMU</small></h1>
+  </a>
+  <div class="clock" id="clock" aria-live="polite"></div>
 </header>
 
-<div class="controls">
-  <div class="row" id="when">
-    <button class="chip" data-when="now" aria-pressed="true">Happening now</button>
-    <button class="chip" data-when="today" aria-pressed="false">Today</button>
-    <button class="chip" data-when="all" aria-pressed="false">All week</button>
-    <button class="chip" id="mapToggle" aria-pressed="false">Map</button>
-  </div>
-  <div class="row">
-    <button class="chip" id="food" aria-pressed="false">Food</button>
-    <button class="chip" id="drink" aria-pressed="false">Drinks</button>
-    <select id="hood" aria-label="Neighborhood"><option value="">All areas</option></select>
-  </div>
-  <div class="row">
-    <input type="search" id="q" placeholder="Search places or deals" aria-label="Search venues and deals">
+<div class="bar" id="bar">
+  <div class="bar-in">
+    <div class="row">
+      <label class="search" id="searchWrap">
+        <span class="sr">Search</span>
+        <svg class="i"><use href="#i-search"/></svg>
+        <input type="search" id="q" placeholder="Search places, drinks, tacos…" autocomplete="off" enterkeyhint="search">
+        <button type="button" class="clear-q" id="clearQ" aria-label="Clear search"><svg class="i"><use href="#i-x"/></svg></button>
+      </label>
+      <button type="button" class="iconbtn" id="openFilters" aria-haspopup="dialog" aria-label="Filters">
+        <svg class="i"><use href="#i-sliders"/></svg><span class="lbl">Filters</span><span class="count" id="filterCount" hidden></span>
+      </button>
+      <button type="button" class="iconbtn view-toggle" id="viewToggle" aria-pressed="false" aria-label="Map view">
+        <svg class="i"><use href="#i-map"/></svg><span class="lbl">Map</span>
+      </button>
+    </div>
+    <div class="when" role="group" aria-label="When">
+      <button type="button" class="seg" data-when="now">On now</button>
+      <button type="button" class="seg" data-when="today">Today</button>
+      <span class="seg select-seg" id="daySeg" aria-pressed="false">
+        <label class="sr" for="day">Pick a day</label>
+        <select id="day"><option value="">Day</option></select>
+      </span>
+      <button type="button" class="seg" data-when="all">Any day</button>
+    </div>
+    <nav class="areas" id="areas" aria-label="Areas"></nav>
   </div>
 </div>
 
-<main>
-  <div class="count" id="count"></div>
-  <div id="map"></div>
-  <div id="list"></div>
-</main>
+<div class="layout">
+  <main class="listcol">
+    <div class="summary" id="summary"></div>
+    <div id="list"></div>
+  </main>
+  <aside class="mapcol"><div id="map" role="region" aria-label="Map of places"></div></aside>
+</div>
 
-<footer>
-  Deals are pulled from each restaurant's own website and re-checked on the date shown. Places change their specials, so confirm before you go.
+<footer class="site-foot">
+  Deals are read from each restaurant's own website and re-checked on the date shown on each deal. Specials change, so confirm before you go.
   <span id="report"></span><br>
-  Venue data © <a href="https://overturemaps.org">Overture Maps Foundation</a> and
-  © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors.
+  Venue data © <a href="https://overturemaps.org">Overture Maps Foundation</a> and © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors.
 </footer>
+
+<dialog class="sheet" id="sheet" aria-labelledby="sheetTitle">
+  <form method="dialog" id="filterForm">
+    <header>
+      <h2 id="sheetTitle">Filters</h2>
+      <button type="submit" class="linkbtn" value="close" aria-label="Close filters"><svg class="i"><use href="#i-x"/></svg></button>
+    </header>
+    <div class="body">
+      <fieldset><legend>Deal type</legend><div class="opts" data-group="type"></div></fieldset>
+      <fieldset><legend>Includes</legend><div class="opts" data-group="inc"></div>
+        <p class="hint">"Food" is handy if someone in your group is under 21.</p></fieldset>
+      <fieldset><legend>Time of day</legend><div class="opts" data-group="tod"></div></fieldset>
+      <fieldset><legend>Place</legend><div class="opts" data-group="cat"></div></fieldset>
+      <fieldset><legend>Details</legend><div class="opts" data-group="flags"></div></fieldset>
+      <fieldset><legend>Sort by</legend><div class="opts" data-group="sort" data-radio></div>
+        <p class="hint" id="geoHint"></p></fieldset>
+    </div>
+    <footer>
+      <button type="button" class="btn" id="resetFilters">Clear all</button>
+      <button type="submit" class="btn primary" id="applyFilters" value="apply">Show results</button>
+    </footer>
+  </form>
+</dialog>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
 <script src="time.js"></script>
 <script>
 const REPORT_URL = "";  // e.g. a Google Form link; the "report a wrong deal" link stays hidden until set
+const TZ = "America/Chicago";
+const DAY_NAMES = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
-const state = { when: "now", food: false, drink: false, hood: "", q: "", map: false };
-const qWhen = new URLSearchParams(location.search).get("when");  // shareable ?when=today|all
-if (["now", "today", "all"].includes(qWhen)) state.when = qWhen;
-let venues = [], map, layer;
+// Filter vocabulary: [key, label, test(deal, venue, ctx)]
+const OPTIONS = {
+  type: [["hh", "Happy hour", d => d.kind === "happy_hour"], ["special", "Daily specials", d => d.kind === "daily_special" || d.kind === "other"],
+         ["late", "Late-night / reverse", d => d.kind === "reverse_happy_hour" || toMin(d.start) >= 20 * 60]],
+  inc: [["food", "Food", d => d.food], ["drink", "Drinks", d => d.drink]],
+  tod: [["lunch", "Lunch", null, [11 * 60, 14 * 60], "11–2"], ["aft", "Afternoon", null, [14 * 60, 18 * 60], "2–6"],
+        ["eve", "Evening", null, [18 * 60, 22 * 60], "6–10"], ["late", "Late night", null, [22 * 60, 27 * 60], "10pm+"]],
+  cat: [["bar", "Bars & lounges", (d, v) => /bar|pub|lounge|nightlife|brewery|winery/.test(v.category)],
+        ["rest", "Restaurants", (d, v) => /restaurant|eatery/.test(v.category)], ["cafe", "Cafés", (d, v) => /cafe|coffee/.test(v.category)]],
+  flags: [["price", "Prices listed", d => /\$\s?\d|\d+\s?%|half|1\/2/i.test(d.summary)], ["allday", "All-day deals", d => d.all_day]],
+  sort: [["best", "Best right now"], ["az", "A–Z"], ["near", "Nearest to me"]],
+};
+const MULTI = ["type", "inc", "tod", "cat", "flags"];
 
-// Current day + minutes in Dallas regardless of the viewer's phone timezone.
+const state = { when: "now", day: null, area: "", q: "", type: [], inc: [], tod: [], cat: [], flags: [], sort: "best", map: false };
+let DATA = { venues: [], areas: [] }, here = null, map, layer, markers = new Map(), spy, lastFit = "";
+
+/* ---------- helpers ---------- */
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
+const safeUrl = u => /^https?:\/\//i.test(u || "") ? esc(u) : null;  // never render javascript: etc. from scraped data
+const slug = s => s.toLowerCase().replace(/&/g, "and").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+const icon = id => `<svg class="i"><use href="#i-${id}"/></svg>`;
+const shortDate = iso => new Date(iso + "T12:00:00").toLocaleDateString("en-US", { month: "short", day: "numeric" });
+
 function dallasNow() {
-  const p = Object.fromEntries(new Intl.DateTimeFormat("en-US", {
-    timeZone: "America/Chicago", weekday: "short", hour: "numeric", minute: "numeric", hourCycle: "h23",
-  }).formatToParts(new Date()).map(x => [x.type, x.value]));
+  const p = Object.fromEntries(new Intl.DateTimeFormat("en-US", { timeZone: TZ, weekday: "short", hour: "numeric", minute: "numeric", hourCycle: "h23" })
+    .formatToParts(new Date()).map(x => [x.type, x.value]));
   return { day: DAYS.indexOf(p.weekday), min: (+p.hour % 24) * 60 + +p.minute };
 }
 
 function fmt(min) {
-  min %= 1440;
+  min = ((min % 1440) + 1440) % 1440;
   const h = Math.floor(min / 60), m = min % 60, ap = h < 12 ? "am" : "pm", h12 = h % 12 || 12;
+  if (min === 0) return "midnight";
   return m ? `${h12}:${String(m).padStart(2, "0")}${ap}` : `${h12}${ap}`;
 }
+const dur = m => m < 60 ? `${m} min` : m % 60 && m < 180 ? `${Math.floor(m / 60)}h ${m % 60}m` : `${Math.round(m / 60)} hr`;
 
-function whenText(d) {
-  const days = d.days.length === 7 ? "Every day" : d.days.length === 5 && !d.days.includes("Sat") && !d.days.includes("Sun")
-    ? "Weekdays" : d.days.join(", ");
+function timeText(d) {
   const s = toMin(d.start), e = toMin(d.end);
-  let t = d.all_day ? "all day" : "times not listed";
-  if (s != null && e != null) t = `${fmt(s)}–${fmt(e)}`;
-  else if (s != null) t = d.until_close ? `${fmt(s)}–close` : `from ${fmt(s)}`;
-  else if (e != null) t = `until ${fmt(e)}`;
-  return `${days} · ${t}`;
+  if (d.all_day) return "All day";
+  if (s != null && e != null) return `${fmt(s)}–${fmt(e)}`;
+  if (s != null) return d.until_close ? `${fmt(s)}–close` : `From ${fmt(s)}`;
+  if (e != null) return `Until ${fmt(e)}`;
+  return "Times not listed";
+}
+function daysText(days) {
+  const has = n => days.includes(n), wk = ["Mon", "Tue", "Wed", "Thu", "Fri"];
+  if (days.length === 7) return "Daily";
+  if (days.length === 5 && wk.every(has)) return "Weekdays";
+  if (days.length === 2 && has("Sat") && has("Sun")) return "Weekends";
+  const idx = days.map(x => DAYS.indexOf(x)).sort((a, b) => ((a + 6) % 7) - ((b + 6) % 7));
+  const contiguous = idx.every((v, i) => i === 0 || (idx[i - 1] + 1) % 7 === v);
+  return contiguous && idx.length > 2 ? `${DAYS[idx[0]]}–${DAYS[idx[idx.length - 1]]}` : idx.map(i => DAYS[i]).join(", ");
+}
+function km(a, b) {
+  const r = Math.PI / 180, dLat = (b.lat - a.lat) * r, dLon = (b.lon - a.lon) * r;
+  const h = Math.sin(dLat / 2) ** 2 + Math.cos(a.lat * r) * Math.cos(b.lat * r) * Math.sin(dLon / 2) ** 2;
+  return 12742 * Math.asin(Math.sqrt(h));
+}
+const miles = k => { const m = k * 0.621; return m < 0.1 ? "nearby" : `${m < 10 ? m.toFixed(1) : Math.round(m)} mi`; };
+
+/* ---------- URL state ---------- */
+function readUrl() {
+  const p = new URLSearchParams(location.search);
+  const w = p.get("when");
+  if (["now", "today", "all"].includes(w)) state.when = w;
+  const day = DAYS.findIndex(x => x.toLowerCase() === (p.get("day") || "").toLowerCase());
+  if (day >= 0) { state.when = "day"; state.day = day; }
+  state.q = p.get("q") || "";
+  state.area = p.get("area") || "";
+  for (const k of MULTI) state[k] = (p.get(k) || "").split(",").filter(v => OPTIONS[k].some(o => o[0] === v));
+  if (OPTIONS.sort.some(o => o[0] === p.get("sort") && o[0] !== "near")) state.sort = p.get("sort");
+  return Boolean(w || p.get("day"));
+}
+function writeUrl() {
+  const p = new URLSearchParams();
+  if (state.when === "day") p.set("day", DAYS[state.day].toLowerCase()); else if (state.when !== "now") p.set("when", state.when);
+  if (state.area) p.set("area", state.area);
+  if (state.q) p.set("q", state.q);
+  for (const k of MULTI) if (state[k].length) p.set(k, state[k].join(","));
+  if (state.sort !== "best" && state.sort !== "near") p.set("sort", state.sort);
+  const qs = p.toString();
+  history.replaceState(null, "", qs ? `?${qs}` : location.pathname);
 }
 
-const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
-const shortDate = iso => new Date(iso + "T12:00:00").toLocaleDateString("en-US", { month: "short", day: "numeric" });
+/* ---------- filtering ---------- */
+function dealPasses(d, v, now) {
+  for (const k of ["type", "inc", "cat", "flags"]) {
+    if (state[k].length && !state[k].some(key => OPTIONS[k].find(o => o[0] === key)[2](d, v))) return false;
+  }
+  const day = state.when === "day" ? state.day : now.day;
+  if (state.tod.length) {
+    const ranges = state.tod.map(key => OPTIONS.tod.find(o => o[0] === key)[3]);
+    const days = state.when === "all" ? [0, 1, 2, 3, 4, 5, 6] : [day];
+    if (!days.some(dd => ranges.some(([a, b]) => overlaps(d, dd, a, b)))) return false;
+  }
+  if (state.when === "now") return d._live != null;
+  if (state.when === "today" || state.when === "day") return onDay(d, day);
+  return true;
+}
 
-function visible() {
-  const now = dallasNow(), q = state.q.toLowerCase();
+function compute() {
+  const now = dallasNow(), q = state.q.trim().toLowerCase();
+  const terms = q.split(/\s+/).filter(Boolean);
   const out = [];
-  for (const v of venues) {
-    if (state.hood && v.neighborhood !== state.hood) continue;
+  for (const v of DATA.venues) {
+    const hay = `${v.name} ${v.neighborhood} ${v.category}`.toLowerCase();
     const deals = v.deals.filter(d => {
-      if (state.food && !d.food) return false;
-      if (state.drink && !d.drink) return false;
-      if (q && !`${v.name} ${d.title} ${d.summary}`.toLowerCase().includes(q)) return false;
       d._live = liveFor(d, now);
       d._soon = startsIn(d, now);
-      if (state.when === "now") return d._live != null;
-      if (state.when === "today") return d._live != null || d._soon != null || d.days.includes(DAYS[now.day]);
-      return true;
+      if (terms.length && !terms.every(t => `${hay} ${d.title} ${d.summary}`.toLowerCase().includes(t))) return false;
+      return dealPasses(d, v, now);
     });
-    if (deals.length) out.push({ v, deals });
+    if (deals.length) out.push({ v, deals, live: deals.some(d => d._live != null) });
   }
-  const rank = ({ deals }) => {
-    const live = deals.filter(d => d._live != null).map(d => d._live);
-    const soon = deals.filter(d => d._soon != null).map(d => d._soon);
-    return live.length ? Math.min(...live) : soon.length ? 10000 + Math.min(...soon) : 20000;
-  };
-  return out.sort((a, b) => rank(a) - rank(b) || a.v.name.localeCompare(b.v.name));
+  return { rows: out, now };
+}
+
+function rank(r) {
+  const live = r.deals.filter(d => d._live != null).map(d => d._live);
+  if (live.length) return Math.min(...live);
+  const soon = r.deals.filter(d => d._soon != null).map(d => d._soon);
+  if (soon.length && (state.when === "today" || state.when === "now")) return 2000 + Math.min(...soon);
+  const starts = r.deals.map(d => toMin(d.start)).filter(x => x != null);
+  return 5000 + (starts.length ? Math.min(...starts) : 1440);
+}
+function sortRows(rows) {
+  if (state.sort === "az") return rows.sort((a, b) => a.v.name.localeCompare(b.v.name));
+  if (state.sort === "near" && here) return rows.sort((a, b) => km(here, a.v) - km(here, b.v));
+  return rows.sort((a, b) => rank(a) - rank(b) || a.v.name.localeCompare(b.v.name));
+}
+
+/* ---------- rendering ---------- */
+function statusPill(r, now) {
+  const live = r.deals.filter(d => d._live != null).sort((a, b) => b._live - a._live)[0];
+  if (live) return `<span class="status live">${live._live <= 60 ? `Ends in ${live._live} min` : `On now · til ${fmt(now.min + live._live)}`}</span>`;
+  if (state.when === "now" || state.when === "today") {
+    const soon = r.deals.filter(d => d._soon != null).sort((a, b) => a._soon - b._soon)[0];
+    if (soon) return `<span class="status soon">${soon._soon <= 90 ? `Starts in ${dur(soon._soon)}` : `Starts ${fmt(now.min + soon._soon)}`}</span>`;
+  }
+  return "";
+}
+
+// "Happy Hour — Happy hour menu" says nothing twice; show the title and point at their menu instead.
+function whatHtml(d) {
+  const t = d.title.trim(), sm = d.summary.trim(), low = sm.toLowerCase().replace(/[.!]$/, "");
+  const generic = low === t.toLowerCase() || /^(happy hour|happy hour menu|happy hour specials|weekday happy hour specials|specials)$/.test(low);
+  return generic ? `<b>${esc(t)}</b> <span style="color:var(--muted)">· see their menu for prices</span>` : `<b>${esc(t)}</b> — ${esc(sm)}`;
+}
+
+const KIND = { happy_hour: "Happy hour", reverse_happy_hour: "Late-night HH", daily_special: "Special", other: "Deal" };
+
+function dealHtml(d, v, now) {
+  const on = d._live != null;
+  const when = `${daysText(d.days)} · ${timeText(d)}`;
+  const src = safeUrl(d.source_url);
+  const bits = [d.where, d.food && d.drink ? "Food & drinks" : d.food ? "Food" : d.drink ? "Drinks" : ""].filter(Boolean).map(esc);
+  bits.push(`Checked ${esc(shortDate(v.checked))}${src ? ` · <a href="${src}" target="_blank" rel="noopener">source</a>` : ""}`);
+  return `<div class="deal">
+    <div class="d-top"><span class="tag ${d.kind === "happy_hour" || d.kind === "reverse_happy_hour" ? "" : "special"}">${KIND[d.kind] || "Deal"}</span>
+      <span class="d-when ${on ? "on" : ""}">${esc(when)}</span></div>
+    <div class="d-what">${whatHtml(d)}</div>
+    <div class="d-foot">${bits.join(" · ")}</div>
+  </div>`;
+}
+
+function cardHtml(r, now) {
+  const { v, deals } = r;
+  const sorted = [...deals].sort((a, b) => (b._live != null) - (a._live != null) || (toMin(a.start) ?? 0) - (toMin(b.start) ?? 0));
+  const shown = sorted.slice(0, 3), rest = sorted.slice(3);
+  const flat = state.area || state.sort === "near" || state.sort === "az";
+  const meta = [catLabel(v.category), flat && !state.area ? esc(v.neighborhood) : "", here ? miles(km(here, v)) : "", v.address ? esc(v.address) : ""]
+    .filter(Boolean).join(" · ");
+  const site = safeUrl(v.website);
+  const dir = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${v.name} ${v.address || ""} Dallas TX`)}`;
+  return `<article class="card" id="v-${v._id}" data-id="${v._id}">
+    <div class="c-head"><div class="c-title"><h3>${esc(v.name)}</h3><div class="c-meta">${meta}</div></div>${statusPill(r, now)}</div>
+    ${shown.map(d => dealHtml(d, v, now)).join("")}
+    ${rest.length ? `<details class="more"><summary>+ ${rest.length} more deal${rest.length > 1 ? "s" : ""}</summary>${rest.map(d => dealHtml(d, v, now)).join("")}</details>` : ""}
+    <div class="c-actions">
+      <a class="act" href="${dir}" target="_blank" rel="noopener">${icon("nav")}Directions</a>
+      ${site ? `<a class="act" href="${site}" target="_blank" rel="noopener">${icon("globe")}Website</a>` : ""}
+      <button type="button" class="act map-link" data-show="${v._id}" aria-label="Show ${esc(v.name)} on map">${icon("pin")}Map</button>
+    </div>
+  </article>`;
+}
+const catLabel = c => /bar|pub|lounge|nightlife|brewery|winery/.test(c) ? "Bar" : /cafe|coffee/.test(c) ? "Café" : "Restaurant";
+
+function whenLabel() {
+  return { now: "on right now", today: "today", all: "any day" }[state.when] || `on ${DAY_NAMES[state.day]}`;
 }
 
 function render() {
-  const rows = visible();
-  const nDeals = rows.reduce((n, r) => n + r.deals.length, 0);
-  const label = { now: "on right now", today: "today", all: "this week" }[state.when];
-  document.getElementById("count").textContent = `${nDeals} deal${nDeals === 1 ? "" : "s"} at ${rows.length} place${rows.length === 1 ? "" : "s"} ${label}`;
+  const { rows, now } = compute();
+  const areaName = DATA.areas.find(a => slug(a) === state.area);
+  if (state.area && !areaName) state.area = "";
 
-  document.getElementById("list").innerHTML = rows.length ? rows.map(({ v, deals }) => `
-    <article class="card">
-      <div class="vhead"><div class="vname">${esc(v.name)}</div><div class="hood">${esc(v.neighborhood)}</div></div>
-      ${deals.map(d => `
-        <div class="deal">
-          <div class="when">${esc(whenText(d))}${d._live != null ? `<span class="badge live">${d._live <= 60 ? `ends in ${d._live}m` : "on now"}</span>`
-            : d._soon != null && state.when !== "all" ? `<span class="badge soon">in ${d._soon < 60 ? d._soon + "m" : Math.round(d._soon / 60) + "h"}</span>` : ""}</div>
-          <div class="what"><strong>${esc(d.title)}</strong> — ${esc(d.summary)}</div>
-          <div class="meta">${[d.where, d.food && d.drink ? "food & drinks" : d.food ? "food" : d.drink ? "drinks" : ""].filter(Boolean).map(esc).join(" · ")}
-            ${d.food || d.drink || d.where ? " · " : ""}checked ${esc(shortDate(v.checked))} · <a href="${esc(d.source_url)}" target="_blank" rel="noopener">source</a></div>
-        </div>`).join("")}
-      <div class="links">
-        <a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(v.name + " " + (v.address || "Dallas TX"))}" target="_blank" rel="noopener">Directions</a>
-        ${v.website ? `<a href="${esc(v.website)}" target="_blank" rel="noopener">Website</a>` : ""}
-      </div>
-    </article>`).join("")
-    : `<div class="empty">Nothing ${label} with these filters.${state.when === "now" ? " Try “Today”." : ""}</div>`;
+  // area rail with counts under every filter except area
+  const counts = {};
+  rows.forEach(r => counts[r.v.neighborhood] = (counts[r.v.neighborhood] || 0) + 1);
+  $("areas").innerHTML = [["", "All areas", rows.length], ...DATA.areas.map(a => [slug(a), a, counts[a] || 0])]
+    .map(([s, label, n]) => `<button type="button" class="area ${n ? "" : "zero"} ${!s && !state.area ? "all-on" : ""}" data-area="${s}" aria-current="${Boolean(s) && s === state.area}">${esc(label)}<span class="n">${n}</span></button>`).join("");
 
-  if (state.map) drawMap(rows);
+  const visible = sortRows(rows.filter(r => !state.area || slug(r.v.neighborhood) === state.area));
+  const nDeals = visible.reduce((n, r) => n + r.deals.length, 0);
+  const nLive = visible.filter(r => r.live).length;
+
+  // summary + removable filter pills
+  const pills = [];
+  if (state.area) pills.push(["area", "", areaName]);
+  if (state.q) pills.push(["q", "", `“${state.q}”`]);
+  for (const k of MULTI) for (const key of state[k]) pills.push([k, key, OPTIONS[k].find(o => o[0] === key)[1]]);
+  $("summary").innerHTML = `<span class="count-text"><b>${visible.length}</b> place${visible.length === 1 ? "" : "s"} · ${nDeals} deal${nDeals === 1 ? "" : "s"} ${whenLabel()}${nLive && state.when !== "now" ? ` · <span style="color:var(--live);font-weight:600">${nLive} on now</span>` : ""}</span>`
+    + pills.map(([k, key, label]) => `<button type="button" class="pill-x" data-rm="${k}" data-key="${esc(key)}" aria-label="Remove ${esc(label)}">${esc(label)}${icon("x")}</button>`).join("")
+    + (pills.length > 1 ? `<button type="button" class="linkbtn" data-rm="all">Clear all</button>` : "");
+
+  const nFilters = MULTI.reduce((n, k) => n + state[k].length, 0) + (state.sort !== "best");
+  $("filterCount").hidden = !nFilters;
+  $("filterCount").textContent = nFilters;
+
+  // list: grouped by area (All) or flat (one area / nearest / A–Z)
+  let html;
+  if (!visible.length) html = emptyHtml(rows.length);
+  else if (state.area || state.sort === "near" || state.sort === "az") html = visible.map(r => cardHtml(r, now)).join("");
+  else {
+    html = DATA.areas.map(a => {
+      const rs = visible.filter(r => r.v.neighborhood === a);
+      if (!rs.length) return "";
+      const live = rs.filter(r => r.live).length;
+      return `<section data-section="${slug(a)}"><div class="section-h" id="area-${slug(a)}"><h2>${esc(a)}</h2>
+        <span>${rs.length} place${rs.length === 1 ? "" : "s"}${live && state.when !== "now" ? ` · <span class="live-n">${live} on now</span>` : ""}</span></div>
+        ${rs.map(r => cardHtml(r, now)).join("")}</section>`;
+    }).join("");
+  }
+  $("list").innerHTML = html;
+  syncControls();
+  drawMap(visible);
+  watchSections();
+  writeUrl();
 }
 
+function emptyHtml(totalAnyArea) {
+  const where = state.area ? ` in ${esc(DATA.areas.find(a => slug(a) === state.area))}` : "";
+  const btns = [];
+  if (state.when === "now") btns.push(`<button class="btn primary" data-go="today">See today's deals</button>`);
+  if (state.area && totalAnyArea) btns.push(`<button class="btn" data-rm="area">All areas</button>`);
+  if (MULTI.some(k => state[k].length) || state.q) btns.push(`<button class="btn" data-rm="all">Clear filters</button>`);
+  return `<div class="empty"><h3>Nothing ${whenLabel()}${where}</h3>Try another time or loosen the filters.<div class="row">${btns.join("")}</div></div>`;
+}
+
+function syncControls() {
+  document.querySelectorAll("[data-when]").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.when === state.when)));
+  $("daySeg").setAttribute("aria-pressed", String(state.when === "day"));
+  $("day").value = state.when === "day" ? String(state.day) : "";
+  $("searchWrap").classList.toggle("has-q", Boolean(state.q));
+  if ($("q").value !== state.q) $("q").value = state.q;
+  $("viewToggle").setAttribute("aria-pressed", String(state.map));
+  $("viewToggle").innerHTML = state.map ? `${icon("list")}<span class="lbl">List</span>` : `${icon("map")}<span class="lbl">Map</span>`;
+  $("viewToggle").setAttribute("aria-label", state.map ? "List view" : "Map view");
+  document.body.classList.toggle("mapmode", state.map);
+  const now = dallasNow();
+  $("clock").innerHTML = `<b>${DAY_NAMES[now.day]} ${fmt(now.min)}</b>Dallas time`;
+}
+
+/* ---------- map ---------- */
+function mapVisible() { return state.map || matchMedia("(min-width: 1000px)").matches; }
 function drawMap(rows) {
+  if (!mapVisible() || typeof L === "undefined") return;
   if (!map) {
-    map = L.map("map").setView([32.83, -96.785], 13);
+    map = L.map("map", { zoomControl: true, attributionControl: true }).setView([32.83, -96.79], 13);
     L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
       maxZoom: 19, attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
     }).addTo(map);
+    const legend = L.control({ position: "bottomleft" });
+    legend.onAdd = () => Object.assign(L.DomUtil.create("div", "legend"), {
+      innerHTML: `<span><i style="background:var(--live)"></i>On now</span><span><i style="background:var(--accent)"></i>Other times</span>` });
+    legend.addTo(map);
   }
   if (layer) layer.remove();
-  layer = L.layerGroup(rows.map(({ v, deals }) => L.circleMarker([v.lat, v.lon], {
-    radius: 8, weight: 2, color: "#fff", fillOpacity: 0.95,
-    fillColor: deals.some(d => d._live != null) ? "#15803d" : "#c2410c",
-  }).bindPopup(`<strong>${esc(v.name)}</strong><br>${deals.map(d => `${esc(d.title)}: ${esc(whenText(d))}`).join("<br>")}`))).addTo(map);
-  if (rows.length) map.fitBounds(L.latLngBounds(rows.map(({ v }) => [v.lat, v.lon])), { padding: [24, 24], maxZoom: 15 });
-  setTimeout(() => map.invalidateSize(), 0);
+  markers.clear();
+  const live = getComputedStyle(document.documentElement).getPropertyValue("--live").trim() || "#15803d";
+  const acc = getComputedStyle(document.documentElement).getPropertyValue("--accent").trim() || "#c2410c";
+  layer = L.layerGroup(rows.map(({ v, deals, live: on }) => {
+    const m = L.circleMarker([v.lat, v.lon], { radius: on ? 9 : 7, weight: 2, color: "#fff", fillColor: on ? live : acc, fillOpacity: .95 })
+      .bindPopup(`<b>${esc(v.name)}</b><br><span style="color:#777">${esc(v.neighborhood)}</span><br>`
+        + deals.slice(0, 3).map(d => `${esc(d.title)} · ${esc(timeText(d))}`).join("<br>")
+        + `<br><a href="#v-${v._id}" data-jump="${v._id}">View deals</a>`);
+    markers.set(v._id, m);
+    return m;
+  })).addTo(map);
+  const key = rows.map(r => r.v._id).join(",");  // only refit when the set of places changes, not on the 1-min tick
+  setTimeout(() => {
+    map.invalidateSize();
+    if (key === lastFit) return;
+    lastFit = key;
+    if (rows.length) map.fitBounds(L.latLngBounds(rows.map(({ v }) => [v.lat, v.lon])), { padding: [30, 30], maxZoom: 16 });
+  }, 0);
+}
+function showOnMap(id) {
+  const m = markers.get(+id);
+  if (!matchMedia("(min-width: 1000px)").matches && !state.map) { state.map = true; render(); }
+  const mk = markers.get(+id) || m;
+  if (mk) { map.setView(mk.getLatLng(), 16); mk.openPopup(); }
+}
+function jumpToCard(id) {
+  if (state.map && !matchMedia("(min-width: 1000px)").matches) { state.map = false; render(); }
+  const el = document.getElementById(`v-${id}`);
+  if (!el) return;
+  el.scrollIntoView({ behavior: "smooth", block: "center" });
+  el.classList.add("hl");
+  setTimeout(() => el.classList.remove("hl"), 1600);
 }
 
-function press(btn, on) { btn.setAttribute("aria-pressed", String(on)); }
+/* ---------- area scroll-spy (All areas view) ---------- */
+function watchSections() {
+  if (spy) spy.disconnect();
+  if (state.area) return;
+  spy = new IntersectionObserver(entries => {
+    const top = entries.filter(e => e.isIntersecting).sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top)[0];
+    if (!top) return;
+    const s = top.target.dataset.section;
+    document.querySelectorAll(".area").forEach(b => b.classList.toggle("spy", b.dataset.area === s));
+    const btn = document.querySelector(`.area[data-area="${s}"]`);
+    if (btn) btn.scrollIntoView({ inline: "center", block: "nearest" });
+  }, { rootMargin: `-${barHeight() + 1}px 0px -70% 0px` });
+  document.querySelectorAll("section[data-section]").forEach(s => spy.observe(s));
+}
+const barHeight = () => $("bar").getBoundingClientRect().height;
 
-document.querySelectorAll("[data-when]").forEach(b => b.onclick = () => {
-  state.when = b.dataset.when;
-  document.querySelectorAll("[data-when]").forEach(x => press(x, x === b));
+/* ---------- filters sheet ---------- */
+function buildSheet() {
+  for (const [group, opts] of Object.entries(OPTIONS)) {
+    const box = document.querySelector(`[data-group="${group}"]`);
+    const radio = box.hasAttribute("data-radio");
+    box.innerHTML = opts.map(([key, label, , , sub]) => `<label class="opt"><input type="${radio ? "radio" : "checkbox"}" name="${group}" value="${key}">
+      <span>${esc(label)}${sub ? ` <small>${esc(sub)}</small>` : ""}</span></label>`).join("");
+  }
+}
+function openSheet() {
+  for (const k of MULTI) document.querySelectorAll(`[name="${k}"]`).forEach(i => i.checked = state[k].includes(i.value));
+  document.querySelectorAll('[name="sort"]').forEach(i => i.checked = i.value === state.sort);
+  $("geoHint").textContent = "";
+  $("sheet").showModal();
+}
+async function applySheet() {
+  for (const k of MULTI) state[k] = [...document.querySelectorAll(`[name="${k}"]:checked`)].map(i => i.value);
+  const sort = document.querySelector('[name="sort"]:checked')?.value || "best";
+  if (sort === "near" && !here) {
+    try { here = await locate(); state.sort = "near"; }
+    catch { state.sort = "best"; alert("Couldn't get your location, so results are sorted by what's on soonest."); }
+  } else state.sort = sort;
   render();
+}
+function locate() {
+  return new Promise((res, rej) => {
+    if (!navigator.geolocation) return rej();
+    navigator.geolocation.getCurrentPosition(p => res({ lat: p.coords.latitude, lon: p.coords.longitude }), rej, { timeout: 8000, maximumAge: 300000 });
+  });
+}
+
+/* ---------- events ---------- */
+document.addEventListener("click", e => {
+  const t = e.target.closest("button, a");
+  if (!t) return;
+  if (t.dataset.when) { state.when = t.dataset.when; render(); }
+  else if (t.dataset.area !== undefined && t.classList.contains("area")) {
+    // "All areas" resets the filter; an area chip filters to it. In All view, scroll back to the top first.
+    state.area = t.dataset.area;
+    render();
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+  else if (t.dataset.rm) {
+    const k = t.dataset.rm;
+    if (k === "all") { state.q = ""; state.area = ""; MULTI.forEach(m => state[m] = []); }
+    else if (k === "area") state.area = "";
+    else if (k === "q") state.q = "";
+    else state[k] = state[k].filter(x => x !== t.dataset.key);
+    render();
+  }
+  else if (t.dataset.go) { state.when = t.dataset.go; render(); }
+  else if (t.dataset.show) showOnMap(t.dataset.show);
+  else if (t.dataset.jump) { e.preventDefault(); jumpToCard(t.dataset.jump); }
 });
-document.getElementById("mapToggle").onclick = e => {
-  state.map = !state.map; press(e.target, state.map);
-  document.getElementById("map").style.display = state.map ? "block" : "none";
-  document.getElementById("list").style.display = state.map ? "none" : "block";
+let qTimer;
+$("q").addEventListener("input", e => { clearTimeout(qTimer); qTimer = setTimeout(() => { state.q = e.target.value; render(); }, 120); });
+$("clearQ").onclick = () => { state.q = ""; render(); $("q").focus(); };
+$("day").onchange = e => {
+  if (e.target.value === "") { state.when = "today"; } else { state.when = "day"; state.day = +e.target.value; }
   render();
 };
-for (const k of ["food", "drink"]) document.getElementById(k).onclick = e => { state[k] = !state[k]; press(e.target, state[k]); render(); };
-document.getElementById("hood").onchange = e => { state.hood = e.target.value; render(); };
-document.getElementById("q").oninput = e => { state.q = e.target.value; render(); };
-if (REPORT_URL) document.getElementById("report").innerHTML = ` <a href="${esc(REPORT_URL)}" target="_blank" rel="noopener">Report a wrong deal</a>.`;
+$("viewToggle").onclick = () => { state.map = !state.map; render(); window.scrollTo({ top: 0 }); };
+$("openFilters").onclick = openSheet;
+$("resetFilters").onclick = () => { document.querySelectorAll("#filterForm input").forEach(i => i.checked = i.value === "best"); };
+$("filterForm").addEventListener("submit", e => { if (e.submitter?.value === "apply") applySheet(); });
+$("sheet").addEventListener("click", e => { if (e.target === $("sheet")) $("sheet").close(); });  // tap backdrop to close
+new ResizeObserver(() => document.documentElement.style.setProperty("--bar-h", `${Math.round(barHeight())}px`)).observe($("bar"));
+matchMedia("(min-width: 1000px)").addEventListener("change", () => render());
+if (REPORT_URL) $("report").innerHTML = ` <a href="${safeUrl(REPORT_URL)}" target="_blank" rel="noopener">Report a wrong deal</a>.`;
 
-document.querySelectorAll("[data-when]").forEach(x => press(x, x.dataset.when === state.when));
+/* ---------- boot ---------- */
+const now0 = dallasNow();
+$("day").insertAdjacentHTML("beforeend", [1, 2, 3, 4, 5, 6, 0].map(i => `<option value="${i}">${DAY_NAMES[i]}${i === now0.day ? " (today)" : ""}</option>`).join(""));
+buildSheet();
+const explicitWhen = readUrl();
 
 fetch("deals.json").then(r => r.json()).then(data => {
-  venues = data.venues;
-  document.getElementById("sub").textContent = `Deals near SMU · ${venues.length} places · updated ${shortDate(data.updated)}`;
-  const hoods = [...new Set(venues.map(v => v.neighborhood))].sort();
-  document.getElementById("hood").insertAdjacentHTML("beforeend", hoods.map(h => `<option>${esc(h)}</option>`).join(""));
-  if (!qWhen && !visible().length) {  // nothing on right now: open on Today instead of an empty screen
-    state.when = "today";
-    document.querySelectorAll("[data-when]").forEach(x => press(x, x.dataset.when === "today"));
-  }
+  DATA = data;
+  DATA.venues.forEach((v, i) => v._id = i);
+  DATA.areas = data.areas || [...new Set(data.venues.map(v => v.neighborhood))];
+  if (!explicitWhen && !compute().rows.length) state.when = "today";  // nothing on right now: open on Today
   render();
-  setInterval(render, 60_000);  // keep "ends in" badges fresh
-});
+  setInterval(render, 60_000);  // keep countdowns fresh
+}).catch(() => { $("list").innerHTML = `<div class="empty"><h3>Couldn't load deals</h3>Check your connection and refresh.</div>`; });
 </script>
 </body>
 </html>
