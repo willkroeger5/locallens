@@ -1,7 +1,7 @@
 {
- "hash": "cf74202551991a40",
- "checked": "2026-10-04",
+ "hash": "eaf833bfc54f6a8a",
+ "checked": "2026-10-06",
  "deals": [],
  "dropped": [],
- "notes": "The menu page only shows navigation and a 'Specials' heading with unloaded content ('Load More Content'); no specific deal details, days, times, or prices are stated in the text, so no deals were extracted."
+ "notes": "The menu page only shows a 'Specials' heading with content that did not load, so no deal details are available. No happy hour or daily special information appears in the provided text."
 }

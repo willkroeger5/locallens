@@ -1,6 +1,6 @@
 {
- "hash": "688899e434df21ce",
- "checked": "2026-10-04",
+ "hash": "1c5f3f9db874646f",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "happy_hour",
@@ -24,5 +24,5 @@
   }
  ],
  "dropped": [],
- "notes": "Prices ($4 drafts, $5 wells, $6 wines) appear under 'Happy Hour Deals!' in a separate section from the 'HH: M - Th / 3pm - 7pm' line. The site doesn't specify whether happy hour applies to the Uptown location, the Lakewood location, or both. Brunch hours are listed, but no brunch deal is stated."
+ "notes": "Prices are listed under 'Happy Hour Deals!' ($4 Drafts. $5 Wells. $6 Wines.), while the days and times come from a separate footer line ('HH: M - Th / 3pm - 7pm'). The two lines were combined into one deal. The site does not say which location the happy hour applies to; it appears to be site-wide."
 }

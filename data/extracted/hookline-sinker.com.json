@@ -1,11 +1,11 @@
 {
- "hash": "a1ba05ff30eb05ef",
- "checked": "2026-10-04",
+ "hash": "0694de3b20f4c0bc",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "happy_hour",
    "title": "Fishing Hours Happy Hour",
-   "summary": "Wines from $4.95, $4.95 mimosas & bellinis, 25% off bottled beer, $13.95 domestic pitchers, sliders (choice of 3) $6.95, 6 wings $9.95, 6 char-grilled oysters $12.95",
+   "summary": "Wine from $4.95, $4.95 mimosas & bellinis, 25% off bottled beer, $13.95 domestic pitchers, $6.95 sliders (3), $9.95 wings, $12.95 char-grilled oysters",
    "days": [
     "Mon",
     "Tue",
@@ -25,5 +25,5 @@
   }
  ],
  "dropped": [],
- "notes": "Happy hour PDF is not location-specific; site appears to serve the Lemmon Ave location."
+ "notes": null
 }

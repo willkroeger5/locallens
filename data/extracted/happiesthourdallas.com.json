@@ -1,6 +1,6 @@
 {
- "hash": "60a3253fb62b76a7",
- "checked": "2026-10-04",
+ "hash": "9c776987b2c9c209",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "happy_hour",
@@ -25,5 +25,5 @@
   }
  ],
  "dropped": [],
- "notes": "Deal stated for the 2616 Olive St location; no separate info for 2501 N Harwood St."
+ "notes": null
 }

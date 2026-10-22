@@ -1,11 +1,11 @@
 {
- "hash": "81332b7e19027338",
- "checked": "2026-10-04",
+ "hash": "07e5149a013dbfa5",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "happy_hour",
-   "title": "Weekday Happy Hour",
-   "summary": "$14 meal deal (sliders or wings + side + beer), $10 ELLE cocktails, $8 dips & bites, $4 domestics & imports, $6 wells",
+   "title": "Happy Hour (Weekdays)",
+   "summary": "$14 meal deal (sliders or wings + side + beer), $10 ELLE cocktails, $8 dips and bites, $4 domestic & imports, $6 wells",
    "days": [
     "Mon",
     "Tue",
@@ -20,13 +20,13 @@
    "food": true,
    "drink": true,
    "where": null,
-   "evidence": "Happy hour: Monday\u2013Friday 6\u20139 PM; Saturday & Sunday 2\u20136 PM. Happy hour drink pricing while it\u2019s raining.",
+   "evidence": "Happy hour: Monday\u2013Friday 6\u20139 PM; Saturday & Sunday 2\u20136 PM. Happy hour drink pricing while it\u2019s raining.\nHappy hourHappy Hour Meal Deal$14",
    "source_url": "http://elledallas.com/menus/happy-hour/"
   },
   {
    "kind": "happy_hour",
-   "title": "Weekend Happy Hour",
-   "summary": "$14 meal deal (sliders or wings + side + beer), $10 ELLE cocktails, $8 dips & bites, $4 domestics & imports, $6 wells",
+   "title": "Happy Hour (Weekends)",
+   "summary": "$14 meal deal (sliders or wings + side + beer), $10 ELLE cocktails, $8 dips and bites, $4 domestic & imports, $6 wells",
    "days": [
     "Sat",
     "Sun"
@@ -38,10 +38,10 @@
    "food": true,
    "drink": true,
    "where": null,
-   "evidence": "Happy hour: Monday\u2013Friday 6\u20139 PM; Saturday & Sunday 2\u20136 PM. Happy hour drink pricing while it\u2019s raining.",
+   "evidence": "Happy hour: Monday\u2013Friday 6\u20139 PM; Saturday & Sunday 2\u20136 PM. Happy hour drink pricing while it\u2019s raining.\nHappy hourHappy Hour Meal Deal$14",
    "source_url": "http://elledallas.com/menus/happy-hour/"
   }
  ],
  "dropped": [],
- "notes": "Happy hour drink pricing also applies anytime it's raining (not a fixed schedule, so not listed separately)."
+ "notes": "Happy hour drink pricing also applies anytime it's raining (not scheduled, so not listed as a separate deal)."
 }

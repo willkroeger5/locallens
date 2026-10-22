@@ -29,11 +29,16 @@ from fetch import DEAL_TEXT, site_key
 
 MODEL = "claude-opus-5-5"
 PRICE_IN, PRICE_OUT = 4 / 1e6, 20 / 1e6  # $/token, Opus 5.5
-PAGES, OUT = Path("data/pages"), Path("data/extracted")
+PAGES, RENDERED, OUT = Path("data/pages"), Path("data/rendered"), Path("data/extracted")
 WINDOW, MAX_CONTEXT = 1500, 24_000
 # ponytail: sites shared by *different* businesses (e.g. a shopping-center site listing a third venue's deals);
 # deals there can't be attributed. Upgrade: have the extractor tag which listed location each deal is for.
 SHARED_SITE_SKIP = {"thevillagedallas.com"}
+# ponytail: venue rows the map data still lists but the restaurant's own site doesn't (moved/closed branches).
+# Hand-maintained; upgrade = drop chain branches whose street number never appears on the site, once the
+# fetcher reliably reaches every location page (today it would wrongly drop real branches like Leela's Uptown).
+STALE_ADDRESSES = {"2916 N Henderson Ave"}
+CLOSED = re.compile(r"(temporarily|permanently) closed|closed (for|until) (renovation|remodel|the season)", re.I)
 Day = Literal["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
 
 
@@ -73,13 +78,15 @@ paraphrased or stitched-together evidence gets the deal thrown out.
 If no prices are given, name what's discounted if stated ("discounted drinks and bites"), else just "Happy hour menu".
 - Times are 24h "HH:MM" in local time. "3-6pm" -> start "15:00", end "18:00". \
 "9pm-close" -> start "21:00", end null, until_close true. Whole-day specials -> all_day true, start/end null.
-- `days`: expand ranges ("Mon-Fri" -> Mon..Fri). If no days are stated for a happy hour, use all seven and say so in notes.
+- `days`: expand ranges ("Mon-Fri" -> Mon..Fri; "daily"/"every day" -> all seven). Never assume: if the text \
+gives no days for a deal, return an empty list. Likewise never invent a start or end time that isn't written.
 - `food` / `drink`: whether the deal includes discounted food / drinks.
 - `where`: restrictions like "bar & patio only", "dine-in only", or null.
 - Skip one-off events, holiday specials, catering, gift cards, and private-event packages.
 - If the site serves several locations and a deal is explicitly for a location outside Dallas or not \
 among the listed locations, skip it.
 - If the text says deals exist but the details are in an image or a missing menu, return no deals and explain in `notes`.
+- If the site says the venue is closed (temporarily or permanently), return no deals and say so in `notes`.
 """
 
 
@@ -89,11 +96,24 @@ def norm(s: str) -> str:
     return re.sub(r"\s+", " ", s).strip()
 
 
+def load_pages(key: str) -> list[dict]:
+    """Static fetch + browser-rendered/OCR'd pages (render.py). Rendered entries go first so the context cap
+    never truncates them, and replace a static page with the same URL. No rendered file = unchanged input."""
+    static = json.loads((PAGES / f"{key}.json").read_text()) if (PAGES / f"{key}.json").exists() else []
+    rendered = json.loads((RENDERED / f"{key}.json").read_text()) if (RENDERED / f"{key}.json").exists() else []
+    urls = {r["url"] for r in rendered}
+    return rendered + [p for p in static if p["url"] not in urls]
+
+
 def context_for(pages: list[dict]) -> str:
-    """Keyword windows from every page that mentions deals, labelled with their URL."""
+    """Keyword windows from every page that mentions deals, labelled with their URL. Text from a deal-specific
+    tab/page/image (flagged by render.py) goes in whole: an OCR'd happy-hour menu often never says "happy hour"."""
     chunks = []
     for p in pages:
         text = p["text"]
+        if p.get("flagged") and text.strip():
+            chunks.append(f"=== SOURCE: {p['url']} ===\n" + text[:8000])
+            continue
         spans = [(max(0, m.start() - WINDOW), min(len(text), m.end() + WINDOW)) for m in DEAL_TEXT.finditer(text)]
         merged = []
         for a, b in spans:
@@ -125,7 +145,7 @@ def valid_time(t):
 
 
 async def extract_site(client, key, venues, stats, sem):
-    pages = json.loads((PAGES / f"{key}.json").read_text())
+    pages = load_pages(key)
     ctx = context_for(pages)
     if not ctx:
         stats["no_deal_text"] += 1
@@ -159,7 +179,7 @@ async def extract_site(client, key, venues, stats, sem):
 
     kept, dropped = [], []
     for d in resp.parsed_output.deals:
-        ok = verify(d, pages) and d.days and valid_time(d.start) and valid_time(d.end)
+        ok = verify(d, pages) and valid_time(d.start) and valid_time(d.end)  # empty days = "days not listed"
         (kept if ok else dropped).append(d.model_dump())
     stats["deals_extracted"] += len(kept) + len(dropped)
     stats["deals_verified"] += len(kept)
@@ -169,7 +189,7 @@ async def extract_site(client, key, venues, stats, sem):
 
 
 GENERIC = {"avenue", "street", "dallas", "suite", "drive", "plaza", "village", "parkway", "boulevard", "north",
-           "south", "texas", "central", "expressway"}
+           "south", "texas", "central", "expressway", "lane", "road", "place", "court", "floor", "unit", "blvd", "expy", "hwy"}
 
 
 def addr_key(v):
@@ -179,7 +199,7 @@ def addr_key(v):
 
 def branch_tokens(v):
     hood = re.sub(r"[^a-z]", "", v["neighborhood"].lower())
-    words = re.findall(r"[a-z]{5,}|\d{3,}", (v.get("address") or "").lower())
+    words = re.findall(r"[a-z]{4,}|\d{3,}", (v.get("address") or "").lower())
     return {hood} | {w for w in words if w not in GENERIC}
 
 
@@ -187,10 +207,15 @@ def for_branch(deal, v, group):
     """Chain sites: a deal that names a branch (in `where` or its source page path) goes only to that branch."""
     if len(group) < 2:
         return True
-    where = re.sub(r"\b(not|except|excluding)\b[^;,)]*", "", (deal.get("where") or "").lower())
+    raw = (deal.get("where") or "").lower()
+    neg = " ".join(m.group(0) for m in re.finditer(r"\b(not|except|excluding)\b[^;,)]*", raw))  # "not at the Peak location"
+    where = re.sub(r"\b(not|except|excluding)\b[^;,)]*", "", raw)
     loc = re.sub(r"[^a-z0-9 ]", "", where) + " " + re.sub(r"[^a-z0-9/]", "", deal["source_url"].lower().split("//")[-1].partition("/")[2])
     named = [g for g in group if any(t in loc for t in branch_tokens(g))]
-    return not named or v in named
+    if named:
+        return v in named
+    excluded = [g for g in group if any(t in re.sub(r"[^a-z0-9 ]", "", neg) for t in branch_tokens(g))]
+    return v not in excluded
 
 
 def build():
@@ -202,7 +227,7 @@ def build():
     rows, seen = [], []
     for f in OUT.glob("*.json"):
         x = json.loads(f.read_text())
-        if not x["deals"] or f.stem in SHARED_SITE_SKIP:
+        if not x["deals"] or f.stem in SHARED_SITE_SKIP or CLOSED.search(x.get("notes") or ""):
             continue
         group = []
         for v in by_site.get(f.stem, []):
@@ -215,6 +240,9 @@ def build():
                 continue
             seen.append((f.stem, name, v["lat"], v["lon"]))
             group.append(v)
+        addressed = [g for g in group if addr_key(g)]
+        group = [g for g in group if not any((g.get("address") or "").startswith(a) for a in STALE_ADDRESSES)
+                 and (addr_key(g) or not addressed)]  # an entry with no street number duplicates an addressed branch
         for v in group:
             deals = [d for d in x["deals"] if for_branch(d, v, group)]
             if deals:
@@ -236,7 +264,7 @@ async def main():
         for v in json.load(open("data/venues.json")):
             if v["website"]:
                 by_site[site_key(v["website"] if v["website"].startswith("http") else f"https://{v['website']}")].append(v)
-        keys = sorted(p.stem for p in PAGES.glob("*.json"))
+        keys = sorted({p.stem for p in PAGES.glob("*.json")} | {p.stem for p in RENDERED.glob("*.json")})
         if "--only" in args:
             keys = [k for k in keys if k in args[args.index("--only") + 1].split(",")]
         if "--limit" in args:

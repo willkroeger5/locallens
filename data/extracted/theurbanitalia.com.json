@@ -1,11 +1,11 @@
 {
- "hash": "52e1d44ccd4fd897",
- "checked": "2026-10-04",
+ "hash": "0b7a650d3a9b1918",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "happy_hour",
    "title": "Happy Hour",
-   "summary": "Happy hour food menu: arancini, meatballs, pork belly burnt-ends, zucchini chips, wings, calamari, sliders and more",
+   "summary": "Happy hour food menu: arancini, meatballs, pork belly burnt-ends, zucchini chips, calamari, wings, pastas and more",
    "days": [
     "Mon",
     "Tue",
@@ -21,11 +21,11 @@
    "all_day": false,
    "food": true,
    "drink": false,
-   "where": "Not available on event or game days",
+   "where": "Not on event or game days",
    "evidence": "Happy Hour\nCRISPY CALAMARI & ZUCCHINI \nLightly fried calamari & julienned zucchini, house r\u00e9moulade & marinara.\nSERVED 4PM-6PM DAILY ON ALL NON-EVENT OR NON-GAME DAYS",
    "source_url": "https://www.theurbanitalia.com/_files/ugd/95bafd_8c535f90272142108bcb8822ce5bf2ac.pdf"
   }
  ],
  "dropped": [],
- "notes": "Happy hour menu PDF lists food items without prices; no drink specials are stated. Not served on event or game days."
+ "notes": "Happy hour menu PDF lists dishes but no prices; not offered on event or game days."
 }

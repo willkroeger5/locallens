@@ -1,7 +1,7 @@
 {
- "hash": "973597c32275a69e",
- "checked": "2026-10-04",
+ "hash": "5eea8ad59fbb0aa7",
+ "checked": "2026-10-06",
  "deals": [],
  "dropped": [],
- "notes": "The only happy hour listed (2:30-5:30pm: $1 off beer bottles, $2 off wine glasses, $3 off hot sake bottles) belongs to the Frisco location (6959 Lebanon Rd). The site does not mention the 2301 N. Akard location, so no deals were extracted for it."
+ "notes": "The website only lists a Frisco location (6959 Lebanon Rd #108, Frisco, TX). It has a happy hour from 2:30-5:30pm with $1 off beer bottles, $2 off wine glasses, and $3 off hot sake bottles. That deal is for Frisco, not the listed 2301 N. Akard Dallas location, so it was skipped."
 }

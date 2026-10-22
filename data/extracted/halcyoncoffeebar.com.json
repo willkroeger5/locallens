@@ -1,6 +1,6 @@
 {
- "hash": "708f8199d0b4040b",
- "checked": "2026-10-04",
+ "hash": "33a168bf5d5ecf3f",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "happy_hour",
@@ -65,5 +65,5 @@
   }
  ],
  "dropped": [],
- "notes": "Happy hour bite prices not listed. Trivia and Girl Dinner listed without deal details, skipped."
+ "notes": "Bite prices for happy hour not listed."
 }

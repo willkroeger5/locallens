@@ -1,6 +1,6 @@
 {
- "hash": "f915291eaf5e4b42",
- "checked": "2026-10-04",
+ "hash": "4e1fc73b16a993ae",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "happy_hour",
@@ -15,7 +15,7 @@
     "Sat",
     "Sun"
    ],
-   "start": "12:00",
+   "start": null,
    "end": "20:00",
    "until_close": false,
    "all_day": false,
@@ -27,5 +27,5 @@
   }
  ],
  "dropped": [],
- "notes": "Happy hour runs every day until 8 PM; the start time is assumed to be opening (12:00 pm), based on the listed hours. No specific prices or discounted items are given, and drink-only is assumed for a bar."
+ "notes": "Happy hour details (prices/items) not listed; start time not stated (bar opens at noon)."
 }

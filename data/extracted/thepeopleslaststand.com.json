@@ -1,7 +1,7 @@
 {
- "hash": "2e8f9c6e50d7ef51",
- "checked": "2026-10-04",
+ "hash": "98ef24e76a130fd6",
+ "checked": "2026-10-06",
  "deals": [],
  "dropped": [],
- "notes": "The menu page references a 'Happy Hour Menu' but no happy hour details (days, times, or prices) appear in the text; details are likely on a separate page or in an image. No deals extracted."
+ "notes": "The menu page references a 'Happy Hour Menu' but no details (days, times, or prices) are given in the text; the menu is likely an image or on a separate page. The listed hours are the restaurant's opening hours, not happy hour times."
 }

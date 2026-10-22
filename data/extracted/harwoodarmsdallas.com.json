@@ -1,6 +1,6 @@
 {
- "hash": "565a515854c9fac8",
- "checked": "2026-10-04",
+ "hash": "fe95fcef278e2d35",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "happy_hour",
@@ -41,5 +41,5 @@
   }
  ],
  "dropped": [],
- "notes": "Happy hour split into Mon-Thu 4-7pm and Fri 11am-7pm."
+ "notes": null
 }

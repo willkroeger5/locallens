@@ -1,6 +1,6 @@
 {
- "hash": "1228d4dbaf400b1d",
- "checked": "2026-10-04",
+ "hash": "aebdb155e39a9c6f",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "happy_hour",
@@ -24,5 +24,5 @@
   }
  ],
  "dropped": [],
- "notes": "Happy hour times listed in site footer; no prices or menu details given. Drink assumed given lounge context; food inclusion unknown."
+ "notes": "Happy hour times are listed, but no prices or menu details are given."
 }

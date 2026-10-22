@@ -1,6 +1,6 @@
 {
- "hash": "61353b22e898391f",
- "checked": "2026-10-04",
+ "hash": "601ee17afebc5480",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "happy_hour",
@@ -41,5 +41,5 @@
   }
  ],
  "dropped": [],
- "notes": "Happy hour prices and items are on a separate menu not included in the text; food/drink coverage is unknown and drink assumed."
+ "notes": "Happy hour menu details (prices/items) are not in the text; likely in a linked menu. Weekday 4-7pm applies Tue-Fri since Monday is all day."
 }

@@ -1,7 +1,127 @@
 {
- "hash": "e58f8fd91e63ba82",
- "checked": "2026-10-04",
- "deals": [],
+ "hash": "8a5c2d20fe1b5409",
+ "checked": "2026-10-06",
+ "deals": [
+  {
+   "kind": "daily_special",
+   "title": "Sunday Special",
+   "summary": "Turkey meatloaf or fried chicken, \u00e0 la carte or as a meal",
+   "days": [
+    "Sun"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": true,
+   "drink": false,
+   "where": null,
+   "evidence": "SUNDAY SPECIAL \u2013 TURKEY MEATLOAF MEAL\nSUNDAY SPECIAL \u2013 TURKEY MEATLOAF \u00c0 LA CARTE\nSUNDAY SPECIAL \u2013 FRIED CHICKEN \u00c0 LA CARTE",
+   "source_url": "https://eatzis.com/daily-specials/"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Monday Special",
+   "summary": "Grilled pork chop or 12 oz NY strip steak, \u00e0 la carte or as a meal",
+   "days": [
+    "Mon"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": true,
+   "drink": false,
+   "where": null,
+   "evidence": "MONDAY SPECIAL \u2013 GRILLED PORK CHOP \u00c0 LA CARTE\nMONDAY SPECIAL \u2013 NY STRIP STEAK \u00c0 LA CARTE",
+   "source_url": "https://eatzis.com/daily-specials/"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Tuesday Special",
+   "summary": "Six-hour braised brisket or crab stuffed salmon, \u00e0 la carte or as a meal",
+   "days": [
+    "Tue"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": true,
+   "drink": false,
+   "where": null,
+   "evidence": "TUESDAY SPECIAL \u2013 SIX HOUR BRAISED BRISKET MEAL\nTUESDAY SPECIAL \u2013 CRAB STUFFED SALMON MEAL",
+   "source_url": "https://eatzis.com/daily-specials/"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Wednesday Special",
+   "summary": "Chicken fried ribeye or Parmesan crusted trout, \u00e0 la carte or as a meal",
+   "days": [
+    "Wed"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": true,
+   "drink": false,
+   "where": null,
+   "evidence": "WEDNESDAY SPECIAL \u2013 CHICKEN FRIED RIBEYE \u00c0 LA CARTE\nWEDNESDAY SPECIAL \u2013 CHICKEN FRIED RIBEYE MEAL",
+   "source_url": "https://eatzis.com/daily-specials/"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Thursday Special",
+   "summary": "Spicy pork wings, Cajun pork loin, salmon burger or ginormous hamburger",
+   "days": [
+    "Thu"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": true,
+   "drink": false,
+   "where": null,
+   "evidence": "THURSDAY SPECIAL \u2013 SPICY PORK WINGS \u00c0 LA CARTE\nTHURSDAY SPECIAL \u2013 SPICY PORK WINGS MEAL",
+   "source_url": "https://eatzis.com/daily-specials/"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Friday Special",
+   "summary": "Fried shrimp/catfish with hushpuppies or wagyu tri tip",
+   "days": [
+    "Fri"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": true,
+   "drink": false,
+   "where": null,
+   "evidence": "FRIDAY SPECIAL \u2013 WAGYU TRI TIP MEAL\nFRIDAY SPECIAL \u2013 WAGYU TRI TIP \u00c0 LA CARTE",
+   "source_url": "https://eatzis.com/daily-specials/"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Saturday Special",
+   "summary": "Brisket tacos, \u00e0 la carte or as a meal",
+   "days": [
+    "Sat"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": true,
+   "drink": false,
+   "where": null,
+   "evidence": "SATURDAY SPECIAL \u2013 BRISKET TACOS \u00c0 LA CARTE\nSATURDAY SPECIAL \u2013 BRISKET TACOS MEAL",
+   "source_url": "https://eatzis.com/daily-specials/"
+  }
+ ],
  "dropped": [],
- "notes": "Eatzi's lists rotating daily specials by weekday (e.g., Monday NY Strip Steak Meal, Tuesday Braised Brisket, Thursday Ginormous Hamburger, Saturday Brisket Tacos), but no prices or discounts are stated, so they read as daily menu features rather than deals. 'Pizza Friday' appears only as a menu link with no details. No happy hour is mentioned."
+ "notes": "Daily specials are featured dishes; no prices or discounts are listed. Site does not specify location-specific specials."
 }

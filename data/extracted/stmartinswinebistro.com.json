@@ -1,7 +1,7 @@
 {
- "hash": "a77e5ea8f0891e5b",
- "checked": "2026-10-04",
+ "hash": "32a9b8b5aa218faf",
+ "checked": "2026-10-06",
  "deals": [],
  "dropped": [],
- "notes": "The site links to a Happy Hour menu, but its details (days, times, prices) aren't included in the provided text, so no deals were extracted."
+ "notes": "The site lists a Happy Hour menu tab, but no happy hour details (days, times, or prices) appear in the provided text; only the dinner menu is shown. The text also cuts off mid-hours, so the details may sit on a separate page or in an image."
 }

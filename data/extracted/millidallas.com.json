@@ -1,6 +1,6 @@
 {
- "hash": "5ecba5739238ea9e",
- "checked": "2026-10-04",
+ "hash": "bd84895951ded2a3",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "happy_hour",
@@ -23,5 +23,5 @@
   }
  ],
  "dropped": [],
- "notes": "No days stated for happy hour; venue is open only Thursday-Saturday (closed Sun-Wed), so days set to Thu-Sat. No prices or items given; assumed drinks since it's listed under the drink menu."
+ "notes": "Happy hour days are inferred from the venue's open days (Thu-Sat 9pm-2am); the text lists only the time, not the days. No happy hour prices or items are given; the deal is assumed to be drinks."
 }

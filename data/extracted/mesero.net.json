@@ -1,7 +1,7 @@
 {
- "hash": "737a9f35c519608a",
- "checked": "2026-10-04",
+ "hash": "018a14642c22c1c8",
+ "checked": "2026-10-06",
  "deals": [],
  "dropped": [],
- "notes": "The menu page contains only navigation and section labels (Food, Cocktails, Brunch). No happy hour, reverse happy hour, or daily special details are stated, so no deals were extracted."
+ "notes": "The menu page only lists navigation and menu categories (Food, Cocktails, Brunch); no happy hour or daily special details are stated in the text."
 }

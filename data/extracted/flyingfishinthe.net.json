@@ -1,6 +1,6 @@
 {
- "hash": "b61c475b2a187c52",
- "checked": "2026-10-04",
+ "hash": "eff6a3cbafebe427",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "happy_hour",
@@ -54,7 +54,7 @@
    "food": true,
    "drink": false,
    "where": null,
-   "evidence": "Tuesday\nRainbow Trout $11.49",
+   "evidence": "Monday\nFried Tilapia Basket $11.99\nTuesday\nRainbow Trout $11.49",
    "source_url": "https://www.flyingfishinthe.net/preston-center/"
   },
   {
@@ -105,7 +105,7 @@
    "food": true,
    "drink": false,
    "where": null,
-   "evidence": "Friday\nCaddo $18.95\nSunday",
+   "evidence": "1 Pound Hot Boiled Shrimp $17.99\nFriday\nCaddo $18.95",
    "source_url": "https://www.flyingfishinthe.net/preston-center/"
   },
   {
@@ -122,10 +122,10 @@
    "food": true,
    "drink": false,
    "where": null,
-   "evidence": "Sunday\n$1.50 Oysters on the \u00bd Shell",
+   "evidence": "Friday\nCaddo $18.95\nSunday\n$1.50 Oysters on the \u00bd Shell",
    "source_url": "https://www.flyingfishinthe.net/preston-center/"
   }
  ],
  "dropped": [],
- "notes": "Crawfish $8.95/lb is seasonal and was skipped."
+ "notes": "Seasonal crawfish ($8.95/lb) skipped as not a recurring weekly deal."
 }

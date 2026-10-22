@@ -1,7 +1,7 @@
 {
- "hash": "28b1fbbb67e41249",
- "checked": "2026-10-04",
+ "hash": "6fa702c378a338f2",
+ "checked": "2026-10-06",
  "deals": [],
  "dropped": [],
- "notes": "The only happy hour on the site is explicitly for Nora at Sylvan 30 (1888 Sylvan Ave), which is not the listed Greenville Ave location, so it was skipped. That page also gives conflicting details: Mon-Fri vs. Tue-Fri, and $8 vs. $10 cocktails. No deals are stated for 1928 Greenville Ave."
+ "notes": "The only happy hour on the site is explicitly for Nora at Sylvan 30 (1888 Sylvan Ave, Suite F120), not the Greenville Ave location we track, so it is skipped. That page is also internally inconsistent: it says Mon-Fri, Tue-Fri, and lists cocktails at both $8 and $10. No deals are stated for 1928 Greenville Ave."
 }

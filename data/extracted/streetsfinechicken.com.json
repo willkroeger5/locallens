@@ -1,7 +1,7 @@
 {
- "hash": "64965024fe845f12",
- "checked": "2026-10-04",
+ "hash": "6d182db1686fdc6c",
+ "checked": "2026-10-06",
  "deals": [],
  "dropped": [],
- "notes": "The Cedar Springs menu page lists only menu section headings (Food, Bar Menu, Appetizers); no happy hour or daily special details are stated. Menu content appears to load dynamically and was not present in the text."
+ "notes": "The Cedar Springs menu page content did not load (shows only 'Load More Content'); no happy hour or daily special details are stated in the text."
 }

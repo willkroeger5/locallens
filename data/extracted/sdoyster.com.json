@@ -1,6 +1,6 @@
 {
- "hash": "2e773302855f2565",
- "checked": "2026-10-04",
+ "hash": "4625c427d9b8f049",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "happy_hour",
@@ -37,10 +37,10 @@
    "food": false,
    "drink": true,
    "where": null,
-   "evidence": "HAPPY HOUR DRINKS\n$2.00 off all cocktails, beer, wine\nHalf priced bottles of wine\nALL DAY MONDAY",
-   "source_url": "http://www.sdoyster.com/dallas-sandd-oyster-company-drink-menu"
+   "evidence": "HALF PRICED BOTTLES OF WINE\nAll day MONDAY",
+   "source_url": "http://www.sdoyster.com/dallas-sandd-oyster-company-food-menu"
   }
  ],
  "dropped": [],
- "notes": "Happy hour times 3:00-6:00 interpreted as PM."
+ "notes": null
 }

@@ -1,11 +1,11 @@
 {
- "hash": "e2be58a1eeb83e44",
- "checked": "2026-10-04",
+ "hash": "6898b7396d60ee43",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "happy_hour",
    "title": "Happy Hour",
-   "summary": "$3-$7 bites (queso $6, pretzel $4, chips $3, chicken bites $5, hog wings $7), half-price house wine bottles, $5 frozen margarita, $6 cocktails",
+   "summary": "$3-$7 bites (queso, pretzel, chips, chicken bites, hog wings), half-price house wine bottles, $5 frozen margarita, $6 cocktails",
    "days": [
     "Tue",
     "Wed",
@@ -25,7 +25,7 @@
   {
    "kind": "daily_special",
    "title": "Tuesday Steak or Burger + Cocktail",
-   "summary": "$20 steak or burger with an Absolut Martini, TX Old Fashioned or Altos Paloma",
+   "summary": "$20 steak or burger with Absolut Martini, TX Old Fashioned or Altos Paloma",
    "days": [
     "Tue"
    ],
@@ -41,5 +41,5 @@
   }
  ],
  "dropped": [],
- "notes": "Happy hour 4-7 assumed PM. Trivia nights skipped (minimum spend, not a deal)."
+ "notes": null
 }

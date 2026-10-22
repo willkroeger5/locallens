@@ -1,10 +1,10 @@
 {
- "hash": "d9ec2e3e0206cdd6",
- "checked": "2026-10-04",
+ "hash": "ffe8fd286a23fc8c",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "happy_hour",
-   "title": "Happy Hour (Mon & Thu, open to close)",
+   "title": "Happy Hour (Mon & Thu)",
    "summary": "Discounted drinks and apps all night",
    "days": [
     "Mon",
@@ -39,5 +39,5 @@
   }
  ],
  "dropped": [],
- "notes": "Mon/Thu happy hour runs open (5PM) to close (12AM per event pages). A 'Daily Drink Specials' menu is linked but its details are not in the text."
+ "notes": "Mon/Thu happy hour runs open to close (opens 5 PM). Daily Drink Specials link on menu page has no details in text. Brunch has no stated deal."
 }

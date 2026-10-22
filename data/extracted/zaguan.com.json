@@ -1,7 +1,7 @@
 {
- "hash": "79cc00a57d68de05",
- "checked": "2026-10-04",
+ "hash": "c0f16e79f84da902",
+ "checked": "2026-10-06",
  "deals": [],
  "dropped": [],
- "notes": "The menu navigation lists a 'Happy Hour' menu, but its contents (days, times, prices) are not included in the provided text, which is truncated. No deal details could be extracted."
+ "notes": "The menu navigation lists a 'Happy Hour' menu tab, but its contents (days, times, prices) are not included in the provided text, so no deal could be extracted."
 }

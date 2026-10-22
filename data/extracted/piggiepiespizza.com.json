@@ -1,6 +1,6 @@
 {
- "hash": "3c3fcb4a4a64d952",
- "checked": "2026-10-04",
+ "hash": "7cd747518031a1db",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "daily_special",
@@ -25,5 +25,5 @@
   }
  ],
  "dropped": [],
- "notes": "The online menu lists the lunch special as Mon-Fri 11 AM - 3 PM at $23.18+ (tax included). The homepage says 11am-4pm for $22.95. These conflict, and the homepage version was used."
+ "notes": "The online menu lists the lunch special as Mon-Fri 11 AM-3 PM at $23.18+, while the homepage says 11am-4pm for $22.95; the homepage version is used here."
 }

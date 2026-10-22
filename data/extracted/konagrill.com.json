@@ -1,11 +1,11 @@
 {
- "hash": "249a6cff5fe72149",
- "checked": "2026-10-04",
+ "hash": "b2f3c4ed3843d64c",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "happy_hour",
-   "title": "Happy Hour (Social Hour) \u2013 All Day",
-   "summary": "$3, $6, $9 specials: $3 edamame, satay, shrimp tacos, Coors Light, sake shots; $6 Kona margaritas, house wine, sushi rolls; $9 cocktails, sliders, flatbread",
+   "title": "Happy Hour (All Day Mon & Tue)",
+   "summary": "$3, $6, $9 menu: $3 edamame, chicken satay, shrimp tacos & Coors Light; $6 Kona margaritas, house wine, sushi rolls, cheeseburger & fries; $9 sliders, flatbread, specialty cocktails",
    "days": [
     "Mon",
     "Tue"
@@ -22,8 +22,8 @@
   },
   {
    "kind": "happy_hour",
-   "title": "Happy Hour (Social Hour)",
-   "summary": "$3, $6, $9 specials: $3 edamame, satay, shrimp tacos, Coors Light, sake shots; $6 Kona margaritas, house wine, sushi rolls; $9 cocktails, sliders, flatbread",
+   "title": "Happy Hour (Wed-Fri)",
+   "summary": "$3, $6, $9 menu: $3 edamame, chicken satay, shrimp tacos & Coors Light; $6 Kona margaritas, house wine, sushi rolls, cheeseburger & fries; $9 sliders, flatbread, specialty cocktails",
    "days": [
     "Wed",
     "Thu",
@@ -41,8 +41,8 @@
   },
   {
    "kind": "reverse_happy_hour",
-   "title": "Late Night Happy Hour (Social Hour)",
-   "summary": "$3, $6, $9 specials on cocktails, sushi, and bar bites",
+   "title": "Late Night Happy Hour",
+   "summary": "$3, $6, $9 menu: $3 edamame, chicken satay, shrimp tacos & Coors Light; $6 Kona margaritas, house wine, sushi rolls, cheeseburger & fries; $9 sliders, flatbread, specialty cocktails",
    "days": [
     "Mon",
     "Tue",
@@ -64,5 +64,5 @@
   }
  ],
  "dropped": [],
- "notes": "Page is inconsistent about Tuesday: the hours block says Monday & Tuesday all day, while the Social Hour text/FAQ say only Mondays all day and Tuesday 2-6pm. Used the structured HAPPY HOUR block; verify Tuesday."
+ "notes": "The site gives conflicting schedules. The location's hours box says Happy Hour is all day Monday and Tuesday and 2-6pm Wednesday-Friday. The FAQ says Social Hour is all day Monday only and 2-6pm Tuesday-Friday. The hours box was used here."
 }

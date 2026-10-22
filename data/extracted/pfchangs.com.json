@@ -1,6 +1,6 @@
 {
- "hash": "ab1d61690f61fd9b",
- "checked": "2026-10-04",
+ "hash": "2eeae78ef8e8400b",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "happy_hour",
@@ -26,7 +26,7 @@
   {
    "kind": "daily_special",
    "title": "Wine Wednesday",
-   "summary": "Half-price bottles of wine, champagne & sake all day",
+   "summary": "Half-price bottles of wine, champagne & sake",
    "days": [
     "Wed"
    ],
@@ -42,5 +42,5 @@
   }
  ],
  "dropped": [],
- "notes": "Chain-wide deals; offered only at participating locations and hours/offerings may vary, so availability at the N Central Expy location is not confirmed. Wine Wednesday not available on select holidays."
+ "notes": "Chain-wide deals; site notes they are only at participating locations and hours/offerings may vary. Lunch specials (Mon-Fri until 3PM) listed without discount pricing, so not included."
 }

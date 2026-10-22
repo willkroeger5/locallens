@@ -1,6 +1,6 @@
 {
- "hash": "8f2b105a29fdbf0b",
- "checked": "2026-10-04",
+ "hash": "4df6795abd1ec398",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "happy_hour",
@@ -18,7 +18,7 @@
    "until_close": false,
    "all_day": false,
    "food": false,
-   "drink": true,
+   "drink": false,
    "where": null,
    "evidence": "Happy Hour\nMonday \u2014 Friday, 3 PM \u2014 6 PM",
    "source_url": "https://moxies.com/restaurants/dallas-uptown/menus"
@@ -42,5 +42,5 @@
   }
  ],
  "dropped": [],
- "notes": "Happy hour item details/prices not listed in text; wine special has an unexplained asterisk (restrictions may apply). Brunch champagne happy hour pricing shown but no separate schedule, so not listed separately."
+ "notes": "Happy hour item details not listed in text; brunch champagne happy-hour bottle prices shown without times. Other locations' deals skipped."
 }

@@ -1,6 +1,6 @@
 {
- "hash": "f07de1d4ca664c9f",
- "checked": "2026-10-04",
+ "hash": "6dec2aecb0ce780b",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "happy_hour",
@@ -25,5 +25,5 @@
   }
  ],
  "dropped": [],
- "notes": "Happy hour comes from a chain menu PDF (marked 'VA - 6.26'), which may be a regional version; it may not apply exactly to the Dallas Preston Center location."
+ "notes": "Happy hour comes from a chain-wide menu PDF (version 'VA - 6.26'); it may vary by location and isn't explicitly confirmed for the Dallas Preston Center store."
 }

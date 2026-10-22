@@ -1,25 +1,25 @@
 {
- "hash": "ac979bd9b9171496",
- "checked": "2026-10-04",
+ "hash": "36c2ff47c3deeee9",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "daily_special",
    "title": "Half Price Thursdays",
-   "summary": "Half-price cocktails on Thursdays",
+   "summary": "Half-price cocktails",
    "days": [
     "Thu"
    ],
    "start": null,
    "end": null,
    "until_close": false,
-   "all_day": true,
+   "all_day": false,
    "food": false,
    "drink": true,
    "where": null,
-   "evidence": "THURSDAY 1/2 PRICE COCKTAILS\nBRUNCH MENU\nGIFT CARDS\nCONTACT US\nJOIN OUR TEAM!\nMore\nUse tab to navigate through the menu items.\nHALF PRICE THURSDAYS",
+   "evidence": "THURSDAY 1/2 PRICE COCKTAILS",
    "source_url": "https://www.theskelligdallas.com/copy-of-drinks"
   }
  ],
  "dropped": [],
- "notes": "Half-price cocktails on Thursday are mentioned only as a nav item and heading. No times are given, so the deal is marked all day. The specific cocktails covered may be shown in an image."
+ "notes": "Half-price cocktails on Thursdays are mentioned, but no times or further details are given; the full drinks menu may be in an image."
 }

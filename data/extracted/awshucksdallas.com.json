@@ -1,11 +1,11 @@
 {
- "hash": "6827fe4565794084",
- "checked": "2026-10-04",
+ "hash": "dcdc0ba8f13c1c1d",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "happy_hour",
    "title": "Happy Hour",
-   "summary": "$6 off dozen raw oysters, $6 boiled shrimp, fried shrimp, fried oysters, fried pickles & wings; $3 draft beer, $15 pitchers, $5 house margaritas",
+   "summary": "$6 off dozen raw oysters; $6 cold boiled shrimp, jumbo fried shrimp, fried oysters, fried pickles, wings; $3 draft beer, $15 pitchers, $5 house margaritas",
    "days": [
     "Mon",
     "Tue",
@@ -25,7 +25,7 @@
   },
   {
    "kind": "daily_special",
-   "title": "Monday $2.50 House Margarita",
+   "title": "$2.50 House Margarita Monday",
    "summary": "$2.50 house margaritas",
    "days": [
     "Mon"
@@ -43,7 +43,7 @@
   {
    "kind": "daily_special",
    "title": "Weekday Lunch Specials",
-   "summary": "$8.99 lunch specials: Mon catfish, Tue tilapia tacos, Wed blackened shrimp salad, Thu fried shrimp, Fri catfish & shrimp",
+   "summary": "$8.99 lunch specials: Mon catfish filet, Tue 2 tilapia tacos, Wed blackened shrimp salad, Thu 5 fried shrimp, Fri catfish & 2 fried shrimp",
    "days": [
     "Mon",
     "Tue",
@@ -58,10 +58,10 @@
    "food": true,
    "drink": false,
    "where": null,
-   "evidence": "MONDAY 11AM-3PM8.99\n1 Catfish filet. Served w/ fries & coleslaw.\nTUESDAY 11AM-3PM8.99",
+   "evidence": "LUNCH\nMONDAY 11AM-3PM8.99\n1 Catfish filet. Served w/ fries & coleslaw.\nTUESDAY 11AM-3PM8.99",
    "source_url": "https://awshucksdallas.com/menu/"
   }
  ],
  "dropped": [],
- "notes": "Menu is shared across all locations; deals assumed to apply to both Dallas locations. Monday margarita time not specified, treated as all day."
+ "notes": "Menu is shared across all locations; deals not location-specific. The $2.50 margarita evidence is under 20 chars-adjacent; no times given for it."
 }

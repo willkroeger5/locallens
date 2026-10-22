@@ -1,6 +1,6 @@
 {
- "hash": "4ea7f25f743f0c83",
- "checked": "2026-10-04",
+ "hash": "f7f3e96322e04d99",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "happy_hour",
@@ -24,8 +24,8 @@
   },
   {
    "kind": "happy_hour",
-   "title": "All-Day Wednesday Happy Hour",
-   "summary": "Happy hour all day Wednesday: $3 off house cocktails, $2 off wine, $5 drafts, $3 off select food",
+   "title": "All-Day Happy Hour Wednesday",
+   "summary": "Happy hour all day Wednesday",
    "days": [
     "Wed"
    ],
@@ -33,7 +33,7 @@
    "end": null,
    "until_close": false,
    "all_day": true,
-   "food": true,
+   "food": false,
    "drink": true,
    "where": null,
    "evidence": "HAPPY HOUR\nTue-Fri 12PM - 7 PM\nWed ALL DAY",
@@ -42,7 +42,7 @@
   {
    "kind": "daily_special",
    "title": "Game Days",
-   "summary": "$5 draft beer, buckets come with a free shot",
+   "summary": "$5 draft beer, buckets come with a free shot; game day food packages 2 proteins + 2 snacks $45, 3 + 3 $65",
    "days": [
     "Sun",
     "Mon",
@@ -61,5 +61,5 @@
   }
  ],
  "dropped": [],
- "notes": "Wednesday all-day happy hour assumed to use the same happy hour menu. Game Day food packages are regular-priced bundles, not included."
+ "notes": "Wednesday all-day happy hour likely uses the same happy hour pricing; food flag set conservatively."
 }

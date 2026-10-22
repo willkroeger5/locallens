@@ -1,11 +1,11 @@
 {
- "hash": "15f588156456cca3",
- "checked": "2026-10-04",
+ "hash": "8f126782a9aeb480",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "happy_hour",
    "title": "Caviar Club Happy Hour",
-   "summary": "Half-off sushi rolls, $11 tequila cocktails (Serpiente, El Guapo, Tentadora), caviar bump & karaage chicken bites specials",
+   "summary": "Half-off sushi rolls, $11 Tentador cocktails, $7 karaage chicken bites, caviar bumps and crispy rice specials",
    "days": [
     "Tue",
     "Wed",
@@ -20,25 +20,8 @@
    "where": null,
    "evidence": "Caviar Club Happy Hour\nTuesday - Thursday5pm - 7pm",
    "source_url": "http://www.columbiancc.com/"
-  },
-  {
-   "kind": "daily_special",
-   "title": "Ladies Night",
-   "summary": "DJ plus food & beverage specials",
-   "days": [
-    "Wed"
-   ],
-   "start": null,
-   "end": null,
-   "until_close": false,
-   "all_day": true,
-   "food": true,
-   "drink": true,
-   "where": null,
-   "evidence": "Ladies Night\nEvery WednesdayDJ + Food & Beverage Specials",
-   "source_url": "http://www.columbiancc.com/"
   }
  ],
  "dropped": [],
- "notes": "Homepage lists happy hour as 5-7pm; the menu PDF says 5:00-7:30PM Tue-Thu. Happy hour menu items are inferred from the PDF's happy hour page layout. Ladies Night specials have no stated times or prices."
+ "notes": "Homepage lists happy hour Tue-Thu 5-7pm; the menu PDF shows 5:00-7:30PM Tue-Thu. Ladies Night (Wednesday) mentions food & beverage specials without details, so it was omitted."
 }

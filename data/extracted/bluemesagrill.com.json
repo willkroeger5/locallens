@@ -1,7 +1,48 @@
 {
- "hash": "b6aa23f25a53178e",
- "checked": "2026-10-04",
- "deals": [],
+ "hash": "29449a2f7bdae30b",
+ "checked": "2026-10-06",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Happy Hour",
+   "summary": "$5 large Blue margaritas, $5 margaritas to go, $5 well drinks, $5 house wines, $20 Blue Rocks craft jar",
+   "days": [
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri"
+   ],
+   "start": "15:00",
+   "end": "18:00",
+   "until_close": false,
+   "all_day": false,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "HAPPY HOUR\nTuesday \u2013 Friday 3-6pm\n$5 LARGE BLUE MARGARITAS\n$5 BLUE MARGARITAS TO GO\n$5 WELL DRINKS",
+   "source_url": "https://bluemesagrill.com/drinks-happy-hour-menu/"
+  },
+  {
+   "kind": "happy_hour",
+   "title": "Happy Hour Bites",
+   "summary": "$2.50 tacos (beef-chorizo, pulled pork, fried avocado, street, green chile chicken)",
+   "days": [
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri"
+   ],
+   "start": "15:00",
+   "end": "18:00",
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": false,
+   "where": null,
+   "evidence": "HAPPY HOUR BITES\nTuesday \u2013 Friday 3-6 pm\n$2.50 TACOS",
+   "source_url": "https://bluemesagrill.com/drinks-happy-hour-menu/"
+  }
+ ],
  "dropped": [],
- "notes": "The requested location (7700 W Northwest Hwy) is not among the locations listed on the site (Addison, Fort Worth, Plano). The Tue-Fri 3-6pm happy hour ($5 large blue margaritas, $5 well drinks, $5 house wines, $20 blue rocks craft jar, $2.50 tacos) applies to those listed locations, so no deals were extracted for the requested location."
+ "notes": "The site lists only Addison, Fort Worth, and Plano locations; the 7700 W Northwest Hwy location is not mentioned and may no longer operate. Happy hour is presented chain-wide without location restriction."
 }

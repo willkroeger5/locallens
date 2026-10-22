@@ -1,11 +1,11 @@
 {
- "hash": "bfe5feff77648b10",
- "checked": "2026-10-04",
+ "hash": "e2386fd2ed530f98",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "happy_hour",
-   "title": "Weekday Happy Hour",
-   "summary": "$4 edamame & salads, $5 gyoza & crab puffs, $6 nigiri, $7 classic rolls, $10 specialty rolls & ramen; $4 drafts/mimosas/sake bombs, $5 wells, $6 wine & sake, $9 martinis",
+   "title": "Happy Hour",
+   "summary": "$4 edamame & salads, $5 gyoza & bites, $6-$8 sushi & apps, $7-$10 rolls & ramen; $4 drafts, mimosas & sake bombs, $5 wells, $6 wine & sake, $9 martinis",
    "days": [
     "Mon",
     "Tue",
@@ -26,7 +26,7 @@
   {
    "kind": "happy_hour",
    "title": "All Day Weekend Happy Hour",
-   "summary": "All-day happy hour: $4 edamame & salads, $5 gyoza & crab puffs, $6 nigiri, $7 classic rolls, $10 specialty rolls & ramen; $4 drafts/mimosas/sake bombs, $5 wells, $6 wine & sake, $9 martinis",
+   "summary": "$4 edamame & salads, $5 gyoza & bites, $6-$8 sushi & apps, $7-$10 rolls & ramen; $4 drafts, mimosas & sake bombs, $5 wells, $6 wine & sake, $9 martinis",
    "days": [
     "Sat",
     "Sun"
@@ -38,10 +38,10 @@
    "food": true,
    "drink": true,
    "where": null,
-   "evidence": "ALL DAY HAPPY HOUR\nSATURDAY & SUNDAY\nHAPPY HOUR MENU",
+   "evidence": "ALL DAY HAPPY HOUR\nSATURDAY & SUNDAY",
    "source_url": "https://www.axiomdallas.com/"
   }
  ],
  "dropped": [],
- "notes": "Prices from the happy hour menu page; weekday and weekend times from homepage."
+ "notes": null
 }

@@ -1,11 +1,11 @@
 {
- "hash": "d5503e884039741d",
- "checked": "2026-10-04",
+ "hash": "50c348a6e7cf556a",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "happy_hour",
    "title": "Happy Hour (Weekdays)",
-   "summary": "$4 off signature cocktails, $6 house-brewed beer, $8 wine, $8 bites or any 2 for $15",
+   "summary": "$4 off signature cocktails, $6 house-brewed beer, $8 wine, bites $8 or any 2 for $15",
    "days": [
     "Mon",
     "Tue",
@@ -25,8 +25,8 @@
   },
   {
    "kind": "happy_hour",
-   "title": "All-Day Sunday Happy Hour",
-   "summary": "$4 off signature cocktails, $6 house-brewed beer, $8 wine, $8 bites or any 2 for $15",
+   "title": "All Day Sunday Happy Hour",
+   "summary": "$4 off signature cocktails, $6 house-brewed beer, $8 wine, bites $8 or any 2 for $15",
    "days": [
     "Sun"
    ],
@@ -42,5 +42,5 @@
   }
  ],
  "dropped": [],
- "notes": "Happy hour excludes holidays; menu appears to apply to all locations including both Dallas locations."
+ "notes": "Happy hour excludes holidays; not stated as location-specific, so applies to both Dallas locations."
 }

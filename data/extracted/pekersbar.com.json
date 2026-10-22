@@ -1,6 +1,6 @@
 {
- "hash": "fde3f3cdc4d249b7",
- "checked": "2026-10-04",
+ "hash": "c79d360e39eaaa70",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "happy_hour",
@@ -27,5 +27,5 @@
   }
  ],
  "dropped": [],
- "notes": "Specific happy hour prices are not listed on the homepage; the deal is assumed to be drink-only since Pekers is a bar."
+ "notes": "Specific happy hour prices are not listed; drink specials page not included."
 }

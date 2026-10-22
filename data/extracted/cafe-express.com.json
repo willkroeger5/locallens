@@ -1,11 +1,11 @@
 {
- "hash": "2ae876ee8791ff37",
- "checked": "2026-10-04",
+ "hash": "2835566557ec8687",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "happy_hour",
-   "title": "Happy Hour",
-   "summary": "$6 small eats (hummus, bruschetta, chicken salad wraps, chicken dippers); $2 iced tea, fountain drinks & coffee",
+   "title": "$6 Happy Hour",
+   "summary": "$6 small eats (hummus, bruschetta, chicken salad wraps, chicken dippers), $2 iced tea, fountain drinks & coffee",
    "days": [
     "Mon",
     "Tue",
@@ -27,5 +27,5 @@
   }
  ],
  "dropped": [],
- "notes": "The $2 drinks are labeled a limited time offer."
+ "notes": null
 }

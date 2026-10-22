@@ -325,6 +325,7 @@ function timeText(d) {
   return "Times not listed";
 }
 function daysText(days) {
+  if (!days.length) return "Days not listed";
   const has = n => days.includes(n), wk = ["Mon", "Tue", "Wed", "Thu", "Fri"];
   if (days.length === 7) return "Daily";
   if (days.length === 5 && wk.every(has)) return "Weekdays";

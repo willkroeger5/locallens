@@ -1,6 +1,6 @@
 {
- "hash": "690e20e6c25dd4a5",
- "checked": "2026-10-04",
+ "hash": "615671ef77ce20a6",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "daily_special",
@@ -9,8 +9,8 @@
    "days": [
     "Mon"
    ],
-   "start": null,
-   "end": null,
+   "start": "11:00",
+   "end": "02:00",
    "until_close": false,
    "all_day": true,
    "food": true,
@@ -47,10 +47,10 @@
    "days": [
     "Tue"
    ],
-   "start": null,
-   "end": null,
+   "start": "11:00",
+   "end": "02:00",
    "until_close": false,
-   "all_day": true,
+   "all_day": false,
    "food": true,
    "drink": true,
    "where": null,
@@ -64,10 +64,10 @@
    "days": [
     "Wed"
    ],
-   "start": null,
-   "end": null,
+   "start": "11:00",
+   "end": "02:00",
    "until_close": false,
-   "all_day": true,
+   "all_day": false,
    "food": true,
    "drink": true,
    "where": "Half-price appetizers dine-in only",
@@ -81,10 +81,10 @@
    "days": [
     "Thu"
    ],
-   "start": null,
-   "end": null,
+   "start": "11:00",
+   "end": "02:00",
    "until_close": false,
-   "all_day": true,
+   "all_day": false,
    "food": false,
    "drink": true,
    "where": null,
@@ -92,8 +92,25 @@
    "source_url": "https://bryanstreettavern.com/specials"
   },
   {
-   "kind": "daily_special",
-   "title": "Sunday Happy Hour \u2014 All Day",
+   "kind": "happy_hour",
+   "title": "Friday Happy Hour",
+   "summary": "$1 off wells, $1 off drafts",
+   "days": [
+    "Fri"
+   ],
+   "start": "16:00",
+   "end": "19:00",
+   "until_close": false,
+   "all_day": false,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "Friday\nHappy Hour! $1 OFF Wells | $1 OFF Drafts\n04:00 PM - 07:00 PM",
+   "source_url": "https://bryanstreettavern.com/specials"
+  },
+  {
+   "kind": "happy_hour",
+   "title": "Sunday All-Day Happy Hour",
    "summary": "$4 Bloody Marys, $4 mimosas, $1 off PBR & Lone Star cans",
    "days": [
     "Sun"
@@ -110,5 +127,5 @@
   }
  ],
  "dropped": [],
- "notes": "Weekday happy hour text says Mon\u2013Fri 3\u20137 PM, though some day listings show 4\u20136 PM and Friday shows a separate entry ($1 off wells/drafts, 4\u20137 PM); used the stated 3\u20137 PM. Daily specials listed with 11 AM\u20132 AM slots, treated as all day. Homepage says hours being finalized."
+ "notes": "Homepage hours section says 'will be open January 2025' (likely stale; site lists current events). Tue\u2013Thu weekday happy hour slots show 4\u20136 PM in the schedule widget but the text says Monday\u2013Friday 3\u20137 PM; used the text."
 }

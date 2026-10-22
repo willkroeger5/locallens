@@ -1,6 +1,6 @@
 {
- "hash": "b234d20aa4062fed",
- "checked": "2026-10-04",
+ "hash": "52726714c711c65d",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "happy_hour",
@@ -41,7 +41,7 @@
   },
   {
    "kind": "daily_special",
-   "title": "Tuesday Deep Eddy Special",
+   "title": "Tuesday Special",
    "summary": "$7 Deep Eddy Vodka, all flavors",
    "days": [
     "Tue"
@@ -58,7 +58,7 @@
   },
   {
    "kind": "daily_special",
-   "title": "Wednesday Jameson Special",
+   "title": "Wednesday Special",
    "summary": "$8 Jameson Irish Whiskey",
    "days": [
     "Wed"
@@ -75,7 +75,7 @@
   },
   {
    "kind": "daily_special",
-   "title": "Thursday Espolon Special",
+   "title": "Thursday Special",
    "summary": "$7 Espolon Tequila",
    "days": [
     "Thu"
@@ -126,5 +126,5 @@
   }
  ],
  "dropped": [],
- "notes": "Specials exclude holidays. Sunday mimosa special has no stated start time."
+ "notes": "Happy hour excludes holidays."
 }

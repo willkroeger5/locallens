@@ -1,11 +1,11 @@
 {
- "hash": "74751ff23a1139a5",
- "checked": "2026-10-04",
+ "hash": "f60178fc2b483d37",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "happy_hour",
    "title": "$5 Happy Hour",
-   "summary": "$5 frozen & rocks margaritas and draft beers",
+   "summary": "$5 frozen & rocks margaritas and draft brews",
    "days": [
     "Mon",
     "Tue",
@@ -19,11 +19,11 @@
    "all_day": false,
    "food": false,
    "drink": true,
-   "where": null,
-   "evidence": "$5 Happy Hour\nMon-Fri 3PM - 6PM\nFrozen & Rocks Margaritas, Draft Brews",
+   "where": "Participating locations",
+   "evidence": "$5 Happy Hour\nMon-Fri 3PM - 6PM\nFrozen & Rocks Margaritas, Draft Brews\navailable at participating locations",
    "source_url": "https://www.sobsliders.com/"
   }
  ],
  "dropped": [],
- "notes": "Happy hour is listed as 'available at participating locations'; not confirmed specifically for the Greenville Ave location."
+ "notes": "Happy hour is listed as available at participating locations; not confirmed specifically for Greenville Ave."
 }

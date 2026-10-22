@@ -21,7 +21,22 @@ A shareable link where SMU students (roommates, girlfriend's friends, and so on)
 - By area: Uptown 65, Lower Greenville 25, Oak Lawn 15, Upper Greenville 15, Knox-Henderson 14, Mockingbird 10, Snider/UP 8, HP Village 1 (before dedupe).
 - Price check: 173 deal summaries list prices, and every price appears on that site's fetched page (0 failures).
 - Chain sites: a deal that names a branch (in `where` or its source page path) is attached only to that branch, e.g. Bread Winners "Uptown only" and Taco Joint "not at Peak".
-- Cost: about $15 total for the first build (two pilots, one run stopped for a prompt fix, then the full run at $9.55). Re-runs only pay for sites whose deal text changed.
+- Cost: about $15 for the first build, plus about $11 for the JS/image recovery and no-assumption re-extraction (2026-10-06) (two pilots, one run stopped for a prompt fix, then the full run at $9.55). Re-runs only pay for sites whose deal text changed.
+
+## JS/image menu recovery (2026-10-06)
+- `render.py` handled 272 target sites. These were thin JS pages, sites whose deals sat behind tabs, images or PDFs, and homepages that blocked plain fetching. It used headless Chrome and clicked happy-hour/specials tabs. It also ran OCR (Apple Vision) on deal-related menu images and scanned PDFs.
+- Of those, about 125 rendered. Most failures are Cloudflare "Just a moment" challenges (deliberately not bypassed), dead or timed-out hosts, and robots.txt blocks.
+- Recovered deals at Birdie's, The Saint, Velour, Jack & Harry's, Barley House, Lucky's, Eatzi's, Joey and KISS. I hand-checked the OCR deals against the source images (Velour, The Saint, Barley House) and found no misreads.
+- Still missing:
+  - Dakota's: Cloudflare.
+  - Front Room: site down.
+  - Las Palmas, Casa Brasa and Hero: their happy-hour menu is in a format the renderer didn't capture.
+  - Sixty Vines and Fish City: their sites state no details.
+- Keenable.ai (suggested) was tested on the misses. Its fetch doesn't click tabs or read images, so it wasn't used.
+- **No more assumed days or times.** The prompt now forbids guessing. Deals whose menu gives hours but no days show "Days not listed" and never show as "on now". That re-extraction cost $10.23. The pilot and targeted re-runs added about $0.93.
+- Venues whose site says they're closed are dropped (Quarter Bar: remodel).
+- Fixed a negated chain restriction ("not available at the Peak location"). Also added a stale-branch list (`STALE_ADDRESSES`) and dropped unaddressed duplicate rows.
+- Result: **144 venues, 315 deals** (was 136 / 289). The price check passes on all 194 deals with prices.
 
 ## Decisions
 - **Overture Maps is the venue source, not OSM.** OSM found 3 of 18 known venues; Overture found 14 of 15. Google Places and Yelp are out because their terms of service forbid storing and redisplaying their data.

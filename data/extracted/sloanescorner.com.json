@@ -1,6 +1,6 @@
 {
- "hash": "ddc9af25a9a2a39d",
- "checked": "2026-10-04",
+ "hash": "49e4acfc59c361e4",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "happy_hour",
@@ -25,5 +25,5 @@
   }
  ],
  "dropped": [],
- "notes": "Happy hour details (prices/items) are not listed; the menus page references a 'Happy Hour & Weekly Specials' menu whose contents aren't in the text, so weekly specials couldn't be extracted. Food/drink flags are uncertain."
+ "notes": "A 'Happy Hour & Weekly Specials' menu exists but its contents weren't in the text, so prices and weekly specials are unknown."
 }

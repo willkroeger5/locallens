@@ -1,6 +1,6 @@
 {
- "hash": "67740f12312b6885",
- "checked": "2026-10-04",
+ "hash": "2fec13e8e9d8b9f7",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "happy_hour",
@@ -13,7 +13,7 @@
     "Thu",
     "Fri"
    ],
-   "start": "15:00",
+   "start": "16:00",
    "end": "19:00",
    "until_close": false,
    "all_day": false,
@@ -59,5 +59,5 @@
   }
  ],
  "dropped": [],
- "notes": "Over Under happy hour times conflict on the page: one section says Mon\u2013Fri 3\u20137pm, another says 4\u20137 PM; start set to 15:00 (earliest stated) \u2014 verify. Thursday pizza is 'Thursday night' with no specific times. Wing trio parlay ($25 for 18 wings + bucket of domestic beers) has no stated days and appears tied to football season, so it was omitted."
+ "notes": "Happy hour times conflict on the page (3-7pm in one place, 4-7 PM in another); used the detailed 4-7 PM listing. Wing trio parlay ($25 for 18 wings + domestic bucket) has no stated days, so omitted as a recurring deal."
 }

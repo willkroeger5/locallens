@@ -1,6 +1,6 @@
 {
- "hash": "21e1cdfbe56467bf",
- "checked": "2026-10-04",
+ "hash": "0a9067aeb45c89f4",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "daily_special",
@@ -42,5 +42,5 @@
   }
  ],
  "dropped": [],
- "notes": "Carafe contents not specified on the site."
+ "notes": null
 }

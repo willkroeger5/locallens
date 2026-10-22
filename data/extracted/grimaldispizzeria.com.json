@@ -1,6 +1,6 @@
 {
- "hash": "01b528829a2bd81a",
- "checked": "2026-10-04",
+ "hash": "49e14c5bbff7701f",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "happy_hour",
@@ -21,8 +21,8 @@
    "all_day": false,
    "food": true,
    "drink": true,
-   "where": "dine-in only",
-   "evidence": "Stoking Social Hour* is Back!\n3pm-5pm Daily\nWhile we stoke our famous coal brick ovens, we invite you to come socialize and enjoy these exciting deals!\n$10 Signature Cocktails\n$3 Off Starters & Salads",
+   "where": "Dine-in only",
+   "evidence": "Stoking Social Hour* is Back!\n3pm-5pm Daily",
    "source_url": "https://www.grimaldispizzeria.com/specials/"
   },
   {
@@ -38,14 +38,14 @@
    "all_day": true,
    "food": false,
    "drink": true,
-   "where": "dine-in only",
-   "evidence": "Tuesday Tastings\nEvery Tuesday, guests 21+ can enjoy half off glasses and bottles of wine, as well as glasses of sangria at participating locations.\nDine-in only.",
+   "where": "Dine-in only",
+   "evidence": "Tuesday Tastings\nEvery Tuesday, guests 21+ can enjoy half off glasses and bottles of wine, as well as glasses of sangria at participating locations.",
    "source_url": "https://www.grimaldispizzeria.com/specials/"
   },
   {
    "kind": "daily_special",
    "title": "Slices ASAP! Lunch",
-   "summary": "Giant slice $4; 1 slice & drink $7.49; 2 slices & drink or slice, salad & drink $10.99",
+   "summary": "Giant slice $4, slice & drink $7.49, 2 slices & drink or slice, salad & drink $10.99",
    "days": [
     "Mon",
     "Tue",
@@ -58,12 +58,12 @@
    "until_close": false,
    "all_day": false,
    "food": true,
-   "drink": false,
+   "drink": true,
    "where": null,
    "evidence": "Slices ASAP!\nJoin us Monday \u2013 Friday from 11am \u2013 3pm for a delicious lunch with Grimaldi\u2019s Slices ASAP!",
    "source_url": "https://www.grimaldispizzeria.com/specials/"
   }
  ],
  "dropped": [],
- "notes": "Specials are chain-wide; Tuesday Tastings at participating locations only, not confirmed for West Village specifically."
+ "notes": "Chain-wide specials; Tuesday Tastings at participating locations only. Military discount omitted (ID-restricted)."
 }

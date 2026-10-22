@@ -1,11 +1,11 @@
 {
- "hash": "978eb49e82845011",
- "checked": "2026-10-04",
+ "hash": "2451ecade2db1a6b",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "happy_hour",
    "title": "Happy Hour",
-   "summary": "Half-off menu cocktails, $6 Sea Sun Chardonnay & Pinot Noir, $3 beers",
+   "summary": "Half-off menu cocktails, $6 Sea Sun Chardonnay & Pinot Noir, $3 all beers",
    "days": [
     "Mon",
     "Tue",
@@ -61,5 +61,5 @@
   }
  ],
  "dropped": [],
- "notes": "Wine list does not specify which location(s) these deals apply to."
+ "notes": "The wine list doesn't say which of the two locations these deals apply to."
 }

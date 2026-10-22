@@ -1,6 +1,6 @@
 {
- "hash": "e3c7b8aaa0e459e9",
- "checked": "2026-10-04",
+ "hash": "b0ba2adec29726fa",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "happy_hour",
@@ -24,5 +24,5 @@
   }
  ],
  "dropped": [],
- "notes": "Happy hour menu details (prices/items) are not in the text; likely in a separate menu tab or image. Food inclusion unknown."
+ "notes": "Happy hour menu details (prices/items) are not listed in the text; likely in a separate menu tab or image."
 }

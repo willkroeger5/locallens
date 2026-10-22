@@ -1,7 +1,7 @@
 {
- "hash": "192738e7c937c5b5",
- "checked": "2026-10-04",
+ "hash": "63a6295a90c3a52d",
+ "checked": "2026-10-06",
  "deals": [],
  "dropped": [],
- "notes": "The Uptown Dallas location lists a 'Steak & Frites Happy Hour $45' and a 'Bar Cosette Happy Hour - Uptown Dallas' menu, but the details (days, times, items) are only in PDFs and are not in the text. The only happy hour with stated details (Sun-Fri 5-7 PM, bar lounge) is for the Allen location, which is outside Dallas, so it was skipped."
+ "notes": "The Uptown Dallas page lists 'Steak & Frites Happy Hour $45' and 'Bar Cosette Happy Hour' menu tabs, but the tab content gives no days, times, or deal details. The linked PDF only shows regular signature cocktail prices with no happy hour terms. No verifiable happy hour details were available to extract."
 }

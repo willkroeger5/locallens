@@ -1,7 +1,7 @@
 {
- "hash": "6203a3a8e43397b9",
- "checked": "2026-10-04",
+ "hash": "992ce24566df2bd5",
+ "checked": "2026-10-06",
  "deals": [],
  "dropped": [],
- "notes": "The site lists only Houston-area locations (City Centre, Houston Heights, Midtown, Rice Village, The Woodlands, River Oaks), and the 3211 Oak Lawn Ave Dallas location is never mentioned. The happy hour menu (Mon-Fri 3-7pm: $5 house margarita, $10 jumbo margarita, $4-5 beer, $5 house wine, $5-9 apps) is shown with the Houston City Centre location selected, so it can't be confirmed for the Dallas location and was not included."
+ "notes": "The location we care about (3211 Oak Lawn Ave, Dallas) is not listed on this site. The site serves only Houston-area locations (City Centre, Houston Heights, Midtown, Rice Village, The Woodlands, River Oaks), and its happy hour (3-7pm Mon-Fri) is shown for those Houston locations, so no deals were extracted for the Dallas address."
 }

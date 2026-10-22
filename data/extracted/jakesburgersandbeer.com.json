@@ -1,6 +1,6 @@
 {
- "hash": "fb61554025bb6ca1",
- "checked": "2026-10-04",
+ "hash": "ac26a5a8a5c6cf1e",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "happy_hour",
@@ -25,5 +25,5 @@
   }
  ],
  "dropped": [],
- "notes": "Happy hour is chain-wide except Waco and Skillman; McKinney Ave and Henderson Ave locations are not excluded. No specific prices listed."
+ "notes": "Happy hour is chain-wide except Waco and Skillman; the McKinney Ave and Henderson Ave locations are not explicitly listed on the site's location menu list, so applicability to those locations is assumed from the chain-wide statement. No specific prices given."
 }

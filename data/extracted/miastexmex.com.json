@@ -1,11 +1,11 @@
 {
- "hash": "b517070d36b95694",
- "checked": "2026-10-04",
+ "hash": "f8a49464d3819ef5",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "daily_special",
    "title": "Lunch Specials",
-   "summary": "$10.95 lunch combo plates (enchiladas, tacos, chalupas, burritos with rice & beans)",
+   "summary": "$10.95 lunch combo plates (enchiladas, tacos, chalupas, burritos with rice and beans)",
    "days": [
     "Mon",
     "Tue",
@@ -25,5 +25,5 @@
   }
  ],
  "dropped": [],
- "notes": "Only lunch specials found; no happy hour stated. No substitutions allowed on lunch specials."
+ "notes": "No happy hour stated; only weekday lunch specials."
 }

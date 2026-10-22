@@ -1,6 +1,6 @@
 {
- "hash": "51e318bec338cfc0",
- "checked": "2026-10-04",
+ "hash": "041e0735eb3ec94f",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "reverse_happy_hour",
@@ -19,7 +19,7 @@
    "all_day": false,
    "food": false,
    "drink": true,
-   "where": "Uptown (McKinney Ave) only",
+   "where": "Uptown location only",
    "evidence": "MORNING HOUR GLOW\nreverse happy hour at uptown only monday-friday 7am-9am\n$6\nmimosas & bloody mary's\n$6\n$7\nespresso martinis",
    "source_url": "http://www.breadwinnerscafe.com/restaurant-menus"
   },
@@ -110,5 +110,5 @@
   }
  ],
  "dropped": [],
- "notes": "Morning Hour Glow is Uptown only. Thursday special lists no explicit time; treated as all day."
+ "notes": "Morning Hour Glow is Uptown (McKinney Ave) only; other daily specials list no location restriction."
 }

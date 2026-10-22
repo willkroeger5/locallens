@@ -1,7 +1,7 @@
 {
- "hash": "35d0ff5ed3645034",
- "checked": "2026-10-04",
+ "hash": "d6135f6b17d728e2",
+ "checked": "2026-10-06",
  "deals": [],
  "dropped": [],
- "notes": "The menu PDF has a 'HAPPY HOUR' heading, but it is followed by regular-priced cocktails ($14-$17), and no happy hour days, times, or discounted prices are given in the extracted text. The text is also cut off, so happy hour details may be on a missing part of the menu or in an image. No deal was extracted."
+ "notes": "The menu PDF has a \"HAPPY HOUR\" heading, but it gives no happy hour days, times, or discounted prices. The cocktail prices listed under it look like regular menu prices, so no deal was extracted."
 }

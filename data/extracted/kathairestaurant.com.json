@@ -1,6 +1,6 @@
 {
- "hash": "83df3a191569ca28",
- "checked": "2026-10-04",
+ "hash": "174aba0263672676",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "happy_hour",
@@ -26,7 +26,7 @@
   },
   {
    "kind": "happy_hour",
-   "title": "Sunday All-Day Happy Hour",
+   "title": "Sunday Happy Hour",
    "summary": "Happy hour menu",
    "days": [
     "Sun"
@@ -43,5 +43,5 @@
   }
  ],
  "dropped": [],
- "notes": "Only the Uptown (3220 McKinney Ave) page matches the listed locations; no 4640 McKinney Ave page was provided. Midtown and North Dallas are not among the listed locations, so they were skipped. No happy hour prices or items are listed, so food/drink are unknown. Sunday happy hour runs 12\u201310 PM, which matches the full Sunday opening hours."
+ "notes": "Only the Uptown (3220 McKinney Ave) location is among the listed locations; Midtown and North Dallas pages skipped. No happy hour prices or items are listed, so food/drink coverage is unknown."
 }

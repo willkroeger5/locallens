@@ -1,11 +1,11 @@
 {
- "hash": "274887b660f75992",
- "checked": "2026-10-04",
+ "hash": "b00a3b8eb4b64620",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "happy_hour",
-   "title": "Monday All-Day Happy Hour",
-   "summary": "Half-price select shareables, $10 off wine bottles, $8 garden cocktails, $6 ritas, $6 wells, $5 drafts, $4 Coors OG",
+   "title": "Happy Hour (All Day Monday)",
+   "summary": "Half-price select shareables, $10 off wine bottles, $8 garden cocktails, $6 ritas & wells, $5 drafts, $4 Coors OG",
    "days": [
     "Mon"
    ],
@@ -22,7 +22,7 @@
   {
    "kind": "happy_hour",
    "title": "Happy Hour",
-   "summary": "Half-price select shareables, $10 off wine bottles, $8 garden cocktails, $6 ritas, $6 wells, $5 drafts, $4 Coors OG",
+   "summary": "Half-price select shareables, $10 off wine bottles, $8 garden cocktails, $6 ritas & wells, $5 drafts, $4 Coors OG",
    "days": [
     "Tue",
     "Wed",
@@ -40,7 +40,7 @@
    "source_url": "https://www.mayersgardendallas.com/"
   },
   {
-   "kind": "reverse_happy_hour",
+   "kind": "other",
    "title": "Late Night",
    "summary": "Late-night nugs & fries",
    "days": [
@@ -59,5 +59,5 @@
   }
  ],
  "dropped": [],
- "notes": "Late night lists 'Nugs & Fries' without a price; unclear whether discounted."
+ "notes": "Late night lists Nugs & Fries without prices."
 }

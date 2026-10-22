@@ -1,6 +1,6 @@
 {
- "hash": "82d60e58536e839d",
- "checked": "2026-10-04",
+ "hash": "72f30fe2dfa5dd41",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "happy_hour",
@@ -20,13 +20,13 @@
    "food": false,
    "drink": true,
    "where": "Bar only",
-   "evidence": "Happy Hour - Bar Only\n3pm-6pm M-F\n1/2 Off Select Drinks\nNot available in Naperville",
+   "evidence": "Happy Hour - Bar Only\n3pm-6pm M-F\n1/2 Off Select Drinks",
    "source_url": "https://unclejulios.com/menu/no-pricing-menu/"
   },
   {
    "kind": "daily_special",
    "title": "Taco Bar Tuesday",
-   "summary": "Build-your-own taco bar at your table, $12 per person (min. 2 people)",
+   "summary": "Build-your-own taco bar at your table, $12 per person (min 2 people)",
    "days": [
     "Tue"
    ],
@@ -42,5 +42,5 @@
   }
  ],
  "dropped": [],
- "notes": "Chain-wide menu; deals not location-specific beyond Naperville exclusion. Menu options may vary by location."
+ "notes": "Chain-wide menu; happy hour noted as not available in Naperville, menu may vary by location."
 }

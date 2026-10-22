@@ -1,6 +1,6 @@
 {
- "hash": "2ee80f7e6ad4b455",
- "checked": "2026-10-04",
+ "hash": "20f560c99a791b52",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "happy_hour",
@@ -20,12 +20,12 @@
    "food": true,
    "drink": true,
    "where": null,
-   "evidence": "Monday\u2013Friday, 4-7PM\n$1.99 16oz Busch Light Drafts\n$4 Wells\n$1.99 Tacos",
+   "evidence": "Happy Hour\nHappiness served daily\u2014Happy Hour 4\u20137PM, Monday thru Friday.\nMonday\u2013Friday, 4-7PM\n$1.99 16oz Busch Light Drafts\n$4 Wells\n$1.99 Tacos",
    "source_url": "https://stansbluenote.com/menu/"
   },
   {
    "kind": "daily_special",
-   "title": "Spaghetti & Meatballs Monday",
+   "title": "Monday Spaghetti & Meatballs",
    "summary": "$8.99 spaghetti & meatballs",
    "days": [
     "Mon"
@@ -37,12 +37,12 @@
    "food": true,
    "drink": false,
    "where": null,
-   "evidence": "Spaghetti and Meatballs, $8.99\nGet saucy with Aunt Sue\u2019s spaghetti & meatballs\u2014$8.99 every Monday, open to close.",
+   "evidence": "MONDAYS\nSpaghetti and Meatballs, $8.99\nGet saucy with Aunt Sue\u2019s spaghetti & meatballs\u2014$8.99 every Monday, open to close.",
    "source_url": "https://stansbluenote.com/menu/"
   },
   {
    "kind": "daily_special",
-   "title": "Burger + Fries Tuesday",
+   "title": "Tuesday Burger + Fries",
    "summary": "$9.99 burger and fries",
    "days": [
     "Tue"
@@ -54,7 +54,7 @@
    "food": true,
    "drink": false,
    "where": null,
-   "evidence": "Burger + Fries, $9.99\nYour favorite good ole\u2019 fashioned burger and fries, just $9.99 every Tuesday from open to close.",
+   "evidence": "TUESDAYS\nBurger + Fries, $9.99\nYour favorite good ole\u2019 fashioned burger and fries, just $9.99 every Tuesday from open to close.",
    "source_url": "https://stansbluenote.com/menu/"
   },
   {
@@ -178,5 +178,5 @@
   }
  ],
  "dropped": [],
- "notes": "'After 7PM' specials treated as running until close."
+ "notes": null
 }

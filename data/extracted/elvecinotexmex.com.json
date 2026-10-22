@@ -1,11 +1,11 @@
 {
- "hash": "dbd3fe8d2b3eb93a",
- "checked": "2026-10-04",
+ "hash": "215813911b426a2b",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "daily_special",
    "title": "Tiny Two-Bite Taco Tuesday",
-   "summary": "Crispy tiny tacos special, as an appetizer or entree",
+   "summary": "Crispy tiny tacos as an appetizer or entree",
    "days": [
     "Tue"
    ],
@@ -55,5 +55,5 @@
   }
  ],
  "dropped": [],
- "notes": "The site's footer lists 718 N. Buckner Blvd, not 4514 Travis St; specials are not tied to a specific location, so verify they apply to Travis St. Chef's Special (Fri-Mon after 4PM) skipped as no discount is stated."
+ "notes": "The site footer lists 718 N. Buckner Blvd, not 4514 Travis St; the weekly specials are not tied to a specific location. The specials may apply only at the Buckner Blvd location, so they should be verified for the Travis St location. Chef's Special (Fri\u2013Mon after 4PM) is a featured dish with no stated deal, so it was skipped."
 }

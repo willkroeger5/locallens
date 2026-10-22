@@ -1,11 +1,11 @@
 {
- "hash": "b490be3318766f63",
- "checked": "2026-10-04",
+ "hash": "ff08c3051449fab2",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "happy_hour",
    "title": "Happy Hour",
-   "summary": "Craft cocktails, fine wines, and seasonal bites",
+   "summary": "Happy hour craft cocktails, wines, and seasonal bites",
    "days": [
     "Wed",
     "Thu",
@@ -23,5 +23,5 @@
   }
  ],
  "dropped": [],
- "notes": "No specific prices listed for happy hour items."
+ "notes": "No happy hour prices are listed."
 }

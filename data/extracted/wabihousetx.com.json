@@ -1,7 +1,7 @@
 {
- "hash": "2037a32dc5f67d3b",
- "checked": "2026-10-04",
+ "hash": "8273efb7500a01af",
+ "checked": "2026-10-06",
  "deals": [],
  "dropped": [],
- "notes": "The Specials page exists but its content did not load (only 'Load More Content' placeholders), so no deal details are available in the text. No deals extracted."
+ "notes": "The Specials page exists but its content did not load in the text (dynamically loaded); no deal details are stated."
 }

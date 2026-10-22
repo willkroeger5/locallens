@@ -1,18 +1,18 @@
 {
- "hash": "85a410cf77e0e1b1",
- "checked": "2026-10-04",
+ "hash": "81c25cd8de5f4ebd",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "daily_special",
    "title": "Wine Down Wednesdays",
-   "summary": "Free wine tasting in Bellas Loft; featured wines $8/glass or $32/bottle; Bella Nosh Flight food pairing $10",
+   "summary": "Free Calabrian wine tasting; featured wines $8/glass or $32/bottle; Bella Nosh food flight $10",
    "days": [
     "Wed"
    ],
    "start": null,
    "end": null,
    "until_close": false,
-   "all_day": true,
+   "all_day": false,
    "food": true,
    "drink": true,
    "where": "Bellas Loft (upstairs), ages 21+, RSVP",
@@ -21,5 +21,5 @@
   }
  ],
  "dropped": [],
- "notes": "Wine Down Wednesdays is a weekly recurring event (every Wednesday, 21+, RSVP requested); no times stated. Evidence span with prices does not include the heading because heading and prices are far apart on the page; the page title is 'Wine Down Wednesdays'. Also mentions a $40 flat charge for drink and food."
+ "notes": "Weekly Wednesday wine night in Bellas Loft; no times listed. Evidence span is short; deal details include free tasting and $10 food pairing."
 }

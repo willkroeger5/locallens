@@ -1,7 +1,114 @@
 {
- "hash": "672ba0cc6586a634",
- "checked": "2026-10-04",
- "deals": [],
+ "hash": "5bf8dc96899dc2db",
+ "checked": "2026-10-06",
+ "deals": [
+  {
+   "kind": "daily_special",
+   "title": "Monday Draft Beer Special",
+   "summary": "$2 off draft beers",
+   "days": [
+    "Mon"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "Wonderous Weekdays\n\nMONDAY\n$2 off draft beers",
+   "source_url": "https://luckysdallas.com/menu-oak-lawn/?place=luckys-cafe&menutype=drinkspecialsmenu"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Tuesday Fros\u00e9 Special",
+   "summary": "$3 Fancy Fros\u00e9",
+   "days": [
+    "Tue"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "TUESDAY\n$3 Fancy Fros\u00e9",
+   "source_url": "https://luckysdallas.com/menu-oak-lawn/?place=luckys-cafe&menutype=drinkspecialsmenu"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Wednesday House Wine Special",
+   "summary": "$6 glass of house wine",
+   "days": [
+    "Wed"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "WEDNESDAY\n$6 glass of house wine",
+   "source_url": "https://luckysdallas.com/menu-oak-lawn/?place=luckys-cafe&menutype=drinkspecialsmenu"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Thursday Spirits Special",
+   "summary": "$5 You-Call-It spirits",
+   "days": [
+    "Thu"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "THURSDAY\n$5 You-Call-It spirits",
+   "source_url": "https://luckysdallas.com/menu-oak-lawn/?place=luckys-cafe&menutype=drinkspecialsmenu"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Friday Martini Special",
+   "summary": "$5 Sweet Grapefruit Martini",
+   "days": [
+    "Fri"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "FRIDAY\n$5 Sweet Grapefruit Martini",
+   "source_url": "https://luckysdallas.com/menu-oak-lawn/?place=luckys-cafe&menutype=drinkspecialsmenu"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Weekday Daily Plate Specials",
+   "summary": "Daily plate: lunch $13.49, dinner $14.49 \u2014 Mon lemon pepper chicken, Tue chicken fried steak, Wed chicken fried chicken, Thu meat loaf, Fri blackened catfish",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": true,
+   "drink": false,
+   "where": "Dine-in or curbside pick-up",
+   "evidence": "Daily Specials\nLunch $13.49, Dinner $14.49. Available for Dine-in or Curbside Pick-up\n\nMONDAY - LEMON PEPPER CHICKEN",
+   "source_url": "https://luckysdallas.com/menu-oak-lawn/?place=luckys-cafe&menutype=dailyspecials"
+  }
+ ],
  "dropped": [],
- "notes": "The site lists 'Drink Specials' and 'Daily Specials' menu tabs and a 'Download Daily Specials Menu' link, but no deal details (days, times, prices) appear in the text; they are likely in downloadable menus or images."
+ "notes": null
 }

@@ -1,20 +1,12 @@
 {
- "hash": "3a916e4801753d23",
- "checked": "2026-10-04",
+ "hash": "187348538ca087bb",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "happy_hour",
    "title": "Happy Hour",
    "summary": "Happy hour menu",
-   "days": [
-    "Mon",
-    "Tue",
-    "Wed",
-    "Thu",
-    "Fri",
-    "Sat",
-    "Sun"
-   ],
+   "days": [],
    "start": "17:00",
    "end": "19:00",
    "until_close": false,
@@ -32,10 +24,10 @@
    "days": [
     "Mon"
    ],
-   "start": "17:00",
+   "start": null,
    "end": null,
-   "until_close": true,
-   "all_day": false,
+   "until_close": false,
+   "all_day": true,
    "food": false,
    "drink": true,
    "where": null,
@@ -44,5 +36,5 @@
   }
  ],
  "dropped": [],
- "notes": "No days stated for the 5-7pm happy hour, so all seven days are assumed; on weekends the bar opens at 11am, so the 5-7pm window falls within opening hours every day. Happy hour menu details appear to be an image, so prices and items are not available. Food/drink flags are uncertain."
+ "notes": "Happy hour menu details (prices/items) appear to be in an image or embedded menu not present in the text. Days for the 5-7pm happy hour are not stated."
 }

@@ -1,11 +1,11 @@
 {
- "hash": "79ca44406bdc482d",
- "checked": "2026-10-04",
+ "hash": "9d195596a2219523",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "happy_hour",
    "title": "Happy Hour",
-   "summary": "$6 mixed cocktails, $8 select craft cocktails, $1 off draft beer, $5 house wine; half-order bites $7-$9 (truffle fries, guac, quesadilla, tuna nachos, tots poutine)",
+   "summary": "$6 mixed cocktails, $8 select craft cocktails, $1 off draft beer, $5 house wine; half-order apps $7-$9 (truffle fries, guac, quesadilla, tuna nachos, tots poutine)",
    "days": [
     "Wed",
     "Thu",
@@ -18,10 +18,10 @@
    "food": true,
    "drink": true,
    "where": null,
-   "evidence": "Happy Hour Drinks\n$6 mixed cocktails, $8 select craft cocktails, $1 off Draft beer, and $5 house white or red wine",
+   "evidence": "Join us for happy hour bites and cocktails Wednesday - Friday\nFood\nTruffle Fries\n$7.00",
    "source_url": "https://www.smithydallas.com/dallas-knox-henderson-smithy-food-menu"
   }
  ],
  "dropped": [],
- "notes": "Food menu says happy hour is Wednesday - Friday but gives no times; homepage slide says 'Happiness last until 6:30 pm every Weekday' and posted hours show Mon-Thu closed, so details conflict. Specials page says specials are being updated. Start/end left null."
+ "notes": "Food menu lists happy hour Wed-Fri without times; homepage slider says 'Happiness last until 6:30 pm every Weekday' but the restaurant's listed hours show Mon-Thu closed, and the specials page says specials are being updated. Times not included due to conflicting info."
 }

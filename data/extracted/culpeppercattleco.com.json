@@ -1,6 +1,6 @@
 {
- "hash": "eb5f30de15dfd625",
- "checked": "2026-10-04",
+ "hash": "6a20be3be15e12d1",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "happy_hour",
@@ -26,7 +26,7 @@
   {
    "kind": "daily_special",
    "title": "Fajita Fridays",
-   "summary": "$10 steak or chicken fajitas with rice, beans, and all the fixin's",
+   "summary": "$10 steak or chicken fajitas with rice, beans, and fixin's",
    "days": [
     "Fri"
    ],
@@ -37,13 +37,13 @@
    "food": true,
    "drink": false,
    "where": null,
-   "evidence": "FRIDAYS\nEVERY FRIDAY | 11AM - 3PM\n$10 Steak or Chicken Fajitas\nServed with Rice, Beans, and All The Fixin's",
+   "evidence": "FRIDAYS\nEVERY FRIDAY | 11AM - 3PM\n$10 Steak or Chicken Fajitas",
    "source_url": "https://www.culpeppercattleco.com/dallas"
   },
   {
-   "kind": "other",
+   "kind": "daily_special",
    "title": "Weekend Brunch Buffet",
-   "summary": "All-you-can-eat brunch: adults $32.82, kids 6-12 $14.82, under 5 free; $5 mimosas, $8 bloody marys",
+   "summary": "All-you-can-eat brunch $32.82 adults, $14.82 kids 6-12, under 5 free; $5 mimosas, $8 bloody marys",
    "days": [
     "Sat",
     "Sun"
@@ -60,5 +60,5 @@
   }
  ],
  "dropped": [],
- "notes": "Happy hour 'bar area only' restriction comes from the drinks PDF, which also lists half-price apps, margs, wine by the glass, and draft beer."
+ "notes": "Menu PDF describes happy hour as half-price apps, margs, wine by the glass, draft beer, bar area only; website lists specific prices."
 }

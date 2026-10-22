@@ -1,11 +1,11 @@
 {
- "hash": "22cd2d00bc0c06d1",
- "checked": "2026-10-04",
+ "hash": "3a8ca892dc51c109",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "happy_hour",
    "title": "Tanoshi Hour",
-   "summary": "$12 house wine, $16 specialty cocktails, $7-9 beer, $10 sake, $8 edamame, $13 crispy rice with avocado, rolls from $8",
+   "summary": "$12 house wine, $16 specialty cocktails, $7-9 beer, $10-14 sake, discounted sushi rolls, crispy rice, oysters & small plates",
    "days": [
     "Sun",
     "Mon",
@@ -25,5 +25,5 @@
   }
  ],
  "dropped": [],
- "notes": "Happy hour pricing subject to change for special events and holidays."
+ "notes": null
 }

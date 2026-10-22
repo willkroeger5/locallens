@@ -1,11 +1,11 @@
 {
- "hash": "7d7ad22655d18de4",
- "checked": "2026-10-04",
+ "hash": "3a7735976264619a",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "happy_hour",
    "title": "Happy Hour",
-   "summary": "Happy hour menu: $10 cocktails, $8 wine, nigiri from $8, skewers from $8, mini burger $13, 9-course omakase for two $90",
+   "summary": "$10 cocktails, $8 house wine, $7 sake, nigiri from $8, skewers from $8, temaki from $9, happy hour omakase for two $90",
    "days": [
     "Mon",
     "Tue",
@@ -27,5 +27,5 @@
   }
  ],
  "dropped": [],
- "notes": "Happy hour prices taken from the Dallas menu's happy hour section; Austin menu skipped."
+ "notes": "Austin lunch drink specials skipped (outside Dallas). Happy hour prices taken from the Dallas menu's happy hour section."
 }

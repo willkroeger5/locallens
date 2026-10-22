@@ -1,6 +1,6 @@
 {
- "hash": "0ca99837bf0c37e4",
- "checked": "2026-10-04",
+ "hash": "083feece84cfe26e",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "happy_hour",
@@ -20,12 +20,12 @@
    "food": true,
    "drink": true,
    "where": null,
-   "evidence": "Happy Hour / Social Hour:\nMonday \u2013 Friday: 2:30pm \u2013 6:30pm\nSaturday & Sunday: 2:30pm \u2013 5:30pm\nSunday \u2013 Thursday: 9pm \u2013 close",
+   "evidence": "Happy Hour Menu\nMonday - Friday: 2:30pm - 6:30pm\nSaturday - Sunday: 2:30pm - 5:30pm",
    "source_url": "https://stksteakhouse.com/venues/dallas/"
   },
   {
    "kind": "happy_hour",
-   "title": "$3 | $6 | $9 Happy Hour (Weekend)",
+   "title": "$3 | $6 | $9 Weekend Happy Hour",
    "summary": "$3, $6 and $9 happy hour menu",
    "days": [
     "Sat",
@@ -38,7 +38,7 @@
    "food": true,
    "drink": true,
    "where": null,
-   "evidence": "Happy Hour / Social Hour:\nMonday \u2013 Friday: 2:30pm \u2013 6:30pm\nSaturday & Sunday: 2:30pm \u2013 5:30pm\nSunday \u2013 Thursday: 9pm \u2013 close",
+   "evidence": "Happy Hour Menu\nMonday - Friday: 2:30pm - 6:30pm\nSaturday - Sunday: 2:30pm - 5:30pm",
    "source_url": "https://stksteakhouse.com/venues/dallas/"
   },
   {
@@ -64,5 +64,5 @@
   }
  ],
  "dropped": [],
- "notes": "Late-night happy hour days conflict: menu section says Mon-Fri & Sun 9pm-11pm; FAQ says Sun-Thu 9pm-close. Used FAQ. Happy hour menu item details not in text; food/drink inclusion assumed from '$3 | $6 | $9 Happy Hour' branding. Steak Night $49 and Power Lunch $45 days not stated clearly for Steak Night; Power Lunch is a prix fixe, not included."
+ "notes": "Late-night happy hour days conflict on the page (menu section says Mon-Fri & Sun 9-11pm; FAQ says Sun-Thu 9pm-close); used FAQ. Happy hour menu item details not present in text. Food/drink inclusion assumed from the $3/$6/$9 menu. Brunch ($29 AYCE), Steak Night ($49) and Power Lunch ($45) are prix-fixe offers, not included."
 }

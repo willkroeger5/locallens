@@ -1,11 +1,11 @@
 {
- "hash": "b689323671d83522",
- "checked": "2026-10-04",
+ "hash": "5c54124816a12b57",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "happy_hour",
    "title": "Happy Hour",
-   "summary": "$12 classic cocktails (margarita, French 75, mule, Aperol spritz, old fashioned), $14 espresso or dirty martinis, $20 kid's meal (mini smashburger, fries & cocktail), bites from $8",
+   "summary": "$12 classic cocktails (margarita, French 75, Moscow mule, Aperol spritz, old fashioned), $14 espresso martini & dirty martini, $20 kid's meal (mini smashburger, fries, cocktail)",
    "days": [
     "Tue",
     "Wed",
@@ -26,5 +26,5 @@
   }
  ],
  "dropped": [],
- "notes": "Happy hour bites list blends into the main menu in the text, so only clearly happy-hour items are detailed. A weekly 'steak and tini night' is mentioned without a day or prices, so it was not included."
+ "notes": "Weekly 'steak and tini night' mentioned without days or prices; not included."
 }

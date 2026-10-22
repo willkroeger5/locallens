@@ -1,7 +1,23 @@
 {
- "hash": "6802a9212b9ac170",
- "checked": "2026-10-04",
- "deals": [],
+ "hash": "e3e5a5b18efcfd89",
+ "checked": "2026-10-06",
+ "deals": [
+  {
+   "kind": "reverse_happy_hour",
+   "title": "Late Happy Hour",
+   "summary": "$7 house margs & slushies, $2 off draft beer, $3 off wine by the glass",
+   "days": [],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": false,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "LATE HAPPY HOUR\nSpinach Artichoke Dip.\n12\n$7 House Margs & Slushies\ntortilla chips\n....11/\n$2 Off Draft Beer",
+   "source_url": "https://images.getbento.com/accounts/15eec9966e6febec09912f19888daa16/media/images/Screenshot_2026-07-29_at_3.08.06PM.png?w=1000&fit=max&auto=compress,format&cs=origin&h=1000&v=1785355829"
+  }
+ ],
  "dropped": [],
- "notes": "The site links to a Happy Hour page and menu, but no details (days, times, prices) appear in the text; the happy hour page only shows a 'Late Night Menu' heading with a PDF download. Details are likely in PDFs/images not included."
+ "notes": "Late happy hour prices come from OCR of a menu image; no days or times are given for it. The regular Happy Hour menu page only links to a PDF, so its details are unavailable."
 }

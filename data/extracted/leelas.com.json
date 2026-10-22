@@ -1,6 +1,6 @@
 {
- "hash": "70ad79a2c9f38b2d",
- "checked": "2026-10-04",
+ "hash": "def1cf850c81adb6",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "happy_hour",
@@ -26,7 +26,7 @@
   {
    "kind": "daily_special",
    "title": "Ros\u00e9 Wednesday",
-   "summary": "Half-price bottles of still or sparkling ros\u00e9; free cheese pizza with purchase of a bottle of wine",
+   "summary": "Half-price bottles of still or sparkling ros\u00e9; free cheese pizza with a bottle of wine",
    "days": [
     "Wed"
    ],
@@ -42,5 +42,5 @@
   }
  ],
  "dropped": [],
- "notes": "Deals are from the Lower Greenville (1914 Greenville Ave) page. No Uptown-specific page was provided. The free cheese pizza with a bottle purchase is not available with other specials, and its link to Ros\u00e9 Wednesday is inferred from the menu layout."
+ "notes": "Deals from the Lower Greenville (1914 Greenville Ave) page. Ros\u00e9 Wednesday is not combinable with other specials."
 }

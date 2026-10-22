@@ -1,11 +1,11 @@
 {
- "hash": "2901129e92ea7c5a",
- "checked": "2026-10-04",
+ "hash": "fa0e4a0d8d0bfe12",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "happy_hour",
    "title": "Festive Hour",
-   "summary": "Happy hour pricing on select wines (Whitehaven Sauvignon Blanc, Joel Gott Chardonnay, Campo Viejo Tempranillo, Alta Vista Malbec)",
+   "summary": "Happy hour (Festive Hour) with select happy hour wines",
    "days": [
     "Mon",
     "Tue",
@@ -25,5 +25,5 @@
   }
  ],
  "dropped": [],
- "notes": "Festive Hour (happy hour) Mon-Fri 11am-6pm at the Dallas location; wines marked * are Happy Hour Wine but happy hour prices aren't listed, and a separate Festive Hour menu page wasn't provided. Coppell location skipped. Brunch and Father's Day special skipped."
+ "notes": "Festive Hour details (prices) are on a separate Festive Hour page not included; only hours and starred 'Happy Hour Wine' items are listed. Coppell location skipped. Father's Day special skipped as a holiday event. Brunch is regular menu, not a deal."
 }

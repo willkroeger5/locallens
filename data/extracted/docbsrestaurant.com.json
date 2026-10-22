@@ -1,6 +1,6 @@
 {
- "hash": "2feb3aff437d6f48",
- "checked": "2026-10-04",
+ "hash": "21f30e9467b4180e",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "happy_hour",
@@ -18,12 +18,12 @@
    "until_close": false,
    "all_day": false,
    "food": false,
-   "drink": true,
+   "drink": false,
    "where": null,
    "evidence": "Join us for Happy Hour\nMonday - Friday \u2022 5 pm - 7 pm",
    "source_url": "https://docbsrestaurant.com/locations/dallas"
   }
  ],
  "dropped": [],
- "notes": "Happy hour specifics (prices/items) not listed; food/drink inclusion assumed drinks only. Double Point Monday is a rewards promo, not a food/drink discount, so skipped."
+ "notes": "Happy hour specifics (prices/items) not listed in the provided text. Double Point Monday is a rewards promotion, not a food/drink discount, so it was skipped."
 }

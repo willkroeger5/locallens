@@ -1,6 +1,6 @@
 {
- "hash": "e5f0d8700549855a",
- "checked": "2026-10-04",
+ "hash": "97c4766426add1ce",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "happy_hour",
@@ -19,14 +19,14 @@
    "all_day": false,
    "food": true,
    "drink": true,
-   "where": "Preston Center (6112 Luther Ln) only; not at Peak",
+   "where": "Not available at the Peak location",
    "evidence": "Happy Hour\n$1 off Margaritas, Beer, Nachos & Queso! (Mondays thru Fridays, 3:00pm - 7:00pm)\n(Not available at the Peak location.)",
    "source_url": "http://www.thetacojoint.com"
   },
   {
    "kind": "daily_special",
-   "title": "Friday: Spicy Fried Shrimp Tacos",
-   "summary": "Two fried shrimp tacos with rice, beans & a drink for $12.49",
+   "title": "Friday Spicy Fried Shrimp Tacos",
+   "summary": "Two spicy fried shrimp tacos with rice, beans & a drink for $12.49",
    "days": [
     "Fri"
    ],
@@ -39,26 +39,8 @@
    "where": null,
    "evidence": "Friday\nSpicy Fried Shrimp Tacos\nTwo shrimp tacos marinated in Tapatio aioli, breaded and fried, and served in flour tortillas with lettuce mix, Pico de Gallo, and habanero ranch. Served with rice, refried beans, and a drink for $12.49!",
    "source_url": "http://www.thetacojoint.com"
-  },
-  {
-   "kind": "daily_special",
-   "title": "Weekend: The Hangover",
-   "summary": "The Hangover breakfast plate with potatoes & refried beans for $12.49",
-   "days": [
-    "Sat",
-    "Sun"
-   ],
-   "start": null,
-   "end": null,
-   "until_close": false,
-   "all_day": true,
-   "food": true,
-   "drink": false,
-   "where": null,
-   "evidence": "Weekend\nThe Hangover\nLooking for a remedy for your weekend revelry?",
-   "source_url": "http://www.thetacojoint.com"
   }
  ],
  "dropped": [],
- "notes": "Happy hour excluded at Peak location, so applies only to Preston Center among listed locations. Avocado Queso Porkiladas ($12.49) daily special's day heading was truncated, so it was skipped. Weekend Hangover evidence lacks price in span; price $12.49 stated later in same block."
+ "notes": "Happy hour applies only to Preston Center (6112 Luther Ln), not Peak. Daily specials list is truncated; the Porkiladas special's day isn't visible and the weekend Hangover plate ($12.49) evidence span is too long between heading and price, so only Friday is included."
 }

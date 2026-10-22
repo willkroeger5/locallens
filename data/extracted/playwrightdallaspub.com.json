@@ -1,7 +1,7 @@
 {
- "hash": "876dc9368aacea3f",
- "checked": "2026-10-04",
+ "hash": "793e6cbcc262b156",
+ "checked": "2026-10-06",
  "deals": [],
  "dropped": [],
- "notes": "The menu page lists a 'Happy Hour Food' menu tab, but no happy hour days, times, or prices appear in the text. The Specials & Events page content did not load, so no deals could be extracted."
+ "notes": "The menu page lists a 'Happy Hour Food' menu tab, but no happy hour days, times, or prices appear in the text. The details are likely in a menu that didn't load. The events page had no content. Brunch (Sat & Sun 10am-3pm) is a regular service period, not a deal."
 }

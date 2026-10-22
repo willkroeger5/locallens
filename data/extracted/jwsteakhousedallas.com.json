@@ -1,6 +1,6 @@
 {
- "hash": "ea818ac56ad6cea6",
- "checked": "2026-10-04",
+ "hash": "e52dcbb76c7f1fe7",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "happy_hour",
@@ -26,7 +26,7 @@
   {
    "kind": "daily_special",
    "title": "Power Lunch",
-   "summary": "Power Lunch menu with dishes under $30, served in 30 minutes or less",
+   "summary": "Starter + entree + cookie to go, dishes under $30, served in 30 minutes or less",
    "days": [
     "Mon",
     "Tue",
@@ -46,5 +46,5 @@
   }
  ],
  "dropped": [],
- "notes": "Skipped one-off events (Garrison Brothers workshop, Texas Cattle & Cab Dinner)."
+ "notes": "Skipped one-off events (Old Fashioned Workshop, Texas Cattle & Cab Dinner)."
 }

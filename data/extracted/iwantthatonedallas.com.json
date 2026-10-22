@@ -1,6 +1,6 @@
 {
- "hash": "15b3f07dbf20c244",
- "checked": "2026-10-04",
+ "hash": "57edbec21a71f296",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "happy_hour",
@@ -21,5 +21,5 @@
   }
  ],
  "dropped": [],
- "notes": "Listed as an event on a specific date (Oct 7), but the event URL suffix '-3' and the 'Wine Wednesdays' framing suggest it recurs weekly; recurrence isn't explicitly confirmed."
+ "notes": "Wine Wednesday is listed as a recurring-style event (URL suffix -3, 'Wine Wednesdays'); the times are taken from the October 7 event listing."
 }

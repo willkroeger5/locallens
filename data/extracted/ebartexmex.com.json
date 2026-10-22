@@ -1,7 +1,7 @@
 {
- "hash": "7740f374b70fbc24",
- "checked": "2026-10-04",
+ "hash": "67b783cb34562a3b",
+ "checked": "2026-10-06",
  "deals": [],
  "dropped": [],
- "notes": "The Specials page mentions 'Daily Happy Hour Specials' but gives no days, times, or prices; details are likely in an image or unloaded content."
+ "notes": "The Specials page mentions 'Daily Happy Hour Specials' but gives no details (days, times, or prices); the content appears to be in an image or dynamically loaded section that isn't available in the text."
 }

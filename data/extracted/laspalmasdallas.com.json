@@ -1,7 +1,7 @@
 {
- "hash": "e11bbcfabb872aa9",
- "checked": "2026-10-04",
+ "hash": "e038b5af23ffac9f",
+ "checked": "2026-10-06",
  "deals": [],
  "dropped": [],
- "notes": "The menu page lists a 'Happy Hour' menu tab, but no happy hour details (days, times, or prices) appear in the text; they are likely in an image or a separate menu not included. The hours listed (Sun-Wed 11 AM-10 PM, Thurs-Sat 11 AM-11 PM) are the restaurant's opening hours, not deal times."
+ "notes": "The site has a Happy Hour menu tab, but its details appear only in an image (HH menu) that lists drink names (martini, old fashioned, ranch water, margaritas) without any prices, days, or times. No happy hour schedule or prices are stated in the text, so no deals were extracted."
 }

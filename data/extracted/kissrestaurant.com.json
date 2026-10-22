@@ -1,0 +1,28 @@
+{
+ "hash": "861020acb8a1dce0",
+ "checked": "2026-10-06",
+ "deals": [
+  {
+   "kind": "daily_special",
+   "title": "Tuesday-Friday Chop House Board Special",
+   "summary": "Tour of KISS Chop House Specialty Board for $139 (reg. $150) with a complimentary bottle of Rufino Prosecco",
+   "days": [
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": true,
+   "drink": true,
+   "where": null,
+   "evidence": "Tuesday - Friday Special $139 & Comes With A Complimentary Bottle of Rufino Prosecco ... Making It A Perfect Date Experience",
+   "source_url": "https://kissrestaurant.com/dinner-menu"
+  }
+ ],
+ "dropped": [],
+ "notes": "The dinner menu page's footer lists only a Houston address (2313 Edwards St), so it is unclear whether this special also applies at the Dallas McKinney Ave location. No happy hour is mentioned."
+}

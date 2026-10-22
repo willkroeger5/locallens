@@ -1,7 +1,29 @@
 {
- "hash": "127639a143cdffb9",
- "checked": "2026-10-04",
- "deals": [],
+ "hash": "b4934d4fe4f1ec66",
+ "checked": "2026-10-06",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Happy Hour",
+   "summary": "Happy hour menu",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri"
+   ],
+   "start": "15:00",
+   "end": "18:00",
+   "until_close": false,
+   "all_day": false,
+   "food": false,
+   "drink": false,
+   "where": "Lounge, bar, and patio only",
+   "evidence": "Happy Hour\nMonday - Friday\n3:00pm - 6:00pm\nHappy Hour is available in the lounge, bar, and patio.",
+   "source_url": "https://joeyrestaurants.com/location/joey-dallas"
+  }
+ ],
  "dropped": [],
- "notes": "The page mentions a day and late-night happy hour (\"Join us for our day or late-night happy hour\"), but it gives no days, times, or prices. Those details are on a linked Happy Hour menu that is not included in the text."
+ "notes": "Site mentions a late-night happy hour but gives no times; happy hour menu details were cut off, so prices and items are unknown."
 }

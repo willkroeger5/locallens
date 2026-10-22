@@ -1,11 +1,11 @@
 {
- "hash": "2e2d2dd49659b876",
- "checked": "2026-10-04",
+ "hash": "340b5ff1b96f23ad",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "happy_hour",
    "title": "Happy Hour",
-   "summary": "$7 specialty cocktails, $5 beers, $5 house wine, $7 bites (meatballs, calamari, spinach dip, deviled eggs, hummus)",
+   "summary": "$7 specialty cocktails, $5 beers (Michelob Ultra, Heineken, Modelo), $5 house wine, $7 bites (meatballs, calamari, spinach dip, deviled eggs, hummus)",
    "days": [
     "Wed",
     "Thu",
@@ -23,5 +23,5 @@
   }
  ],
  "dropped": [],
- "notes": "Header says available on bar & patio; footnote says bar only. Same page appears at two URLs."
+ "notes": "Menu footnote says happy hour menu is available at the bar only, while the header says bar & patio."
 }

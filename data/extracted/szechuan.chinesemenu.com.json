@@ -1,11 +1,11 @@
 {
- "hash": "aa3eab20a5218169",
- "checked": "2026-10-04",
+ "hash": "e72a9516d49b1adb",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "daily_special",
-   "title": "Lunch Special",
-   "summary": "Lunch plates with egg roll & fried rice: chicken/pork $6.75, beef $6.95, shrimp $7.25",
+   "title": "Lunch Specials",
+   "summary": "Lunch plates $6.75-$7.25 (chicken, pork, beef, shrimp) served with egg roll & fried rice",
    "days": [
     "Mon",
     "Tue",
@@ -25,5 +25,5 @@
   }
  ],
  "dropped": [],
- "notes": "Weekday lunch pricing; light dinner prices after 2:30 not shown in text. No happy hour mentioned."
+ "notes": "Lunch menu pricing is weekdays only; orders after 2:30pm are charged light dinner prices."
 }

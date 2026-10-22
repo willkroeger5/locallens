@@ -1,7 +1,7 @@
 {
- "hash": "e4230fcc7c678da3",
- "checked": "2026-10-04",
+ "hash": "63bf180029d14f60",
+ "checked": "2026-10-06",
  "deals": [],
  "dropped": [],
- "notes": "The menu page lists a 'Happy Hour' menu link, but no days, times, or prices appear in the text. The details are likely in a linked menu or image that is not included, so no deals were extracted."
+ "notes": "The site links to a Happy Hour menu, but its details (days, times, prices) aren't in the provided text; they're likely in a separate menu file or image."
 }

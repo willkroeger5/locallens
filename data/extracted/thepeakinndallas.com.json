@@ -1,11 +1,11 @@
 {
- "hash": "869ba0094ab6c784",
- "checked": "2026-10-04",
+ "hash": "e5e58d22f7a81119",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "happy_hour",
    "title": "Happy Hour",
-   "summary": "$4 Lone Star, Lone Star Light & PBR; $4.50 wells; $5 Fireball shots; $6 Tito's, Jim Beam & Hornitos",
+   "summary": "$4 Lone Star, Lone Star Light & PBR, $4.50 well drinks, $5 Fireball shots, $6 Tito's, Jim Beam & Hornitos",
    "days": [
     "Mon",
     "Tue",
@@ -67,5 +67,5 @@
   }
  ],
  "dropped": [],
- "notes": "Happy hour runs 'open-ten p.m.'; bar opens at 5 PM, so start set to 17:00. Monday burger special has no stated times; treated as all day."
+ "notes": "Happy hour runs from opening (5 PM per listed bar hours) until 10 PM daily."
 }

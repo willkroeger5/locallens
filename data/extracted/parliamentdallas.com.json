@@ -1,11 +1,11 @@
 {
- "hash": "313fd2cc0024dfc9",
- "checked": "2026-10-04",
+ "hash": "d7134858d92512b2",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "happy_hour",
-   "title": "Happy Hour (All Day Monday)",
-   "summary": "$6-7 cocktails, $5 beers, $6-7 wine",
+   "title": "All-Day Monday Happy Hour",
+   "summary": "$6 house spirits & cocktails, $5 beers, $6-7 wines",
    "days": [
     "Mon"
    ],
@@ -22,7 +22,7 @@
   {
    "kind": "happy_hour",
    "title": "Happy Hour",
-   "summary": "$6-7 cocktails, $5 beers, $6-7 wine",
+   "summary": "$6 house spirits & cocktails, $5 beers, $6-7 wines",
    "days": [
     "Tue",
     "Wed",
@@ -42,5 +42,5 @@
   }
  ],
  "dropped": [],
- "notes": "Happy hour also applies anytime it rains (not schedulable). Bar opens at 5pm, so Monday all-day means 5pm-2am. 20% gratuity added to all checks. Prices from the Happy Hour Menu on /drinks."
+ "notes": "Happy hour also applies anytime it rains (not a scheduled time). 20% gratuity added to all checks."
 }

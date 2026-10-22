@@ -1,6 +1,6 @@
 {
- "hash": "59a2c48f0eaae9be",
- "checked": "2026-10-04",
+ "hash": "9dd646d8cb0512e6",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "daily_special",
@@ -16,10 +16,10 @@
    "food": false,
    "drink": true,
    "where": null,
-   "evidence": "HALF-OFF WINE EVERY TUESDAY!\nHALF-OFF WINE EVERY TUESDAY!\nGood food, good bottles, and a great reason\nto make it a weeknight plan.",
+   "evidence": "HALF-OFF WINE EVERY TUESDAY!\nGood food, good bottles, and a great reason\nto make it a weeknight plan.",
    "source_url": "http://www.cafeizmir.com/"
   }
  ],
  "dropped": [],
- "notes": "No times are stated for the Tuesday wine special; it is assumed to run during regular dinner hours (4:30-10pm daily)."
+ "notes": "A separate Tuesday menu exists; its prices aren't marked as discounts, so only the half-off wine deal is included."
 }

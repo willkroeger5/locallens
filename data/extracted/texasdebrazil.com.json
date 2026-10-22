@@ -1,11 +1,11 @@
 {
- "hash": "ccd900b04d93f0a2",
- "checked": "2026-10-04",
+ "hash": "7162702b828fcc33",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "happy_hour",
    "title": "Happy Hour",
-   "summary": "$5 domestic beers, $7 caipirinhas & house cocktail, $8 TdB private label wine, $9 house martinis",
+   "summary": "$5 domestic beers, $7 caipirinhas & house cocktail, $8 house wine, $9 house martinis",
    "days": [
     "Mon",
     "Tue",
@@ -25,5 +25,5 @@
   }
  ],
  "dropped": [],
- "notes": "28th Anniversary offers and heroes' discount skipped (one-off/promotional, not happy-hour style recurring deals)."
+ "notes": null
 }

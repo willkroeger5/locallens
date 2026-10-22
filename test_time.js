@@ -33,4 +33,7 @@ assert.ok(overlaps(late, day("Sat"), 0, 3 * 60));            // Fri 10pm-2am rea
 assert.ok(!overlaps(late, day("Thu"), 0, 1440));
 assert.ok(!overlaps(noTimes, day("Wed"), 17 * 60, 22 * 60)); // unknown times never match a time range
 assert.ok(onDay(noTimes, day("Wed")) && !onDay(noTimes, day("Thu")));
+const noDays = deal({ days: [], start: "17:00", end: "19:00" });  // menu gives hours but no days
+assert.strictEqual(liveFor(noDays, at("Tue", "18:00")), null);    // never claim "on now"
+assert.ok(!onDay(noDays, day("Tue")));                             // only listed under "Any day"
 console.log("time.js ok");

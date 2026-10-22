@@ -9,12 +9,18 @@ Live: https://willkroeger5.github.io/locallens/ (the `docs/` folder, served by G
 ```sh
 uv run venues.py      # 1. every restaurant/bar/cafe in the area (Overture Maps + OpenStreetMap) -> data/venues.json
 uv run fetch.py       # 2. fetch each venue's site: homepage + happy-hour/menu/specials pages + PDFs (cached in data/cache)
-uv run extract.py     # 3. Claude extracts deals; each must quote the page verbatim or it's dropped -> docs/deals.json
+uv run render.py      # 2b. headless Chrome for the misses: clicks happy-hour tabs, OCRs menu images and scanned PDFs
+                      #     (Apple Vision via ocrmac, so macOS only) -> data/rendered/
+uv run extract.py     # 3. Claude extracts deals; each must quote the page (or OCR'd image) verbatim or it's dropped -> docs/deals.json
 node test_time.js     # open-now / past-midnight logic check
 ```
 
 Re-running is cheap: fetches are cached on disk, and extraction only re-pays for sites whose deal text changed.
-To refresh the data, run steps 2 and 3 with `--refresh` on fetch, then commit `docs/deals.json` and push.
+To refresh the data, run `fetch.py --refresh`, then `render.py --refresh`, then `extract.py`, and commit `docs/deals.json` and push.
+`render.py` only targets sites that plain fetching can't read (JS-only pages, deals behind tabs/images/PDFs, homepages
+that block simple requests). Its output lives in `data/rendered/`, separate from `data/pages/`, so a fetch refresh never wipes it.
+Extraction never assumes days or times: a menu that gives hours but no days shows as "Days not listed".
+Venues whose site says they're closed are left out.
 
 - `venues.py --cached` rebuilds from the saved raw pulls.
 - `fetch.py --only "Venue Name,Other Venue"` and `extract.py --only site.com` re-do single places.

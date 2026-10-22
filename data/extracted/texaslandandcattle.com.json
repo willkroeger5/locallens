@@ -1,7 +1,40 @@
 {
- "hash": "f0827646618c181b",
- "checked": "2026-10-04",
- "deals": [],
+ "hash": "33fa026f02242078",
+ "checked": "2026-10-06",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Happy Hour",
+   "summary": "Discounted craft beer, cocktails, frozen margaritas and more",
+   "days": [],
+   "start": "15:00",
+   "end": "18:00",
+   "until_close": false,
+   "all_day": false,
+   "food": false,
+   "drink": true,
+   "where": "In-store only, participating locations",
+   "evidence": "Happy Hour\nSpecial Prices\nBeat the heat! Come enjoy your favorites craft beer, cocktail, frozen margarita, and more. Starting from 3PM-6PM.",
+   "source_url": "http://texaslandandcattle.com"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Kids Eat Free Monday",
+   "summary": "One free kids meal with purchase of any entr\u00e9e",
+   "days": [
+    "Mon"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": true,
+   "drink": false,
+   "where": null,
+   "evidence": "Kids Eat Free\nFREE\nEvery Monday kids eat free. One free kids meal with the purchase of any entr\u00e9e.",
+   "source_url": "http://texaslandandcattle.com"
+  }
+ ],
  "dropped": [],
- "notes": "This website appears to belong to the Austin location (5510 S I-35 Frontage Rd); it lists no Dallas or Lemmon Ave address. It mentions a 3PM-6PM Happy Hour (in-store, 'participating locations only'), Kids Eat Free Mondays, a lunch special, and weekend brunch, but none are confirmed for the 3130 Lemmon Ave location, so all were skipped."
+ "notes": "Site footer lists an Austin address; happy hour is for participating locations only, so availability at 3130 Lemmon Ave is unconfirmed. Seasonal summer lunch special and brunch (no prices) skipped."
 }

@@ -1,10 +1,10 @@
 {
- "hash": "a70d8de1f69f5c57",
- "checked": "2026-10-04",
+ "hash": "d65d2a632795b3cd",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "happy_hour",
-   "title": "Weekday Happy Hour",
+   "title": "Happy Hour",
    "summary": "$1 off any drink",
    "days": [
     "Mon",
@@ -42,5 +42,5 @@
   }
  ],
  "dropped": [],
- "notes": "The $1-off drink special is listed separately for each weekday Mon-Fri (12-5pm) on dated entries; combined into one Mon-Fri happy hour."
+ "notes": "Specials page lists $1 off drinks 12-5pm on each weekday (Mon-Fri) with dated entries; treated as recurring weekday happy hour."
 }

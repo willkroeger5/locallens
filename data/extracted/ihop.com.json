@@ -1,6 +1,6 @@
 {
- "hash": "09f7a69556746cea",
- "checked": "2026-10-04",
+ "hash": "cd7021c2e1b488f7",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "daily_special",
@@ -22,10 +22,10 @@
    "food": true,
    "drink": false,
    "where": null,
-   "evidence": "IHOP $6 VALUE MENU\nStill every day. Still six bucks.^",
-   "source_url": "http://www.ihop.com/"
+   "evidence": "IHOP $6 VALUE MENU\nStill Every Day. Still Six Bucks.**",
+   "source_url": "http://www.ihop.com/en/specials"
   }
  ],
  "dropped": [],
- "notes": "$6 Value Menu is a chain-wide, limited-time offer at participating U.S. restaurants; prices may vary by location. Seasonal items (Pumpkin Spice, Stuffed French Toast) and online/rewards promos skipped."
+ "notes": "$6 Value Menu is a national limited-time offer at participating restaurants; prices may vary by location. Seasonal items (pumpkin spice, stuffed French toast) and online promo codes skipped."
 }

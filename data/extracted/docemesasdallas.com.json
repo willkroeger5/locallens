@@ -1,6 +1,6 @@
 {
- "hash": "9f911702f4f438ce",
- "checked": "2026-10-04",
+ "hash": "b9aac38f01e8a9ec",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "happy_hour",
@@ -26,7 +26,7 @@
   {
    "kind": "daily_special",
    "title": "Wine Wednesday",
-   "summary": "Half-price wine by the glass all day",
+   "summary": "Half-price wine by the glass",
    "days": [
     "Wed"
    ],
@@ -37,10 +37,10 @@
    "food": false,
    "drink": true,
    "where": null,
-   "evidence": "Wednesday\nHalf-price wine by-the-glass all day",
+   "evidence": "$2 off our large Queso Doce and/or Guacamole\nWednesday\nHalf-price wine by-the-glass all day",
    "source_url": "http://docemesasdallas.com/food-menu"
   }
  ],
  "dropped": [],
- "notes": "Both sources are the same page; deals listed once. Deals are not location-specific, assumed to apply to all Dallas locations."
+ "notes": "Deals listed site-wide without location restriction; both source chunks are the same page."
 }

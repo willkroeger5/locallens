@@ -1,7 +1,23 @@
 {
- "hash": "a57058c2f9479550",
- "checked": "2026-10-04",
- "deals": [],
+ "hash": "3508d539f09ac979",
+ "checked": "2026-10-06",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Happy Hour",
+   "summary": "$12 signature cocktails, $12 wine by the glass, oysters $12 half dozen/$24 dozen, caviar cannoli $14, Wagyu burger $19",
+   "days": [],
+   "start": "17:00",
+   "end": "19:00",
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": true,
+   "where": null,
+   "evidence": "The Saint Happy Hour\n5pm-7 pm\nSIGNATURE Cocktails \u202212 \u2022",
+   "source_url": "https://images.squarespace-cdn.com/content/v1/6276e7b5c015981aae1e1c60/18c90672-9fd3-4dfa-b94f-a56cebb24e98/Saint+HH+Menu+PNG.png?format=1500w"
+  }
+ ],
  "dropped": [],
- "notes": "The site's navigation links to 'Happy Hours' (an oyster & caviar happy hour page) and 'Tomahawk for Two Tuesday', but the crawled pages contain only navigation text with no days, times, or prices. The details are likely in images or on pages that weren't captured, so no deals were extracted."
+ "notes": "Happy hour days not stated on the menu. 'Tomahawk for Two Tuesday' is linked in navigation but no details are provided, so it was not included."
 }

@@ -1,11 +1,11 @@
 {
- "hash": "526e36e9c6681416",
- "checked": "2026-10-04",
+ "hash": "22f3b2bf720ea25f",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "happy_hour",
    "title": "Happy Hour",
-   "summary": "Half-price vintage martinis, bourbon martinis & whiskey standards; $2 off draft beer; $2 garlic pesto pizza sticks; $4 pizza slice",
+   "summary": "Half-price vintage martinis, bourbon martinis & whiskey standards; $2 off drafts; $2 garlic pesto pizza sticks; $4 pizza slice",
    "days": [
     "Mon",
     "Tue",
@@ -25,5 +25,5 @@
   }
  ],
  "dropped": [],
- "notes": "Price-to-item mapping ($2 pizza sticks, $2 off drafts, $4 pizza slice) inferred from menu layout order; may be imprecise."
+ "notes": "Price-to-item mapping for $2/$2 OFF/$4 inferred from PDF layout order."
 }

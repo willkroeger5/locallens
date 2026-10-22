@@ -1,11 +1,11 @@
 {
- "hash": "b4d0e5589f738e3e",
- "checked": "2026-10-04",
+ "hash": "554e25f89a0e6156",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "happy_hour",
    "title": "Happy Hour",
-   "summary": "Specialty bites, sandwiches, snacks, plus discounts on beer, wine, cocktails and boozy slushees",
+   "summary": "Specialty bites, sandwiches and snacks, plus discounts on beer, wine, cocktails and boozy slushees",
    "days": [
     "Mon",
     "Tue",
@@ -25,5 +25,5 @@
   }
  ],
  "dropped": [],
- "notes": "Detailed happy hour prices appear only on Houston menus; not applied to the Dallas East location. 'Loro Step $15 (All Day, Every Day)' is a regular menu item, not included as a deal."
+ "notes": "Only the East Dallas page applies; Houston menus (with specific happy hour prices) are for other locations and were skipped. 'Loro Step $15 (All Day, Every Day)' is a regular menu combo without details, not included."
 }

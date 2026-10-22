@@ -1,6 +1,6 @@
 {
- "hash": "7e63169864411b5e",
- "checked": "2026-10-04",
+ "hash": "e9c741bef6ad2a6e",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "happy_hour",
@@ -25,5 +25,5 @@
   }
  ],
  "dropped": [],
- "notes": "Happy hour is stated site-wide, not tied to a specific location; assumed to apply at 3030 Ross Ave."
+ "notes": "Happy hour is stated site-wide (not location-specific); menu varies by location."
 }

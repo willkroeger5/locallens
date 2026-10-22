@@ -1,10 +1,10 @@
 {
- "hash": "2b7eb520aab40980",
- "checked": "2026-10-04",
+ "hash": "d8706e391f92dc83",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "happy_hour",
-   "title": "Half-Off Oysters (Early)",
+   "title": "Half-Off Oysters",
    "summary": "Half-off oysters at the bar",
    "days": [
     "Tue",
@@ -24,7 +24,7 @@
   },
   {
    "kind": "reverse_happy_hour",
-   "title": "Half-Off Oysters (Late)",
+   "title": "Late-Night Half-Off Oysters",
    "summary": "Half-off oysters at the bar",
    "days": [
     "Tue",
@@ -44,5 +44,5 @@
   }
  ],
  "dropped": [],
- "notes": null
+ "notes": "One oyster deal with two time windows (5-6:30pm and 9pm-close), split into two entries."
 }

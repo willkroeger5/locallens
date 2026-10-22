@@ -1,20 +1,12 @@
 {
- "hash": "e74e5906db351c56",
- "checked": "2026-10-04",
+ "hash": "cedbdd46b0502980",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "happy_hour",
    "title": "Social Hour 79",
-   "summary": "$9 each: 7 select bar bites, 7 mixology cocktails, 7 standard pours of wine",
-   "days": [
-    "Mon",
-    "Tue",
-    "Wed",
-    "Thu",
-    "Fri",
-    "Sat",
-    "Sun"
-   ],
+   "summary": "$9 each: 7 select bar bites, 7 mixology cocktails, 7 standard wine pours",
+   "days": [],
    "start": null,
    "end": null,
    "until_close": false,
@@ -45,7 +37,7 @@
   {
    "kind": "daily_special",
    "title": "3-Course Pork Chop Sunday Supper",
-   "summary": "$49 for pork chop, soup or salad, and dessert trio",
+   "summary": "$49 3-course: pork chop, soup or salad, dessert trio",
    "days": [
     "Sun"
    ],
@@ -56,7 +48,7 @@
    "food": true,
    "drink": false,
    "where": null,
-   "evidence": "3-Course Pork Chop Sunday Supper for $49",
+   "evidence": "3-Course Pork Chop Sunday Supper\nDine-In & To-Go Every Sunday, 4 PM - Close.",
    "source_url": "https://perryssteakhouse.com/locations/tx/dallas/park-district/"
   },
   {
@@ -72,11 +64,34 @@
    "all_day": false,
    "food": true,
    "drink": false,
-   "where": "with purchase of one entr\u00e9e per person",
+   "where": null,
    "evidence": "Lunch-sized portions of Perry\u2019s Filet Mignon appetizers\u2014each only $9 during lunch with the purchase of one entr\u00e9e per person at the table. AVAILABLE FRIDAYS ONLY | 10:30 AM \u2013 5 PM",
+   "source_url": "https://perryssteakhouse.com/locations/tx/dallas/park-district/"
+  },
+  {
+   "kind": "daily_special",
+   "title": "First Responders / Military / Senior 65+ Menu",
+   "summary": "3 courses, 6 choices, $39 for first responders, military, seniors 65+",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri",
+    "Sat",
+    "Sun"
+   ],
+   "start": null,
+   "end": "18:00",
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": false,
+   "where": "Dine-in only, upon request",
+   "evidence": "Perry\u2019s First Responders Menu: 3 Courses, 6 Choices, $39 | DINE-IN Only Upon Request Before 6 PM Daily",
    "source_url": "https://perryssteakhouse.com/locations/tx/dallas/park-district/"
   }
  ],
  "dropped": [],
- "notes": "Social Hour 79 days/times not stated on page (menu is a download); all seven days assumed. Senior/military/first responder menus skipped as restricted-eligibility."
+ "notes": "Social Hour 79 days/times not stated in text (details in downloadable menu)."
 }

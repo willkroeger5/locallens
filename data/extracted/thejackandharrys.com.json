@@ -1,7 +1,29 @@
 {
- "hash": "c99152991d39d364",
- "checked": "2026-10-04",
- "deals": [],
+ "hash": "e3dbe76d70dffbd5",
+ "checked": "2026-10-06",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Happy Hour",
+   "summary": "Happy hour bar menu: deviled eggs, sliders, oysters, martinis, cocktails & wine",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri"
+   ],
+   "start": "14:00",
+   "end": "18:00",
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": true,
+   "where": "Bar area only",
+   "evidence": "MENU HAPPY HOUR\nBAR MENU\n\nMonday - Friday 2 PM - 6 PM in The Bar Area",
+   "source_url": "https://www.thejackandharrys.com/menus/#happy-hour#tab=HAPPY HOUR"
+  }
+ ],
  "dropped": [],
- "notes": "The menus page has a 'Happy Hour' menu tab, but its contents (items, prices, days, times) are not in the text; only the main menu items are shown. No deals extracted."
+ "notes": "No happy hour prices listed."
 }

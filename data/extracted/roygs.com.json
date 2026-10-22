@@ -1,7 +1,7 @@
 {
- "hash": "bd4c94df5e281153",
- "checked": "2026-10-04",
+ "hash": "5884de94b6513918",
+ "checked": "2026-10-06",
  "deals": [],
  "dropped": [],
- "notes": "The menus page lists only menu names (Booze, Lunch and Dinner, Brunch, House Cocktails) with no happy hour or daily special details; the content appears to load dynamically and was not captured."
+ "notes": "The page only lists menu names (Booze, Lunch and Dinner, Brunch) and a 'House Cocktails' heading; no happy hour or daily special details are present in the text."
 }

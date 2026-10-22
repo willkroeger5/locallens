@@ -1,6 +1,6 @@
 {
- "hash": "4624dbf7ee9ccf3b",
- "checked": "2026-10-04",
+ "hash": "332b784e50966f14",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "happy_hour",
@@ -20,7 +20,7 @@
    "food": true,
    "drink": true,
    "where": "dine-in only",
-   "evidence": "Happy Hour\nSelect items half-priced Monday - Friday\nCalamari | Triple Dip | Four Cheese Pizza\n3:00 PM - 6:00 PM\n(dine-in only)\nSelect Liquor\nwell whiskey, well vodka, & well tequila\n$5.50",
+   "evidence": "Happy Hour\nSelect items half-priced Monday - Friday\nCalamari | Triple Dip | Four Cheese Pizza\n3:00 PM - 6:00 PM\n(dine-in only)\nSelect Liquor\nwell whiskey, well vodka, & well tequila\n$5.50\nHouse Wine\nred, white or ros\u00e9\n$6.00",
    "source_url": "https://www.stateandallen.com/menus/"
   },
   {
@@ -37,7 +37,7 @@
    "food": true,
    "drink": false,
    "where": "dine-in only",
-   "evidence": "All specials are available for dine-in only. Ask your server for details.\nMonday\nhalf price pizza",
+   "evidence": "daily specials\nAll specials are available for dine-in only. Ask your server for details.\nMonday\nhalf price pizza",
    "source_url": "https://www.stateandallen.com/menus/"
   },
   {
@@ -60,7 +60,7 @@
   {
    "kind": "daily_special",
    "title": "Half Price Wine Wednesday",
-   "summary": "Half-price wine by the glass or bottle (excludes sparkling & house wines); $15 shrimp fettuccine at lunch",
+   "summary": "Half-price wine by the glass or bottle (excludes sparkling & house wines); $15 fresno chili shrimp fettuccine at lunch",
    "days": [
     "Wed"
    ],
@@ -105,7 +105,7 @@
    "food": false,
    "drink": true,
    "where": "dine-in only",
-   "evidence": "Friday\nwell whiskey, well vodka & well tequila\n$5.50\nSunday",
+   "evidence": "Friday\nwell whiskey, well vodka & well tequila\n$5.50",
    "source_url": "https://www.stateandallen.com/menus/"
   },
   {
@@ -115,17 +115,32 @@
    "days": [
     "Sun"
    ],
-   "start": "15:00",
+   "start": null,
    "end": null,
-   "until_close": true,
+   "until_close": false,
    "all_day": false,
    "food": false,
    "drink": true,
    "where": "dine-in only",
    "evidence": "Sunday\nwell drinks\n(only available after brunch)\n$5.50",
    "source_url": "https://www.stateandallen.com/menus/"
+  },
+  {
+   "kind": "other",
+   "title": "Brunch Drink Specials",
+   "summary": "$5 mimosa glass, $25 mimosa bottle, $5 screwdriver, greyhound, bloody mary or tequila sunrise",
+   "days": [],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": false,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "Brunch Drink Specials\nmimosa\nglass $5.00\nbottle $25.00\nbreakfast drink\nscrewdriver, greyhound, bloody mary, or tequila sunrise\n$5.00",
+   "source_url": "https://www.stateandallen.com/menus/"
   }
  ],
  "dropped": [],
- "notes": "Daily specials list shows conflicting well drink prices ($5.00 vs $5.50); used $5.50 from the drink specials section. Sunday well drinks start after brunch (brunch ends 3 pm)."
+ "notes": "Daily specials list shows conflicting prices ($5.00 vs $5.50) for some well drinks; used the $5.50 drink-specials list."
 }

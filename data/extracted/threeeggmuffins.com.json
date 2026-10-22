@@ -1,7 +1,7 @@
 {
- "hash": "14f18b4a9c6b454f",
- "checked": "2026-10-04",
+ "hash": "35ecb6f0d4bda814",
+ "checked": "2026-10-06",
  "deals": [],
  "dropped": [],
- "notes": "No recurring deals found. 'Lunch Specials' and 'Dessert Specials' are menu section headings listing items (e.g., Bulgogi Cheese Steak Sandwich) with no stated days, times, or discounted prices."
+ "notes": "Only menu item listings (including 'Lunch Specials' and 'Dessert Specials' headings) with no prices, days, times, or recurring deal details; no happy hour or daily specials stated."
 }

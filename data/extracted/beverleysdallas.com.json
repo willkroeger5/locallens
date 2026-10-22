@@ -1,11 +1,11 @@
 {
- "hash": "bdc59c052a1c93b2",
- "checked": "2026-10-04",
+ "hash": "eacb1faabb2cefab",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "happy_hour",
    "title": "Beverley's Happy Hour",
-   "summary": "Oysters $12/$24 (half/dozen), $8 deviled eggs, $12 Bev's Burger",
+   "summary": "Oysters on the half shell $12 (half dozen) / $24 (dozen), $8 deviled eggs, $12 Bev's Burger",
    "days": [
     "Mon",
     "Tue",
@@ -25,5 +25,5 @@
   }
  ],
  "dropped": [],
- "notes": "Happy hour lists only food items; no drink specials are stated."
+ "notes": null
 }

@@ -1,20 +1,12 @@
 {
- "hash": "0a0f82a58f9a92b0",
- "checked": "2026-10-04",
+ "hash": "a322615586d3ffbc",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "daily_special",
    "title": "Lunch Special",
-   "summary": "15% off any fried rice, 11am-2pm",
-   "days": [
-    "Mon",
-    "Tue",
-    "Wed",
-    "Thu",
-    "Fri",
-    "Sat",
-    "Sun"
-   ],
+   "summary": "15% off any fried rice",
+   "days": [],
    "start": "11:00",
    "end": "14:00",
    "until_close": false,
@@ -29,19 +21,11 @@
    "kind": "daily_special",
    "title": "$40 Dinner for Two",
    "summary": "$40 dinner for two with two combo entrees",
-   "days": [
-    "Mon",
-    "Tue",
-    "Wed",
-    "Thu",
-    "Fri",
-    "Sat",
-    "Sun"
-   ],
+   "days": [],
    "start": null,
    "end": null,
    "until_close": false,
-   "all_day": true,
+   "all_day": false,
    "food": true,
    "drink": false,
    "where": null,
@@ -50,5 +34,5 @@
   }
  ],
  "dropped": [],
- "notes": "Specials are listed under 'Limited Time Offers' and said to be available only at 'our Dallas location' (two Dallas locations exist; assumed to include Live Oak St). No days are stated, so all seven days are assumed. Dinner special has no stated times."
+ "notes": "Specials are listed under 'Limited Time Offers' and stated as available only at 'our Dallas location' (two Dallas locations listed; not specified which). No days given."
 }

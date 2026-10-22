@@ -1,6 +1,6 @@
 {
- "hash": "c21b188f9f273a34",
- "checked": "2026-10-04",
+ "hash": "794c6b16cc640c3d",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "happy_hour",
@@ -54,7 +54,7 @@
    "food": false,
    "drink": true,
    "where": null,
-   "evidence": "crown royal (all flavors)\n$6.50\nTuesday\nfireball\n$5.50",
+   "evidence": "Daily Drink Specials\nMonday\ncrown royal (all flavors)\n$6.50\nTuesday\nfireball\n$5.50",
    "source_url": "http://www.thenoddingdonkey.com/menus/"
   },
   {
@@ -71,12 +71,12 @@
    "food": false,
    "drink": true,
    "where": null,
-   "evidence": "Wednesday\ndonkey punch & purple nurples\n$5.50",
+   "evidence": "Tuesday\nfireball\n$5.50\nWednesday\ndonkey punch & purple nurples\n$5.50",
    "source_url": "http://www.thenoddingdonkey.com/menus/"
   },
   {
    "kind": "daily_special",
-   "title": "Thursday Jameson",
+   "title": "Jameson Thursday",
    "summary": "$6.50 Jameson",
    "days": [
     "Thu"
@@ -111,7 +111,7 @@
   {
    "kind": "daily_special",
    "title": "Saturday Bloody Marys & Mimosas",
-   "summary": "$4.50 Bloody Marys & mimosas, open until 1pm",
+   "summary": "$4.50 Bloody Marys & mimosas",
    "days": [
     "Sat"
    ],
@@ -127,7 +127,7 @@
   },
   {
    "kind": "daily_special",
-   "title": "Sunday Skrewball",
+   "title": "Skrewball Sunday",
    "summary": "$6.50 Skrewball",
    "days": [
     "Sun"
@@ -165,5 +165,5 @@
   }
  ],
  "dropped": [],
- "notes": "Daily drink specials appear twice with slightly different prices (e.g. $6.50 vs $6); the first listing's prices were used."
+ "notes": "Drink specials menu appears twice with slightly differing prices; used the first listing."
 }

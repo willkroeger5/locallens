@@ -1,6 +1,6 @@
 {
- "hash": "83ae9715eddcb394",
- "checked": "2026-10-04",
+ "hash": "6cdb97d230c95317",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "daily_special",
@@ -38,5 +38,5 @@
   }
  ],
  "dropped": [],
- "notes": "Specials are tied to the loyalty program; no prices given. Not stated which locations participate."
+ "notes": "Specials are tied to the loyalty program; no specific prices given and not location-specific."
 }

@@ -1,6 +1,6 @@
 {
- "hash": "81669b93e180a7ca",
- "checked": "2026-10-04",
+ "hash": "f10d26136504ed6b",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "happy_hour",
@@ -14,7 +14,7 @@
    "until_close": false,
    "all_day": false,
    "food": false,
-   "drink": true,
+   "drink": false,
    "where": null,
    "evidence": "Happy Hour M-F 3pm - 6pm*\n(*except Mondays: 4pm-6pm)",
    "source_url": "http://Www.rambleroomdallas.com/"
@@ -34,12 +34,12 @@
    "until_close": false,
    "all_day": false,
    "food": false,
-   "drink": true,
+   "drink": false,
    "where": null,
    "evidence": "Happy Hour M-F 3pm - 6pm*\n(*except Mondays: 4pm-6pm)",
    "source_url": "http://Www.rambleroomdallas.com/"
   }
  ],
  "dropped": [],
- "notes": "Happy hour details (prices/items) are in a PDF 'Happy Hour / Specials' menu not included in the text; food/drink flags are uncertain. Monday runs 4-6pm, Tue-Fri 3-6pm."
+ "notes": "Happy Hour / Specials menu details are in a PDF not included in the text; only times are known. Food/drink flags unknown."
 }

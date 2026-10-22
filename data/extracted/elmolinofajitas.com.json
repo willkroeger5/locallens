@@ -1,6 +1,6 @@
 {
- "hash": "2c8e98d4feb4dfdb",
- "checked": "2026-10-04",
+ "hash": "ddb601b813175d73",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "happy_hour",
@@ -27,5 +27,5 @@
   }
  ],
  "dropped": [],
- "notes": "Happy hour listed as 3-6pm daily at Snider Plaza; no details on which items or prices are discounted. Food/drink flags are assumed."
+ "notes": "Happy hour details (items/prices) not listed; only time given."
 }

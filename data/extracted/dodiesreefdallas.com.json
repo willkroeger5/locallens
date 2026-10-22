@@ -1,11 +1,11 @@
 {
- "hash": "a25b47710333a0c8",
- "checked": "2026-10-04",
+ "hash": "70ad6cb0ddd4c639",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "happy_hour",
    "title": "Friday Fun Day Drink Specials",
-   "summary": "Rooftop drink specials",
+   "summary": "Drink specials on the roof",
    "days": [
     "Fri"
    ],
@@ -18,8 +18,25 @@
    "where": "Roof",
    "evidence": "Its Friday Fun Day at Dodie's!!\nGet on that roof and enjoy the drink specials!!!\n04:00 PM - 06:00 PM",
    "source_url": "https://www.dodiesreefdallas.com/dallas-dodie-s-reef-happy-hours-and-specials"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Monday Chicken Fried Chicken",
+   "summary": "Chicken fried chicken with mashed potatoes and jalapeno gravy",
+   "days": [
+    "Mon"
+   ],
+   "start": "11:00",
+   "end": "21:30",
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": false,
+   "where": null,
+   "evidence": "Monday October 5th\nChicken fried chicken with mashed potatoes and jalapeno gravy\n11:00 AM - 09:30 PM",
+   "source_url": "https://www.dodiesreefdallas.com/dallas-dodie-s-reef-happy-hours-and-specials"
   }
  ],
  "dropped": [],
- "notes": "The specials page lists dated entries (e.g. Friday October 9th); the Friday drink special is treated as recurring, but this is uncertain. The food menu has a Happy Hour tab, but its details were not included, so no happy hour prices or times are listed. The Monday chicken fried chicken entry has no price or discount and was skipped. Sunday brunch is not a deal and was skipped."
+ "notes": "Specials page lists date-specific entries; recurrence assumed weekly by weekday. A Happy Hour menu tab exists but its details are not in the text."
 }

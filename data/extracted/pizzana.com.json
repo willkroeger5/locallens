@@ -1,11 +1,11 @@
 {
- "hash": "f44f2bbd90135c29",
- "checked": "2026-10-04",
+ "hash": "e2b9612a93dcc309",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "happy_hour",
    "title": "Weekday Happy Hour",
-   "summary": "Half off Margaritas and Margherita pizzas, half off beer and glasses of wine, 25% off antipasti",
+   "summary": "Half-off margaritas and Margherita pizzas, half-off beer and glasses of wine, 25% off antipasti",
    "days": [
     "Mon",
     "Tue",
@@ -26,7 +26,7 @@
   {
    "kind": "daily_special",
    "title": "Wine Wednesday",
-   "summary": "Half off bottles of wine",
+   "summary": "Half-off bottles of wine all day",
    "days": [
     "Wed"
    ],
@@ -42,5 +42,5 @@
   }
  ],
  "dropped": [],
- "notes": "Happy hour times listed for 'Dallas' (3-6 PM weekdays), applied to Knox Street. Weekdays interpreted as Mon-Fri."
+ "notes": "Dallas happy hour listed as 3-6 PM on weekdays (applies to Dallas locations generally, including Knox St). Wine Wednesday not location-restricted."
 }

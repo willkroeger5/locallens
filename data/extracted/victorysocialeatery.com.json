@@ -1,6 +1,6 @@
 {
- "hash": "f0c610042e0e16b2",
- "checked": "2026-10-04",
+ "hash": "7b84d2404c591a56",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "happy_hour",
@@ -25,5 +25,5 @@
   }
  ],
  "dropped": [],
- "notes": "Small bites mentioned as discounted but no food prices given."
+ "notes": null
 }

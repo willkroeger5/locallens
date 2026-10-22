@@ -1,6 +1,6 @@
 {
- "hash": "595155321fdf2348",
- "checked": "2026-10-04",
+ "hash": "21e3e313d9785153",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "daily_special",
@@ -39,7 +39,7 @@
   {
    "kind": "daily_special",
    "title": "Date Night Friday",
-   "summary": "Six tacos and a bottle of wine date night deal",
+   "summary": "Date night deal: six tacos and a bottle of wine",
    "days": [
     "Fri"
    ],
@@ -50,10 +50,10 @@
    "food": true,
    "drink": true,
    "where": null,
-   "evidence": "Wine Down Wednesday and Date Night Friday\nHalf off wine every Wednesday. Fridays bring the date night deal: six tacos and a bottle of wine.",
+   "evidence": "Fridays bring the date night deal: six tacos and a bottle of wine.",
    "source_url": "http://Www.cuateskitchen.com/page/specials"
   }
  ],
  "dropped": [],
- "notes": "Weekend brunch listed on specials page is a regular meal service with no stated discount, so skipped. Date Night Friday price not stated."
+ "notes": "Weekend brunch (Sat-Sun 11am-3pm) is a regular menu service, not a discount, so it was skipped. Date Night Friday price not stated."
 }

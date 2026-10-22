@@ -1,7 +1,7 @@
 {
- "hash": "d7d08fdce05d8b8e",
- "checked": "2026-10-04",
+ "hash": "d93002d1766805d6",
+ "checked": "2026-10-06",
  "deals": [],
  "dropped": [],
- "notes": "The homepage invites guests to 'join us for happy hour', but no happy hour days, times, prices or menu items appear in the provided text. The menu page content is mostly the wine partner list and footer, so the happy hour details are likely on a location-specific page (Uptown Dallas) or in a menu that was not captured."
+ "notes": "The site mentions happy hour in general terms ('join us for happy hour') but provides no days, times, prices, or menu details for any location, including Uptown Dallas. The menu pages captured only list wine partners, not happy hour details."
 }

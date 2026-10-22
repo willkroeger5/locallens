@@ -1,6 +1,6 @@
 {
- "hash": "ba722994e39aecee",
- "checked": "2026-10-04",
+ "hash": "884e8ef32578bfd4",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "daily_special",
@@ -18,12 +18,12 @@
    "until_close": false,
    "all_day": false,
    "food": true,
-   "drink": true,
+   "drink": false,
    "where": null,
    "evidence": "Available Mon - Fri 11 am - 3 pm\nLunch Specials\nPasta with Salad",
    "source_url": "http://www.mimispizzeriadallas.com/dallas-mimi-s-pizzeria-food-menu"
   }
  ],
  "dropped": [],
- "notes": "Lunch specials list no prices and don't say which location; assumed to apply to both. No happy hour is mentioned."
+ "notes": "Lunch special prices not listed. No happy hour found."
 }

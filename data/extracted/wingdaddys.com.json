@@ -1,11 +1,11 @@
 {
- "hash": "b55188dabb4cc6f0",
- "checked": "2026-10-04",
+ "hash": "74f6753a0c219b55",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "happy_hour",
    "title": "Weekday Happy Hour",
-   "summary": "Weekday happy hour specials",
+   "summary": "Happy hour specials",
    "days": [
     "Mon",
     "Tue",
@@ -80,5 +80,5 @@
   }
  ],
  "dropped": [],
- "notes": "Happy hour details (items/prices) not stated; drink flag assumed uncertain. Boneless Bites Wednesday price not given. Specials are chain-wide, not location-specific."
+ "notes": "Specials are listed chain-wide, not specifically for the Greenville Ave location. Happy hour items and prices are not detailed."
 }

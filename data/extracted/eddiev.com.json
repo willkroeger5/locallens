@@ -1,7 +1,7 @@
 {
- "hash": "0a8a6b92358d6be8",
- "checked": "2026-10-04",
+ "hash": "cbd06e5ae7e38264",
+ "checked": "2026-10-06",
  "deals": [],
  "dropped": [],
- "notes": "The site advertises a happy hour called \"Eddie's Hours\" (\"There's happy hour... then there's Eddie's Hours\"), and the nutrition guide lists Eddie's Hours cocktails. However, none of the provided pages give the days, times, or prices, and the dedicated happy hour page was not included. No deals were extracted. Eddie's Soiree is a limited-time prix fixe and Thanksgiving is a holiday menu, so both were skipped."
+ "notes": "The site references a happy hour called \"Eddie's Hours\" (with Eddie's Hours cocktails listed in the nutrition guide), but no days, times, or prices are given in the provided text. The happy hour page details were not included. The Eddie's Soiree prix fixe (limited-time, through Nov 15) and the Thanksgiving menu are seasonal or one-off offers, so they were skipped."
 }

@@ -1,6 +1,6 @@
 {
- "hash": "7b19c0869df5532b",
- "checked": "2026-10-04",
+ "hash": "600ed6a75be03a1c",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "daily_special",
@@ -27,5 +27,5 @@
   }
  ],
  "dropped": [],
- "notes": "Drink specials listed as daily, all day every day; the '$5 Glass / $15 Bottle' item is unlabeled on the page."
+ "notes": null
 }

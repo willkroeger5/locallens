@@ -1,7 +1,7 @@
 {
- "hash": "4e4d9825045c72d6",
- "checked": "2026-10-04",
+ "hash": "413e70f881682b6a",
+ "checked": "2026-10-06",
  "deals": [],
  "dropped": [],
- "notes": "The menu page contains only navigation and a 'THE PRE-GAME' heading with no deal details, days, times, or prices; any happy hour/specials content appears to be dynamically loaded and is not present in the text."
+ "notes": "The menu page contains only navigation and section headings (e.g., \"THE PRE-GAME\") with no deal details, times, or prices in the text, so no recurring deals could be extracted."
 }

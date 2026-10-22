@@ -1,6 +1,6 @@
 {
- "hash": "9a8436879f7b89bc",
- "checked": "2026-10-04",
+ "hash": "7ad6cada7d58755f",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "happy_hour",
@@ -25,5 +25,5 @@
   }
  ],
  "dropped": [],
- "notes": "Happy hour details (prices/items) not listed; food/drink inclusion assumed drink only and not confirmed."
+ "notes": "Happy hour details (prices/items) not listed in text; likely on the drink menu, which is not included. Food/drink flags are uncertain."
 }

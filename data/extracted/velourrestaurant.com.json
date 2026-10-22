@@ -1,7 +1,62 @@
 {
- "hash": "524b8a6a967aa02b",
- "checked": "2026-10-04",
- "deals": [],
+ "hash": "f740e0320062aabf",
+ "checked": "2026-10-06",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Happy Hour",
+   "summary": "$9 signature cocktails & frozens (except House Stars); small plates $11-12 like crab claws, wingettes, sticky ribs; $18 Velour Happy Meal",
+   "days": [
+    "Wed",
+    "Thu",
+    "Fri"
+   ],
+   "start": "14:00",
+   "end": "18:00",
+   "until_close": false,
+   "all_day": false,
+   "food": true,
+   "drink": true,
+   "where": null,
+   "evidence": "WEDNESDAY-FRIDAY 2:00PM-6:00PM",
+   "source_url": "https://images.squarespace-cdn.com/content/68251b4b0fc16866ad45e117/48c68c2e-fb16-4b59-a9f3-448b1833723e/Velour_Happy_Hour_5x7_bleed+2.png?content-type=image%2Fpng"
+  },
+  {
+   "kind": "happy_hour",
+   "title": "Tuesday All-Day Happy Hour",
+   "summary": "$9 signature cocktails & frozens (except House Stars); happy hour small plates $11-12, $18 Velour Happy Meal",
+   "days": [
+    "Tue"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": true,
+   "drink": true,
+   "where": null,
+   "evidence": "Frozens\nWEDNESDAY-FRIDAY 2:00PM-6:00PM\nFROZENMAMBA 9\nALL DAY TUESDAY",
+   "source_url": "https://images.squarespace-cdn.com/content/68251b4b0fc16866ad45e117/48c68c2e-fb16-4b59-a9f3-448b1833723e/Velour_Happy_Hour_5x7_bleed+2.png?content-type=image%2Fpng"
+  },
+  {
+   "kind": "happy_hour",
+   "title": "Weekend Happy Hour",
+   "summary": "$9 signature cocktails & frozens (drinks only, no food)",
+   "days": [
+    "Sat",
+    "Sun"
+   ],
+   "start": "10:00",
+   "end": "13:00",
+   "until_close": false,
+   "all_day": false,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "ALL DAY TUESDAY\nSATURDAY & SUNDAY 10:00AM-1:00PM\nLINA MARIE 9",
+   "source_url": "https://images.squarespace-cdn.com/content/68251b4b0fc16866ad45e117/48c68c2e-fb16-4b59-a9f3-448b1833723e/Velour_Happy_Hour_5x7_bleed+2.png?content-type=image%2Fpng"
+  }
+ ],
  "dropped": [],
- "notes": "The site has a 'Happy Hour' menu section, but no happy hour details (days, times, or prices) appear in the text. They are likely in an image or a menu that did not load."
+ "notes": "Happy hour details come from OCR of a menu image; layout is jumbled, so the day/time assignments are interpreted from that layout. Weekend happy hour is signature cocktails & frozens only, with no food."
 }

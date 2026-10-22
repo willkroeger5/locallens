@@ -1,7 +1,148 @@
 {
- "hash": "5ec9f4553e7ae428",
- "checked": "2026-10-04",
- "deals": [],
+ "hash": "7e4c708cb057393d",
+ "checked": "2026-10-06",
+ "deals": [
+  {
+   "kind": "happy_hour",
+   "title": "Happy Hour",
+   "summary": "Weekday happy hour",
+   "days": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri"
+   ],
+   "start": "11:00",
+   "end": "19:00",
+   "until_close": false,
+   "all_day": false,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "Monday - Friday Happy Hour\n11am - 7pm",
+   "source_url": "https://barleyhouse.com/Barley-House-Specials.jpg"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Monday Drink Specials",
+   "summary": "$6 Jameson, $6 Skrewball, Sun Cruiser special",
+   "days": [
+    "Mon"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "Monday\n$6 Jameson | $6 Skrewball | Sun Cruiser",
+   "source_url": "https://barleyhouse.com/Barley-House-Specials.jpg"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Tuesday Drink Specials",
+   "summary": "$6 Painted Donkey, $6 Topo Chico Seltzer",
+   "days": [
+    "Tue"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "Tuesday\n$6 Painted Donkey | $6 Topo Chico Seltzer",
+   "source_url": "https://barleyhouse.com/Barley-House-Specials.jpg"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Wednesday Drink Specials",
+   "summary": "$6 Jager, $6 Fireball, $6 Western Son",
+   "days": [
+    "Wed"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "Wednesday\n$6 Jager | $6 Fireball | $6 Western Son",
+   "source_url": "https://barleyhouse.com/Barley-House-Specials.jpg"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Thursday Drink Specials",
+   "summary": "$6 Stoli-O, $6 small frozen drinks",
+   "days": [
+    "Thu"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "Thursday\n$6 Stoli-O | $6 Small Frozen Drinks",
+   "source_url": "https://barleyhouse.com/Barley-House-Specials.jpg"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Friday Drink Specials",
+   "summary": "$6 Green Teas, $6 Sun Cruiser",
+   "days": [
+    "Fri"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "Friday\n$6 Green Teas | $6 Sun Cruiser",
+   "source_url": "https://barleyhouse.com/Barley-House-Specials.jpg"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Saturday Drink Specials",
+   "summary": "$6 Bloody Marys, $6 mimosas, Western Son special",
+   "days": [
+    "Sat"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "Saturday\n$6 Bloody Mary's | $6 Mimosas | Western Son",
+   "source_url": "https://barleyhouse.com/Barley-House-Specials.jpg"
+  },
+  {
+   "kind": "daily_special",
+   "title": "Sunday Drink Specials",
+   "summary": "$6 Bloody Marys, $6 mimosas",
+   "days": [
+    "Sun"
+   ],
+   "start": null,
+   "end": null,
+   "until_close": false,
+   "all_day": true,
+   "food": false,
+   "drink": true,
+   "where": null,
+   "evidence": "Sunday\n$6 Bloody Mary's | $6 Mimosas",
+   "source_url": "https://barleyhouse.com/Barley-House-Specials.jpg"
+  }
+ ],
  "dropped": [],
- "notes": "The site has a 'Daily Specials' page and mentions 'There's Always A Daily Special', but the specials page contains no text details (likely an image). Full and beverage menus are also empty in the text. No deals extracted."
+ "notes": "Deals taken from the specials image (SMU Blvd location). Happy hour pricing details not listed."
 }

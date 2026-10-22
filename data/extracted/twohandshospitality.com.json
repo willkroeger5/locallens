@@ -1,6 +1,6 @@
 {
- "hash": "faa6734a504f6a9b",
- "checked": "2026-10-04",
+ "hash": "9de668ecf7eacd86",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "happy_hour",
@@ -57,7 +57,7 @@
    "food": false,
    "drink": true,
    "where": null,
-   "evidence": "Saturday + Sunday\nBottomless bloody mary $25pp\nSnacky Hour Dallas\n4 - 6 pm, every day",
+   "evidence": "Saturday + Sunday\nBottomless bloody mary $25pp",
    "source_url": "https://www.twohandshospitality.com/location/two-hands-dallas/"
   },
   {
@@ -85,5 +85,5 @@
   }
  ],
  "dropped": [],
- "notes": "Page lists two versions of the Snacky Hour menu; used the Dallas-labeled one ($3 off wine, $5 draft beer). Bloody mary hours not stated; marked all day."
+ "notes": "Page lists two versions of the specials; used the Dallas-specific 'Snacky Hour Dallas' details."
 }

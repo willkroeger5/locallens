@@ -1,11 +1,11 @@
 {
- "hash": "a3354c3cee41f9c4",
- "checked": "2026-10-04",
+ "hash": "58bf3e9669f380bc",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "happy_hour",
    "title": "Happy Hour",
-   "summary": "$1.50 off drafts, $4 wells, $2 off liquor & cocktails, $6 house wine, half-price wine bottles",
+   "summary": "$1.50 off drafts, $4 wells, $2 off liquor and cocktails, $6 house wine, half-price wine bottles",
    "days": [
     "Mon",
     "Tue",
@@ -45,7 +45,7 @@
    "food": false,
    "drink": true,
    "where": null,
-   "evidence": "$6 house wine\n$7 Classic cocktails, all day every day\nHalf Price bottles of wine\nTRIVIA MONDAYS",
+   "evidence": "$6 house wine\n$7 Classic cocktails, all day every day\nHalf Price bottles of wine\nTRIVIA MONDAYS\nTuesday: 7:30pm",
    "source_url": "https://thelondonerpub.com/specials/"
   },
   {
@@ -102,5 +102,5 @@
   }
  ],
  "dropped": [],
- "notes": "Only Dallas location deals included. Weekend drink specials have no stated hours, marked all day."
+ "notes": "Only Dallas location specials included; Colleyville, Addison, Arlington skipped."
 }

@@ -1,6 +1,6 @@
 {
- "hash": "145a01b5e291a53d",
- "checked": "2026-10-04",
+ "hash": "686f34585786b575",
+ "checked": "2026-10-06",
  "deals": [
   {
    "kind": "happy_hour",
@@ -99,5 +99,5 @@
   }
  ],
  "dropped": [],
- "notes": "Happy hour drink menu details beyond listed prices not available in text. Movie nights and trivia are events, not deals."
+ "notes": null
 }
